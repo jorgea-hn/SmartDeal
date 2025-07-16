@@ -26,7 +26,7 @@ export const scrap = (searchTerm) => {
       });
     },
 
-    getProduct: (page) => {
+    getProduct: (page, excludedWords = []) => {
       return axios.get(`${base}${page}`, { headers }).then(res => {
         const $ = cheerio.load(res.data);
         const products = [];
@@ -38,13 +38,19 @@ export const scrap = (searchTerm) => {
           const fraction = $(el).find('span.a-price-fraction').first().text().trim();
           const price = currency && integer ? `${currency}${integer}${fraction || '00'
             }` : 'No disponible';
+          let link = $(el).find('a.a-link-normal').attr('href')
+          link = `https://www.amazon.com${link}`
+          const lowerTitle = title.toLowerCase();
+          const contieneProhibidas = excludedWords.some(word => lowerTitle.includes(word.toLowerCase()));
 
-          if (title) {
-            products.push({ title, price });
+          if (title && !contieneProhibidas) {
+            products.push({
+              title, price, link
+            });
           }
         });
 
-        console.log(`✅ Página ${page} contiene ${products.length} productos`);
+        console.log(`✅ Página ${page} contiene ${products.length} productos válidos`);
         return products;
       }).catch(err => {
         console.error(`❌ Error al scrapear la página ${page}:`, err.message);
