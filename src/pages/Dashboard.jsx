@@ -40,9 +40,6 @@ export default function Dashboard() {
     // Estado que captura la palabra que se escribe para excluirla como filtro
   const [filterInput, setFilterInput] = useState("");
   
-
-  /*   const [filteredML, setFilteredML] = useState([]); */
-
   useEffect(() => {
     // Función asíncrona que se encarga de obtener los productos desde el backend
     async function fetchProducts() {
@@ -51,7 +48,6 @@ export default function Dashboard() {
         setProducts(res.data);
         // Filtra solo los productos provenientes de Amazon y los guarda por separado
         setFilteredAmazon(res.data.filter((p) => p.source === "amazon"));
-        /* setFilteredML(res.data.filter(p => p.source === 'mercado-libre')); */
 
         setLoading(false);
       } catch (err) {
@@ -89,7 +85,7 @@ export default function Dashboard() {
     // Scraping de Amazon y Mercado Libre en una sola petición
     await axios.post("http://localhost:3001/scrape", { query: term, source: ["amazon", "mercadolibre"] });
 
-    // Recargar productos del backend local (json-server)
+    // Recargar productos del backend local
     const res = await axios.get("http://localhost:3000/products");
     setProducts(res.data);
 
@@ -98,7 +94,7 @@ export default function Dashboard() {
     setFilteredAmazon(
       amazon.filter((p) => (p.title || "").toLowerCase().includes(term))
     );
-    // Mercado Libre se filtra en mercadoLibreProducts
+    
   } catch (err) {
     console.error("Error durante scraping o carga:", err);
     alert("Error al buscar productos");
@@ -108,7 +104,9 @@ export default function Dashboard() {
 };
 
   return (
+
     <>
+      {/* barra de navegación */}
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-gray-800">
           <div className=" max-w-8xl px-4 pr-[50px]">
@@ -136,7 +134,7 @@ export default function Dashboard() {
                     <BellIcon aria-hidden="true" className="size-6" />
                   </button>
 
-                  {/* Profile dropdown */}
+                  {/* Menú desplegable */}
                   <Menu as="div" className="relative ml-3">
                     <div>
                       <MenuButton className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-hidden focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800">
@@ -168,7 +166,7 @@ export default function Dashboard() {
                 </div>
               </div>
               <div className="-mr-2 flex md:hidden">
-                {/* Mobile menu button */}
+                {/* Botón de menú móvil */}
                 <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
@@ -254,9 +252,9 @@ export default function Dashboard() {
           </div>
         </header>
         <main>
-          <div className="flex px-8 py-6">
+          <div className="flex flex-col lg:flex-row px-2 sm:px-4 lg:px-8 py-4 sm:py-6 gap-4">
             {/* Barra lateral de filtros */}
-            <div className="h-180 bg-sky-900 w-60 mr-6 rounded-xl p-4 text-white space-y-6 overflow-y-auto">
+            <div className="bg-sky-900 w-full lg:w-60 rounded-xl p-4 text-white space-y-6 overflow-y-auto mb-4 lg:mb-0">
             <h1 className="text-xl font-semibold mb-2">Filtros</h1>
 
             <div>
@@ -299,7 +297,7 @@ export default function Dashboard() {
                      {/* Botón para quitar una palabra específica del filtro */}
                     <button
                       onClick={() =>
-                        setExcludedWords((prev) => prev.filter((_, i) => i !== index))
+                        setExcludedWords((prev) => prev.filter((_, i) => i !== index)) // elimina un elemento del arreglo excludedWords según su posición 
                       }
                       className="ml-1 text-red-500 hover:text-red-700"
                       title={`Quitar filtro: ${word}`}
@@ -324,7 +322,7 @@ export default function Dashboard() {
 
             {/* Contenido de productos */}
             <div className="flex flex-col w-full">
-              <form onSubmit={handleSearch} className="mx-200px">
+              <form onSubmit={handleSearch} className="mb-4">
                 <label
                   htmlFor="default-search"
                   className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -375,8 +373,8 @@ export default function Dashboard() {
                 </h2>
               </div>
 
-              <div className="h-[580px] overflow-y-auto p-4 rounded-xl bg-neutral-200">
-                <div className="grid grid-cols-2 gap-6">
+              <div className="h-[400px] sm:h-[580px] overflow-y-auto p-2 sm:p-4 rounded-xl bg-neutral-200">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {/* Amazon */}
                   <div className="space-y-4">
                     {loading ? (

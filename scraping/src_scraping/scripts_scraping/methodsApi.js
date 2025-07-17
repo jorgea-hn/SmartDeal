@@ -1,3 +1,9 @@
+
+/**
+ * Este módulo permite hacer scraping de productos desde Mercado Libre Colombia.
+ * Utiliza axios para las peticiones HTTP y cheerio para analizar el HTML.
+ */
+
 import axios from "axios";
 import * as cheerio from "cheerio";
 
@@ -6,10 +12,12 @@ const headers = {
   'Accept-Language': 'es-ES,es;q=0.9',
 };
 
+/* Función principal para scrapear Mercado Libre */
 export const scrap = (searchTerm) => {
   const base = `https://listado.mercadolibre.com.co/${encodeURIComponent(searchTerm)}`;
 
   return {
+    //Obtiene el número de la última página de resultados
     getLast: () => {
       return axios.get(`${base}#D[A:${encodeURIComponent(searchTerm)}]`, { headers }).then(res => {
         const $ = cheerio.load(res.data);
@@ -25,7 +33,7 @@ export const scrap = (searchTerm) => {
         return 0;
       });
     },
-
+    // Obtiene los productos de una página específica, excluyendo palabras
     getProduct: (page,excludedWords = []) => {
       return axios.get(`${base}${page}`, { headers }).then(res => {
         const $ = cheerio.load(res.data);
