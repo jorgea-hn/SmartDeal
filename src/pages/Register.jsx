@@ -36,7 +36,7 @@ function Register() {
             return;
         }
 
-        const nuevoUsuario = { name, email, password };
+        const nuevoUsuario = { name, email, password, role: "user" };
 
         try {
             const respuesta = await fetch('http://localhost:3000/users', {
