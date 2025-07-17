@@ -1,4 +1,33 @@
 {
+
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Administrador",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "Usuario",
+      "role": "user"
+    },
+    {
+      "id": "0e85",
+      "name": "jorge",
+      "email": "jorge@example.com",
+      "password": "1234567",
+      "role": "user"
+    },
+    {
+      "id": "e022",
+      "name": "juan",
+      "email": "juan@example.com",
+      "password": "987654321"
+    }],
   "products": [
     {
       "title": "Apple iPhone 12 Pro Max (256GB, azul pacífico) [bloqueado] + suscripción a empresa de telefonía",
@@ -583,10 +612,6 @@
         "vestidos"
       ]
     },
-    {
-      "id": "148a",
-      "term": "iphone",
-      "date": "2025-07-17T14:42:39.871Z"
-    }
+
   ]
 }
