@@ -4,15 +4,15 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Register() {
-    const [nombre, setNombre] = useState('');
+    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [clave, setClave] = useState('');
-    const navegate = useNavigate();
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
-    async function verificarExistente(nombre, email) {
+    async function verificarExistente(name, email) {
         try {
             const res = await axios.get('http://localhost:3000/users', {
-                params: { nombre, email }
+                params: { name, email }
             });
             return res.data.length > 0;
         } catch (error) {
@@ -25,18 +25,18 @@ function Register() {
     async function manejarRegistro(e) {
         e.preventDefault();
 
-        const yaExiste = await verificarExistente (nombre, email);
+        const yaExiste = await verificarExistente(name, email);
         if (yaExiste) {
-            alert('El nombre o el correo ya estan registrado');
-            return
-        } 
-
-        if (!nombre || !email || !clave) {
-            alert(' Todos los campos son obligatorios');
+            alert('El nombre o el correo ya están registrados');
             return;
         }
 
-        const nuevoUsuario = { nombre, email, clave };
+        if (!name || !email || !password) {
+            alert('Todos los campos son obligatorios');
+            return;
+        }
+
+        const nuevoUsuario = { name, email, password };
 
         try {
             const respuesta = await fetch('http://localhost:3000/users', {
@@ -45,15 +45,14 @@ function Register() {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(nuevoUsuario),
-            }); axios
+            });
 
             if (respuesta.ok) {
                 alert('✅ Registro guardado correctamente');
-                setNombre('');
+                setName('');
                 setEmail('');
-                setClave('');
-                navegate("/login")
-                
+                setPassword('');
+                navigate("/login");
             } else {
                 alert('❌ Error al registrar el usuario');
             }
@@ -73,8 +72,8 @@ function Register() {
                         <label className="block text-sm font-medium text-gray-600">Nombre</label>
                         <input
                             type="text"
-                            value={nombre}
-                            onChange={(e) => setNombre(e.target.value)}
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
                             className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                             placeholder="Escribe tu nombre"
                         />
@@ -95,8 +94,8 @@ function Register() {
                         <label className="block text-sm font-medium text-gray-600">Contraseña</label>
                         <input
                             type="password"
-                            value={clave}
-                            onChange={(e) => setClave(e.target.value)}
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                             className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                             placeholder="Mínimo 6 caracteres"
                         />
