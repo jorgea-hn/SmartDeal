@@ -6,6 +6,7 @@ app.get('/products', (req, res) => {
   const db = JSON.parse(rawData);
   res.json(db.products || []);
 });
+// ...existing code...
 // === ENDPOINTS PARA USUARIOS (simulación tipo json-server) ===
 // Obtener todos los usuarios
 app.get('/users', (req, res) => {
@@ -34,6 +35,15 @@ app.post('/users', (req, res) => {
   db.users.push(newUser);
   fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
   res.status(201).json(newUser);
+});
+
+// === ENDPOINT PARA PRODUCTOS (simulación tipo json-server) ===
+app.get('/products', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.json([]);
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  res.json(db.products || []);
 });
 // Importación de módulos necesarios
 
