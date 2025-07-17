@@ -1,4 +1,5 @@
 // Importación de módulos necesarios
+
 import express from 'express'; // Framework para crear el servidor
 import cors from 'cors'; // Middleware para permitir peticiones entre dominios
 import bodyParser from 'body-parser'; // Middleware para leer cuerpos de peticiones JSON
@@ -8,11 +9,24 @@ import axios from 'axios'; // Cliente HTTP para hacer peticiones
 import { scrap as createScraper } from './src_scraping/scripts_scraping/methodsGet.js'; // Función de scraping
 
 
+
 const app = express();
 app.use(cors()); // Habilita CORS
 app.use(bodyParser.json()); // Permite que el servidor entienda JSON en el body
 
-const PORT = 3001; // Puerto del servidor backend
+// === SERVIR FRONTEND (VITE BUILD) ===
+const viteDistPath = path.resolve(process.cwd(), 'dist');
+if (fs.existsSync(viteDistPath)) {
+  app.use(express.static(viteDistPath));
+  // Catch-all: para rutas de React Router
+  app.get('*', (req, res, next) => {
+    // Si la ruta empieza con /api o /scrape, sigue a la siguiente ruta
+    if (req.path.startsWith('/scrape') || req.path.startsWith('/browsingHistory')) return next();
+    res.sendFile(path.join(viteDistPath, 'index.html'));
+  });
+}
+
+const PORT = process.env.PORT || 3001; // Usar variable de entorno para Render
 
 //------------------------------------------------------------
 // Endpoint POST para hacer scraping y guardar productos + historial
