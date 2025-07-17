@@ -63,51 +63,51 @@ function Register() {
     }
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-100">
-            <div className="bg-white shadow-lg rounded-xl p-8 w-full max-w-md border border-gray-200">
-                <h1 className="text-2xl font-bold text-center text-gray-700 mb-6">Crear Cuenta</h1>
-
-                <form onSubmit={manejarRegistro} className="space-y-4">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white py-8 px-2">
+            <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+                <h1 className="text-3xl font-bold text-center text-indigo-700 mb-8">Crear Cuenta</h1>
+                <form onSubmit={manejarRegistro} className="space-y-6">
                     <div>
-                        <label className="block text-sm font-medium text-gray-600">Nombre</label>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
                         <input
                             type="text"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
-                            className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-gray-50"
                             placeholder="Escribe tu nombre"
                         />
                     </div>
-
                     <div>
-                        <label className="block text-sm font-medium text-gray-600">Email</label>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
                         <input
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-gray-50"
                             placeholder="correo@ejemplo.com"
                         />
                     </div>
-
                     <div>
-                        <label className="block text-sm font-medium text-gray-600">Contraseña</label>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Contraseña</label>
                         <input
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-gray-50"
                             placeholder="Mínimo 6 caracteres"
                         />
                     </div>
-
                     <button
                         type="submit"
-                        className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300"
+                        className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-lg transition text-lg shadow"
                     >
                         Registrarse
                     </button>
                 </form>
+                <p className="mt-6 text-center text-sm text-gray-500">
+                    ¿Ya tienes una cuenta?{' '}
+                    <a href="/login" className="text-indigo-600 hover:underline font-semibold">Inicia sesión</a>
+                </p>
             </div>
         </div>
     );

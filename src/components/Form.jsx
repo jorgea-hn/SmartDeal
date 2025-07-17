@@ -210,7 +210,6 @@ export default function Form() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  // Check if user is already logged in when component mounts
   useEffect(() => {
     checkAuthAndRedirect(navigate);
   }, [navigate]);
@@ -222,10 +221,8 @@ export default function Form() {
 
     try {
       const result = await authService.login(credentials);
-      
       if (result.success) {
         const userRole = result.data.user.role;
-        
         switch (userRole) {
           case 'admin':
             navigate('/adminviews');
@@ -233,7 +230,6 @@ export default function Form() {
           case 'user':
             navigate('/dashboard');
             break;
-        
           default:
             navigate('/dashboard');
         }
@@ -248,82 +244,55 @@ export default function Form() {
   };
 
   return (
-    <>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-            Sign in to your account
-          </h2>
-        </div>
-
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" onSubmit={handleSubmit}>
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-sm/6 font-medium text-gray-900"
-              >
-                Email address
-              </label>
-              <div className="mt-2">
-                <input
-                  id="email"
-                  type="email"
-                  required
-                  autoComplete="email"
-                  value={credentials.email}
-                  onChange={(e) => setCredentials({...credentials, email: e.target.value})}
-                  className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-                />
-              </div>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white py-8 px-2">
+      <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
+        <h2 className="text-3xl font-bold text-center text-indigo-700 mb-8">Iniciar sesión</h2>
+        <form className="space-y-6" onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input
+              id="email"
+              type="email"
+              required
+              autoComplete="email"
+              value={credentials.email}
+              onChange={(e) => setCredentials({ ...credentials, email: e.target.value })}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-gray-50"
+              placeholder="correo@ejemplo.com"
+            />
+          </div>
+          <div>
+            <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">Contraseña</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              required
+              value={credentials.password}
+              onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-gray-50"
+              placeholder="Tu contraseña"
+            />
+          </div>
+          {error && (
+            <div className="text-red-600 text-sm text-center">
+              {error}
             </div>
-
-            <div>
-              <div className="flex items-center justify-between">
-                <label
-                  htmlFor="password"
-                  className="block text-sm/6 font-medium text-gray-900"
-                >
-                  Password
-                </label>
-              </div>
-              <div className="mt-2">
-                <input
-                  id="password"
-                  name="password"
-                  type="password"
-                  required
-                  value={credentials.password}
-                  onChange={(e) => setCredentials({...credentials, password: e.target.value})}
-                  className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-                />
-              </div>
-            </div>
-
-            {error && (
-              <div className="text-red-600 text-sm text-center">
-                {error}
-              </div>
-            )}
-
-            <div>
-              <button
-                type="submit"
-                disabled={loading}
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:opacity-50"
-              >
-                {loading ? 'Signing in...' : 'Sign in'}
-              </button>
-            </div>
-          </form>
-          <p className="mt-4 text-center text-sm text-gray-600">
-            Need an account?
-            <br />
-            <a href="/register" className="text-indigo-600 hover:text-indigo-500"> Sign up </a>
-          </p>
-        </div>
+          )}
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2.5 rounded-lg transition text-lg shadow disabled:opacity-50"
+          >
+            {loading ? 'Ingresando...' : 'Iniciar sesión'}
+          </button>
+        </form>
+        <p className="mt-6 text-center text-sm text-gray-500">
+          ¿No tienes cuenta?{' '}
+          <a href="/register" className="text-indigo-600 hover:underline font-semibold">Regístrate</a>
+        </p>
       </div>
-    </>
+    </div>
   );
 }
 
