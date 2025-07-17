@@ -1,3 +1,20 @@
 {
-    "users":[]
+  "users": [
+   {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Administrador",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "Usuario",
+      "role": "user"
+    }
+  ]
+
+
 }
