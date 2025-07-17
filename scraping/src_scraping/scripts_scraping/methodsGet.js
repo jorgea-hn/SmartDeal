@@ -57,7 +57,7 @@ export const scrap = (searchTerm) => {
           // Si el título es válido y no contiene palabras excluidas, lo agregamos al array
           if (title && !contieneProhibidas) {
             products.push({
-              title, price, link
+              title, price, link, source: "amazon"
             });
           }
         });

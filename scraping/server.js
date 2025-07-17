@@ -36,7 +36,8 @@ app.post('/scrape', async (req, res) => {
     // Recorrer cada página y recolectar productos
     for (let page = 1; page <= maxPages; page++) {
       const products = await scraper.getProduct(page);
-      allProducts.push(...products);
+      allProducts.push(...products.map(p => ({ ...p, source: 'amazon' })));
+
     }
 
     // Ruta al archivo JSON (db.json)
