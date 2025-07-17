@@ -1,4 +1,5 @@
 // Importación de módulos necesarios
+
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
@@ -8,11 +9,27 @@ import axios from 'axios';
 import { scrap as createAmazonScraper } from './src_scraping/scripts_scraping/methodsGet.js';
 import { scrap as createMLScraper } from './src_scraping/scripts_scraping/methodsApi.js';
 
+
+
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = 3001;
+
+// === SERVIR FRONTEND (VITE BUILD) ===
+const viteDistPath = path.resolve(process.cwd(), 'dist');
+if (fs.existsSync(viteDistPath)) {
+  app.use(express.static(viteDistPath));
+  // Catch-all: para rutas de React Router
+  app.get('*', (req, res, next) => {
+    // Si la ruta empieza con /api o /scrape, sigue a la siguiente ruta
+    if (req.path.startsWith('/scrape') || req.path.startsWith('/browsingHistory')) return next();
+    res.sendFile(path.join(viteDistPath, 'index.html'));
+  });
+}
+
+const PORT = process.env.PORT || 3001; // Usar variable de entorno para Render
+
 
 //------------------------------------------------------------
 // Endpoint POST para hacer scraping y guardar productos + historial
