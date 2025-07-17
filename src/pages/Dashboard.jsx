@@ -34,11 +34,12 @@ export default function Dashboard() {
   // Estado para almacenar los productos que llegan desde scraping
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState(() => localStorage.getItem("searchTerm") || "");
   const [filteredAmazon, setFilteredAmazon] = useState([]);
   const [excludedWords, setExcludedWords] = useState([]);
     // Estado que captura la palabra que se escribe para excluirla como filtro
   const [filterInput, setFilterInput] = useState("");
+  
 
   /*   const [filteredML, setFilteredML] = useState([]); */
 
@@ -61,53 +62,50 @@ export default function Dashboard() {
 
     fetchProducts();
   }, []);
-  /* const amazonProducts = products.filter((p) => p.source === 'amazon') */
- // Esta constante filtra los productos que vienen de Mercado Libre directamente del estado general de productos
-  const mercadoLibreProducts = products.filter(
-    (p) => p.source === "mercado-libre"
-  );
+
+   // Filtra los productos de Amazon para excluir palabras
+  const amazonFiltrados = filteredAmazon.filter(product => {
+    const titulo = (product.title || "").toLowerCase();
+    return !excludedWords.some(palabra => titulo.includes(palabra));
+  });
+
+  // Filtra los productos de Mercado Libre y aplica palabras excluidas
+    const mercadoLibreProducts = products
+    .filter((p) => p.source === "mercadolibre")
+    .filter(product => {
+      const nombre = (product.name || product.title || '').toLowerCase();
+      return !excludedWords.some(palabra => nombre.includes(palabra));
+    });
 
   // Función que se ejecuta cuando se envía el formulario de búsqueda
   const handleSearch = async (e) => {
-    e.preventDefault();
-    const term = searchTerm.trim().toLowerCase();
-    if (!term) return;
+  e.preventDefault();
+  const term = searchTerm.trim().toLowerCase();
+  if (!term) return;
 
-    setLoading(true);
+  setLoading(true);
 
-    try {
-      // Hacer scraping en backend 
-      await axios.post("http://localhost:3001/scrape", { query: term });
+  try {
+    // Scraping de Amazon y Mercado Libre en una sola petición
+    await axios.post("http://localhost:3001/scrape", { query: term, source: ["amazon", "mercadolibre"] });
 
-      //  Recargar productos del backend local (json-server)
-      const res = await axios.get("http://localhost:3000/products");
-      setProducts(res.data);
+    // Recargar productos del backend local (json-server)
+    const res = await axios.get("http://localhost:3000/products");
+    setProducts(res.data);
 
-      //  Filtrar los nuevos productos de Amazon
-      const amazon = res.data.filter((p) => p.source === "amazon");
-      setFilteredAmazon(
-        amazon.filter((p) => p.title.toLowerCase().includes(term))
-      );
-    } catch (err) {
-      console.error("Error durante scraping o carga:", err);
-      alert("Error al buscar productos");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  /*   setFilteredML(
-    mercadoLibreProducts.filter((p) =>
-      (p.title || p.name || '').toLowerCase().includes(term)
-    )
-  );
-}; */
-
-// Filtra los productos de Amazon para excluir 
-const amazonFiltrados = filteredAmazon.filter(product => {
-  const titulo = product.title.toLowerCase();
-  return !excludedWords.some(palabra => titulo.includes(palabra));
-});
+    // Filtrar los nuevos productos de Amazon
+    const amazon = res.data.filter((p) => p.source === "amazon");
+    setFilteredAmazon(
+      amazon.filter((p) => (p.title || "").toLowerCase().includes(term))
+    );
+    // Mercado Libre se filtra en mercadoLibreProducts
+  } catch (err) {
+    console.error("Error durante scraping o carga:", err);
+    alert("Error al buscar productos");
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <>
@@ -356,7 +354,9 @@ const amazonFiltrados = filteredAmazon.filter(product => {
                     className="block w-full p-4 ps-10 text-sm border border-gray-300 rounded-lg"
                     placeholder="Buscar productos..."
                     value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
+                    onChange={(e) => {
+                    setSearchTerm(e.target.value);
+                    localStorage.setItem("searchTerm", e.target.value);}}
                   />
                   <button
                     type="submit"
@@ -421,11 +421,21 @@ const amazonFiltrados = filteredAmazon.filter(product => {
                           className="bg-white shadow rounded-xl p-4 text-center"
                         >
                           <p className="text-gray-700 font-medium">
-                            {product.name}
+                            {product.name || product.title}
                           </p>
                           <p className="text-green-600 font-semibold">
                             {product.price}
                           </p>
+                          {product.link && (
+                            <a
+                              href={product.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-blue-600 hover:underline break-all"
+                            >
+                              Ver en Mercado Libre
+                            </a>
+                          )}
                         </div>
                       ))
                     ) : (
