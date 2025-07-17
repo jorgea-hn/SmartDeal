@@ -1,3 +1,12 @@
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import fs from 'fs';
+import path from 'path';
+import axios from 'axios';
+import { scrap as createAmazonScraper } from './src_scraping/scripts_scraping/methodsGet.js';
+import { scrap as createMLScraper } from './src_scraping/scripts_scraping/methodsApi.js';
+const app = express();
 // === ENDPOINT PARA PRODUCTOS (simulación tipo json-server) ===
 app.get('/products', (req, res) => {
   const dbPath = path.resolve('public/db.json');
@@ -47,18 +56,11 @@ app.get('/products', (req, res) => {
 });
 // Importación de módulos necesarios
 
-import express from 'express';
-import cors from 'cors';
-import bodyParser from 'body-parser';
-import fs from 'fs';
-import path from 'path';
-import axios from 'axios';
-import { scrap as createAmazonScraper } from './src_scraping/scripts_scraping/methodsGet.js';
-import { scrap as createMLScraper } from './src_scraping/scripts_scraping/methodsApi.js';
 
 
 
-const app = express();
+
+
 app.use(cors());
 app.use(bodyParser.json());
 
