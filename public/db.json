@@ -1,5 +1,4 @@
 {
-
   "users": [
     {
       "id": "1",
@@ -21,558 +20,637 @@
       "email": "jorge@example.com",
       "password": "1234567",
       "role": "user"
-    },
-    {
-      "id": "e022",
-      "name": "juan",
-      "email": "juan@example.com",
-      "password": "987654321"
-    }],
+    }
+  ],
   "products": [
     {
-      "title": "Apple iPhone 12 Pro Max (256GB, azul pacífico) [bloqueado] + suscripción a empresa de telefonía",
+      "title": "Xiaomi Redmi Watch 5 - Reloj inteligente activo, pantalla LCD de 2.0 pulgadas, 18 días de duración de la batería, más de 140 modos deportivos, 5 ATM impermeable, llamadas Bluetooth, rastreador de",
+      "price": "US$36.12",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Redmi-Watch-inteligente-impermeable/dp/B0DFHFM1X9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 8 Pro Fitness Tracker, pantalla AMOLED de 1.74 pulgadas, batería de hasta 20 días, 5 ATM, monitoreo del sueño y la frecuencia cardíaca, más de 150 modos de entrenamiento, podómetro,",
       "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/pac%C3%ADfico-bloqueado-suscripci%C3%B3n-empresa-telefon%C3%ADa/dp/B08L5PHJ2Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-1",
+      "link": "https://www.amazon.com/-/es/pantalla-monitoreo-frecuencia-entrenamiento-pod%C3%B3metro/dp/B0CSPFJN1P/ref=sr_1_2?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-2",
       "source": "amazon"
     },
     {
-      "title": "Apple iPhone 14 Plus, 128 GB, rojo (producto), desbloqueado (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-producto-desbloqueado-renovado/dp/B0BN938QQQ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-2",
+      "title": "Xiaomi Reloj Redmi 5 Active Midnight Negro",
+      "price": "US$35.67",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Reloj-Redmi-Active-Midnight/dp/B0DFZPR9Z4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-3",
       "source": "amazon"
     },
     {
-      "title": "NEEWER LA007 - Abrazadera de filtro de teléfono de 2.638 in compatible con iPhone 16 15 Pro Max Plus 16e 14 13 mini 12, soporte de clip de filtro roscado ajustable con almohadillas de goma",
-      "price": "US$15.49",
-      "link": "https://www.amazon.com/-/es/NEEWER-LA007-Abrazadera-compatible-almohadillas/dp/B0F4WKWBSD/ref=sr_1_3?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-3",
+      "title": "Xiaomi Smart Band 9 Active Global Version Pantalla de 1.47 '' Modos de duración de la batería de 18 días Monitoreo de salud y fitness durante todo el día 5ATM (negro)",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Version-Pantalla-duraci%C3%B3n-bater%C3%ADa-Monitoreo/dp/B0DK6ZC5ZC/ref=sr_1_4?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-4",
       "source": "amazon"
     },
     {
-      "title": "Apple iPhone 14, 256GB, Starlight para Cricket Wireless (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/iPhone-Starlight-Cricket-Wireless-renovado/dp/B0DK9CR5YH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-4",
+      "title": "Xiaomi Destornillador eléctrico de precisión, caja de cambios totalmente metálica, potente motor magnético, batería de litio recargable, puntas de destornillador de acero S2, carga tipo C, caja de",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Destornillador-el%C3%A9ctrico-totalmente-recargable-destornillador/dp/B0CW3FSBVT/ref=sr_1_5?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-5",
       "source": "amazon"
     },
     {
-      "title": "Apple iPhone 15, 256 GB, azul - Verizon (reacondicionado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-256-azul-reacondicionado/dp/B0CMPJYDJC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-5",
+      "title": "Xiaomi Compresor de aire eléctrico portátil, inflador de neumáticos de 150 PSI para automóvil, scooter, neumáticos de bicicleta y pelotas - Inalámbrico con detección de presión digital",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/Compresor-el%C3%A9ctrico-neum%C3%A1ticos-autom%C3%B3vil-bicicleta/dp/B0C7C88JFD/ref=sr_1_6?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-6",
       "source": "amazon"
     },
     {
-      "title": "Apple iPhone 12, 128GB, negro - Boost Mobile (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-128GB-negro/dp/B0DLDG368C/ref=sr_1_6?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-6",
-      "source": "amazon"
-    },
-    {
-      "title": "Funda para iPhone 16E, con cubierta para lente de cámara, protector de pantalla HD, doble capa de grado militar a prueba de caídas, soporte de anillo magnético con función atril para Apple iPhone 16E",
-      "price": "US$12.99",
-      "link": "https://www.amazon.com/-/es/cubierta-protector-pantalla-militar-magn%C3%A9tico/dp/B0DNZF4SMK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-7",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 14 Pro, 128 GB, morado profundo, para GSM (reacondicionado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-morado-profundo-reacondicionado/dp/B0BN8YS4FX/ref=sr_1_8?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-8",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 12, 256GB, negro - Boost Mobile (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-256GB-negro/dp/B0DLDNBKRP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-9",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone SE de 3ª generación, 64 GB, medianoche - Boost Mobile (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-SE-generaci%C3%B3n-medianoche/dp/B0DN8LBDL7/ref=sr_1_10?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-10",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone XR - Parent",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-XR-Parent/dp/B07H9PSM5F/ref=sr_1_11?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-11",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 12 Mini (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-Mini-renovado/dp/B08PNKLKXG/ref=sr_1_12?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-12",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple - iPhone 11, versión de EE.UU., 64GB, púrpura - Verizon (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-versi%C3%B3n-p%C3%BArpura-Verizon-renovado/dp/B084GX5GR9/ref=sr_1_13?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-13",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 15 Pro Max, 1 TB, titanio natural - AT&T (Renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-Pro-titanio-natural/dp/B0CMZ93529/ref=sr_1_14?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-14",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 15 Pro, versión estadounidense, 256 GB, titanio blanco para Cricket Wireless (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Wireless-renovado/dp/B0DWHFZ53R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-15",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung Teléfono celular Galaxy S24 Ultra, teléfono inteligente AI de 256 GB, Android desbloqueado, 200 MP, cámaras zoom 100x, procesador rápido, batería de larga duración, pantalla de borde a borde,",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Tel%C3%A9fono-tel%C3%A9fono-inteligente-desbloqueado-procesador/dp/B0CMDL3H3P/ref=sr_1_16?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-16",
-      "source": "amazon"
-    },
-    {
-      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
-      "price": "US$45.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyNjUwMzIzNTY5NjEzODcyOjE3NTI3NjMzNTY6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_17_sspa%3Fdib%3DeyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763355%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
-      "price": "US$269.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyNjUwMzIzNTY5NjEzODcyOjE3NTI3NjMzNTY6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_18_sspa%3Fdib%3DeyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763355%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "title": "Xiaomi Redmi Buds 6 Play | 10mm Dynamic Driver | AI Noise Reduction | Up to 36-Hour Battery Life | Bluetooth® 5.4 | Touch Control - Global Version - Blue",
+      "price": "US$26.37",
+      "link": "https://www.amazon.com/-/es/BHR9283GL/dp/B0DBHTG7ZX/ref=sr_1_7?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-7",
       "source": "amazon"
     },
     {
       "title": "OnePlus Nord N30 5G | Teléfono inteligente Android dual SIM desbloqueado | Pantalla LCD de 6.7 pulgadas | 8+128 GB | Batería de 5000 mAh | Carga rápida de 50 W | Cámara de 108MP | Gris cromático",
       "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Tel%C3%A9fono-inteligente-desbloqueado-Pantalla-crom%C3%A1tico/dp/B0C22BRGLG/ref=sr_1_19?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-19",
+      "link": "https://www.amazon.com/-/es/Tel%C3%A9fono-inteligente-desbloqueado-Pantalla-crom%C3%A1tico/dp/B0C22BRGLG/ref=sr_1_8?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-8",
       "source": "amazon"
     },
     {
-      "title": "Tracfone Apple iPhone SE 5G (3ª generación), 64GB, negro - Smartphone prepago (bloqueado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Tracfone-Apple-iPhone-generaci%C3%B3n-negro/dp/B09VY7RXJ9/ref=sr_1_20?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-20",
+      "title": "Xiaomi Mi Smart Band 10 (2025) versión global, pantalla AMOLED de 1.72 pulgadas, 21 días de duración de la batería, pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de",
+      "price": "US$73.99",
+      "link": "https://www.amazon.com/-/es/pantalla-pulgadas-rastreador-multideporte-actividad/dp/B0DYF82545/ref=sr_1_9?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-9",
       "source": "amazon"
     },
     {
-      "title": "Samsung Galaxy S20 FE 5G, 128GB, Cloud Navy - Unlocked (Renewed)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Samsung-Galaxy-128GB-Cloud-Navy/dp/B08L34JQ9C/ref=sr_1_21?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-21",
+      "title": "Xiaomi Redmi Buds 6 Play | Controlador dinámico de 0.394 in | Reducción de ruido AI | Batería de hasta 36 horas de duración | Bluetooth® 5.4 | Control táctil - Versión global - (negro)",
+      "price": "US$18.39",
+      "link": "https://www.amazon.com/-/es/Controlador-din%C3%A1mico-Reducci%C3%B3n-duraci%C3%B3n-Bluetooth%C2%AE/dp/B0DBHRWRKC/ref=sr_1_10?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-10",
       "source": "amazon"
     },
     {
-      "title": "Motorola razr | 2023 | Desbloqueado | Hecho para US 8/128 | Cámara de 32MP | Lila de verano, 2.911 x 6.725 x 0.289 in",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-C%C3%A1mara-verano/dp/B0CGWF3F64/ref=sr_1_22?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-22",
-      "source": "amazon"
-    },
-    {
-      "title": "Motorola Moto G Stylus 5G | 2023 | Desbloqueado | Hecho para US 6/256GB | Cámara 50 MP| Negro cósmico, 162.83 x 73.77 x 9.29",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Stylus-Desbloqueado-C%C3%A1mara-c%C3%B3smico/dp/B0C2S6TKTL/ref=sr_1_23?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-23",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung Galaxy S5, Blanco",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/SM-G900A-Samsung-Galaxy-S5-Blanco/dp/B00IZ1XJ3Q/ref=sr_1_24?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-24",
-      "source": "amazon"
-    },
-    {
-      "title": "OnePlus Abierto, 16 GB de RAM+512 GB, Dual-SIM, Emerald Dusk, teléfono inteligente Android desbloqueado de fábrica de EE. UU., Batería de 4805 mAh, Carga rápida de 67 W, Cámara Hasselblad, Pantalla de",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Dual-SIM-tel%C3%A9fono-inteligente-desbloqueado-Hasselblad/dp/B0CHN8FNW3/ref=sr_1_25?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-25",
-      "source": "amazon"
-    },
-    {
-      "title": "Ultra 5G V5.7 iOS 18.X.X Apple iPhone Desbloqueo X XS XS MAX 11 12 13 14 15 16 Plus Pro Max AT&T T-Mobile Sprint Naranja Vodafone y más RSIM GEVEY",
-      "price": "US$18.49",
-      "link": "https://www.amazon.com/-/es/V5-7-Desbloqueo-T-Mobile-Naranja-Vodafone/dp/B0DTTVPJWV/ref=sr_1_26?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-26",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 14, 128GB, Azul - Desbloqueado (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-128GB-Azul-Desbloqueado/dp/B0BYLN65JD/ref=sr_1_27?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-27",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 13 Mini, 128 GB, blanco estrella - Desbloqueado (reacondicionado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-Mini-blanco-estrella/dp/B09LKW2R37/ref=sr_1_28?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-28",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone XS Max - Teléfono inteligente de 256GB, gris espacial, desbloqueado (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-Max-inteligente-desbloqueado/dp/B07KFNRQ5S/ref=sr_1_29?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-29",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 15, 512GB, Azul - T-Mobile (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-15-512GB-Azul/dp/B0CRJ1XW99/ref=sr_1_30?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-30",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 13 Pro, 128 GB, verde alpino - desbloqueado (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-13-Pro-alpino/dp/B0B5FLX9WS/ref=sr_1_31?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-31",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 16 Pro, versión estadounidense, 128 GB, titanio blanco para Tracfone (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Tracfone-renovado/dp/B0DNXFYF7J/ref=sr_1_32?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-32",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Negro",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/GS7-32-GB-Tel%C3%A9fono-contrato-empaquetado-Wireless/dp/B01CJ3SCN2/ref=sr_1_33?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-33",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Dorado",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Samsung-GS7-Tel%C3%A9fono-sin-contrato/dp/B01CJ3SCJ6/ref=sr_1_34?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-34",
-      "source": "amazon"
-    },
-    {
-      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
-      "price": "US$45.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo0MDAzNzY1MzU1MDQ1MjEwOjE3NTI3NjMzNTc6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_33_sspa%3Fdib%3DeyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763356%26sr%3D8-33-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
-      "price": "US$269.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo0MDAzNzY1MzU1MDQ1MjEwOjE3NTI3NjMzNTc6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_34_sspa%3Fdib%3DeyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763356%26sr%3D8-34-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 16 Pro, versión estadounidense, 128 GB, titanio blanco para Tracfone (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Tracfone-renovado/dp/B0DNXFYF7J/ref=sr_1_35?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-35",
-      "source": "amazon"
-    },
-    {
-      "title": "Apple iPhone 15, 512GB, Azul - T-Mobile (renovado Premium)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Apple-iPhone-15-512GB-Azul/dp/B0CRJ1XW99/ref=sr_1_36?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-36",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla de monitor para selfie de Vlog para teléfono, monitor de cámara trasera compatible con iPhone y teléfono Android, conexión inalámbrica de montaje magnético, cámara trasera del teléfono para",
-      "price": "US$49.99",
-      "link": "https://www.amazon.com/-/es/Pantalla-tel%C3%A9fono-compatible-inal%C3%A1mbrica-magn%C3%A9tico/dp/B0FC2KS5XF/ref=sr_1_37?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-37",
-      "source": "amazon"
-    },
-    {
-      "title": "Vlog - Monitor de selfie para iPhone, Vlogmate Mini cámara trasera para selfie, con soporte magnético de enfoque de audio, conexión inalámbrica/por cable, para TikTok, compatible con iPhone y",
-      "price": "US$59.99",
-      "link": "https://www.amazon.com/-/es/YXFEIR-Vlog-magn%C3%A9tico-inal%C3%A1mbrica-compatible/dp/B0F9YKF783/ref=sr_1_38?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-38",
-      "source": "amazon"
-    },
-    {
-      "title": "Motorola razr+ | 2023 | Desbloqueado | Hecho para US 8/256 | 32 MPCamera | Negro, 2.911 x 6.726 x 0.275 in",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-MPCamera-Negro/dp/B0C2XF43BD/ref=sr_1_39?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-39",
-      "source": "amazon"
-    },
-    {
-      "title": "Motorola Moto G 5G | 2023 | Desbloqueado | Hecho para US 4/128GB | Cámara 48 MP| Azul tinta, 163.94 x 74.98 x 8.39",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-C%C3%A1mara-163-94/dp/B0C2SWQBMB/ref=sr_1_40?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-40",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla de monitor para selfie con audio, enfoque, soporte magnético, monitor de cámara trasera para selfie vlog, transmisión en vivo, TikTok, YouTudbe, compatible con iPhone/Android (negro)",
-      "price": "US$64.99",
-      "link": "https://www.amazon.com/-/es/Pantalla-magn%C3%A9tico-transmisi%C3%B3n-YouTudbe-compatible/dp/B0F8BX22PY/ref=sr_1_41?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-41",
-      "source": "amazon"
-    },
-    {
-      "title": "Vlog - Pantalla de monitor para selfie para iPhone y Android, pantalla de monitor de selfie de Desiontal Phone Vlog con rotación de pantalla y modo de pantalla ancha, con cámara trasera del teléfono",
-      "price": "US$31.49",
-      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-pantalla-Desiontal-rotaci%C3%B3n/dp/B0F9TQV2KV/ref=sr_1_42?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-42",
-      "source": "amazon"
-    },
-    {
-      "title": "Teclado para iPhone 16 Pro - Funda con teclado para una experiencia de escritura premium - Escribir más rápido y preciso, carga como de costumbre - Onyx",
-      "price": "US$139.00",
-      "link": "https://www.amazon.com/-/es/Clicks-Teclado-para-iPhone-Pro/dp/B0DMZWM2SV/ref=sr_1_43?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-43",
-      "source": "amazon"
-    },
-    {
-      "title": "K&F Concept Clip de teléfono de 2.638 in",
-      "price": "US$9.99",
-      "link": "https://www.amazon.com/-/es/Concept-Clip-tel%C3%A9fono-2-638/dp/B0DSBW82D8/ref=sr_1_44?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-44",
-      "source": "amazon"
-    },
-    {
-      "title": "Teléfono para niños, controles parentales, tablero en vivo con transparencia de texto e imagen, seguimiento GPS, filtrado de contenido. Más de 10,000 aplicaciones, sin contrato, teléfono",
-      "price": "US$71.95",
-      "link": "https://www.amazon.com/-/es/parentales-transparencia-seguimiento-contenido-aplicaciones/dp/B0DD1K6287/ref=sr_1_45?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-45",
-      "source": "amazon"
-    },
-    {
-      "title": "Filtro CPL de 2.047 in para teléfono, compatible con iPhone 15, 14, 13, 12, 11, Motorola, Google Pixel y otros teléfonos inteligentes",
-      "price": "US$15.98",
-      "link": "https://www.amazon.com/-/es/tel%C3%A9fono-compatible-Motorola-tel%C3%A9fonos-inteligentes/dp/B0DZNJX9B7/ref=sr_1_46?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-46",
-      "source": "amazon"
-    },
-    {
-      "title": "Vlog - Pantalla para monitor selfie para iPhone y Android, espejo de teléfono inalámbrico con baja latencia, control remoto Bluetooth y grabación de cámara trasera (blanco)",
-      "price": "US$49.99",
-      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-inal%C3%A1mbrico-Bluetooth-grabaci%C3%B3n/dp/B0FBM78HJL/ref=sr_1_47?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-47",
-      "source": "amazon"
-    },
-    {
-      "title": "T-Mobile Revvl 6 Pro 5G | 6 GB / 128 GB | para T-Mobile | Gris (renovado)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/T-Mobile-Revvl-para-Gris-renovado/dp/B0C17TWKYB/ref=sr_1_48?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-48",
-      "source": "amazon"
-    },
-    {
-      "title": "Mag.Ring para MagSafe Sticker, paquete de 2, imanes de teléfono para la parte posterior del teléfono, imán magnético para funda de teléfono, kit de convertidor de iPhone, Android, Kindle",
-      "price": "US$15.99",
-      "link": "https://www.amazon.com/-/es/SleekStrip-Mag-Ring-posterior-magn%C3%A9tico-convertidor/dp/B0F5WKVYQB/ref=sr_1_49?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-49",
-      "source": "amazon"
-    },
-    {
-      "title": "Caja de bloqueo de teléfono con temporizador para iPhone y Android, temporizador de autocontrol para ayudar a los niños y estudiantes a concentrarse, translúcido",
-      "price": "US$24.99",
-      "link": "https://www.amazon.com/-/es/temporizador-autocontrol-estudiantes-concentrarse-transl%C3%BAcido/dp/B0C2P9HSWX/ref=sr_1_50?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-50",
-      "source": "amazon"
-    },
-    {
-      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
-      "price": "US$12.97",
-      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JE3hmfCZoIcf16o7TDU8BLsAAAGYGNZYKwEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICBDdAmq/clv1_CEuOPUxokZA0iHrVZuoC8XLyRX97QvwFrZUb0Bq26M5o138A00b2FP018nHz9hvWjq0yzpNb3XTPsunPyWYceXRuGBPBNM_8E1FLVlhzV36HIJlRoCAOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCUghLNCd7m6b_pSZUgD1ig-I6A-jeRfQn_N7SD-PEY3-tXQdbVvMboBcasUflKiNx6Bgdro784wfVsPpln11Z5KUuB8SGc8ssib2jmah9vnmORoH8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Vjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmb-x1qmfYC-LGI9TPRkHAtr9tZHEYJhuQQk_f3FLh4nZlYC4s1v2cQxCnd6XTCGikg1rDP4XtQA4FwG1n1GzJQdx8l8F0ycEHMZ0bT6CfTj-KfpOGs2BAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKqzr4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBLleYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSHMJP0vNzE1XXv_DvMinpj79fwMWQwbajxjlWc9ZuSMROlrRVH64PUgoDBNJR_Q8n0KeG7ZClyuNmIoWkR-o-Yp10W9RNgJZdN1cQf-AunHIiHtac9HUCNwE5EtL_NiWQDX7zO3M2R93slP3xF5hb0VUZDbyFK-RKEQrqWKItndkQql2rVj0HuxgDY08taxt-S3w6jkn7dbu2-SEcsmfVXZZLTXRIRfqG7rP93_VZf65aWZMdfZ42nQ/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=1PC0M6465ZKPBTM69XZE&pd_rd_wg=jrnvz&pd_rd_w=50SAI&pd_rd_r=56ebae58-c715-4174-be83-b92281bb69ec",
-      "source": "amazon"
-    },
-    {
-      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
-      "price": "US$45.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyMzc5OTIzMjk0OTc2NzQ3OjE3NTI3NjMzNTg6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_49_sspa%3Fdib%3DeyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763357%26sr%3D8-49-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
-      "price": "US$269.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyMzc5OTIzMjk0OTc2NzQ3OjE3NTI3NjMzNTg6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_50_sspa%3Fdib%3DeyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763357%26sr%3D8-50-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Teclado para iPhone 16 Pro - Funda con teclado para una experiencia de escritura premium - Escribir más rápido y preciso, carga como de costumbre - Onyx",
-      "price": "US$139.00",
-      "link": "https://www.amazon.com/-/es/Clicks-Teclado-para-iPhone-Pro/dp/B0DMZWM2SV/ref=sr_1_51?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-51",
-      "source": "amazon"
-    },
-    {
-      "title": "DOB SECHS Soporte de labios de silicona para teléfono celular, lápiz labial, esmalte de labios, soporte trasero para teléfonos iPhone y Android, blanco, cerezas",
-      "price": "US$7.03",
-      "link": "https://www.amazon.com/-/es/Soporte-silicona-tel%C3%A9fono-celular-tel%C3%A9fonos/dp/B0DTCSD6KB/ref=sr_1_52?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-52",
-      "source": "amazon"
-    },
-    {
-      "title": "Gabb Teléfono 4: El primer teléfono perfecto para niños: aplicaciones seguras, sin redes sociales/navegador de Internet, seguimiento GPS, controles parentales, conversación y texto, tarifa de",
-      "price": "US$149.99",
-      "link": "https://www.amazon.com/-/es/Gabb-Tel%C3%A9fono-aplicaciones-seguimiento-conversaci%C3%B3n/dp/B0D8683JFV/ref=sr_1_53?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-53",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung Galaxy Z Flip 3 Flip3 5G - Teléfono celular Android totalmente desbloqueado versión de EE. UU., modo flexible, cámara intuitiva compacta - (renovada (256 GB, crema)",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Samsung-Galaxy-Flip-Flip3-desbloqueado/dp/B09TPXXPH9/ref=sr_1_54?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-54",
-      "source": "amazon"
-    },
-    {
-      "title": "Vlog - Pantalla de monitor para selfie para iPhone y Android, pantalla de monitor de selfie de Desiontal Phone Vlog con rotación de pantalla y modo de pantalla ancha, con cámara trasera del teléfono",
-      "price": "US$31.49",
-      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-pantalla-Desiontal-rotaci%C3%B3n/dp/B0F9TQV2KV/ref=sr_1_55?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-55",
-      "source": "amazon"
-    },
-    {
-      "title": "Motorola Moto G6, teléfono desbloqueado de fábrica, - pantalla de 5.7 pulgadas.",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Moto-tel%C3%A9fono-desbloqueado-f%C3%A1brica/dp/B07CFMSWXD/ref=sr_1_56?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-56",
-      "source": "amazon"
-    },
-    {
-      "title": "Máquina láser V5 para iPhone serie 8-16 reemplazo de vidrio trasero, reparación de teléfonos celulares láser de forma segura, máquina de grabado separador láser de enfoque automático con",
-      "price": "US$799.99",
-      "link": "https://www.amazon.com/-/es/reemplazo-reparaci%C3%B3n-tel%C3%A9fonos-celulares-autom%C3%A1tico/dp/B0FG2SH8LP/ref=sr_1_57?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-57",
-      "source": "amazon"
-    },
-    {
-      "title": "SP CONNECT Moto Bundle compatible con iPhone 13 Pro",
-      "price": "US$88.96",
-      "link": "https://www.amazon.com/-/es/CONNECT-Moto-Bundle-compatible-iPhone/dp/B099KMXGGM/ref=sr_1_58?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-58",
-      "source": "amazon"
-    },
-    {
-      "title": "Mag.Ring para MagSafe Sticker, paquete de 2, imanes de teléfono para la parte posterior del teléfono, imán magnético para funda de teléfono, kit de convertidor de iPhone, Android, Kindle",
-      "price": "US$15.99",
-      "link": "https://www.amazon.com/-/es/SleekStrip-Mag-Ring-posterior-magn%C3%A9tico-convertidor/dp/B0F5WKVYQB/ref=sr_1_59?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-59",
-      "source": "amazon"
-    },
-    {
-      "title": "LG G6 - 32 GB - Desbloqueado (AT&T/T-Mobile/Verizon) - Negro - Exclusivo Prime",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/LG-G6-Desbloqueado-T-Mobile-Exclusivo/dp/B07D2JL7TS/ref=sr_1_60?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-60",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla magnética para monitor selfie para iPhone 15/16 Pro, pantalla IPS de 4 pulgadas, vista previa de la cámara trasera para vlogs y TikTok Live, grabación 4K 60Hz, carga PD de 60 W",
-      "price": "US$69.99",
-      "link": "https://www.amazon.com/-/es/Akkyajaure-Pantalla-magn%C3%A9tica-pantalla-grabaci%C3%B3n/dp/B0F66KTC69/ref=sr_1_61?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-61",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla de monitor selfie de vlog con cable, mini monitor USB-C para iPhone15/16 cámara trasera con magnético para Vlog Live Stream TikTok",
-      "price": "US$59.99",
-      "link": "https://www.amazon.com/-/es/Gewokliy-Pantalla-monitor-iPhone15-magn%C3%A9tico/dp/B0F63F1JGM/ref=sr_1_62?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-62",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla de monitor para selfie de Vlog para teléfono, soporte magnético de grabación inalámbrica de 1080P, cámara trasera para TikTok, selfie Vlog, transmisión en vivo, compatible con iPhone",
-      "price": "US$42.99",
-      "link": "https://www.amazon.com/-/es/magn%C3%A9tico-grabaci%C3%B3n-inal%C3%A1mbrica-transmisi%C3%B3n-compatible/dp/B0F29KFCF4/ref=sr_1_63?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-63",
-      "source": "amazon"
-    },
-    {
-      "title": "iRecovery Stick compatible con Apple iPhone Data Recovery",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Consumer-Software-iRecovery-compatible-Recovery/dp/B0163LALYE/ref=sr_1_64?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-64",
-      "source": "amazon"
-    },
-    {
-      "title": "Opis PushMeFon Mobile 4G Teléfono: El Pulsador Retro GSM Escritorio Teléfono Celular - Hogar Teléfono Celular Senior para Ancianos Desbloqueado en Estilo Teléfono Vintage - Rojo",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Opis-PushMeFon-Mobile-Tel%C3%A9fono-Desbloqueado/dp/B09VHC6YYQ/ref=sr_1_65?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-65",
-      "source": "amazon"
-    },
-    {
-      "title": "K&F Concept Clip de teléfono de 2.638 in",
-      "price": "US$9.99",
-      "link": "https://www.amazon.com/-/es/Concept-Clip-tel%C3%A9fono-2-638/dp/B0DSBW82D8/ref=sr_1_66?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-66",
-      "source": "amazon"
-    },
-    {
-      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
-      "price": "US$12.97",
-      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JEs450eRJ9_obe0Verp8LFUAAAGYGNZb8gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAAbMdx/clv1_CEuOPUxokZA0iHrVYfUvxRiNbXYgF7op6605qyGM6PhL8X9Iy0b2FP018nHz9hvWjq0yzpNb3XTPsunPyWYceXNxNSerS-f1SAQNeh5LdQW8GplngwYOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCVuBLNCd7m6b_pSZUgD1ig-I6A-jeRfQn8Q5K6zfc5pdtXEcP8qJuBKKCWNuNx6_x6BR8NkpU4wfVsPpln11Z5KUuB8SGc8ssib2jmah9vnmORoH8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Sjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dnHQ0xWmfZ-qO2IQEfdkGAV8z-daBcpu4hBCxKfSEDAmc1YBu9p_44szJHAiSniOhEo1hjL5Y9RJ9yoRy31V4pQfodU_AHWXSWce3uz4b9397JnuI2omBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKqzv4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBLfeYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSHMJP0vNzE1XXv_DvMinpj79fwMWQwbajxjlWc9ZuSMROlrRVH64PUgoDBNJR_Q8n1aGG7pShyuNmIoWkR-o-Yp10W9RNgJZdN1cQf-AunHIiHtac9HUCNwE5EtL_NiWQDX7zO3M2R93slP3xF5hb0VUZDbyFK-RKEQrqWKItndkQql2rVj0HuxgDY08taxt-S3w6jkn7dbu2-SEcsmfVXZZLTXRIRfqGV3VS4wNk2TZ-bDSvw1PHSA/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=QK8AK0Q6GVQM9XW1JW3D&pd_rd_wg=jMyK8&pd_rd_w=3kPJe&pd_rd_r=917b00d5-f0a8-4f8b-8d88-f2a919b52a8e",
-      "source": "amazon"
-    },
-    {
-      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
-      "price": "US$45.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozOTIxMDQ3Nzk5MzAzMzU3OjE3NTI3NjMzNTk6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763358%26sr%3D8-65-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
-      "price": "US$269.00",
-      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozOTIxMDQ3Nzk5MzAzMzU3OjE3NTI3NjMzNTk6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_66_sspa%3Fdib%3DeyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763358%26sr%3D8-66-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Dorado",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Samsung-GS7-Tel%C3%A9fono-sin-contrato/dp/B01CJ3SCJ6/ref=sr_1_67?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-67",
-      "source": "amazon"
-    },
-    {
-      "title": "DOB SECHS Soporte de labios de silicona para teléfono celular, lápiz labial, esmalte de labios, soporte trasero para teléfonos iPhone y Android, blanco, cerezas",
-      "price": "US$7.03",
-      "link": "https://www.amazon.com/-/es/Soporte-silicona-tel%C3%A9fono-celular-tel%C3%A9fonos/dp/B0DTCSD6KB/ref=sr_1_68?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-68",
-      "source": "amazon"
-    },
-    {
-      "title": "Máquina láser V5 para iPhone serie 8-16 reemplazo de vidrio trasero, reparación de teléfonos celulares láser de forma segura, máquina de grabado separador láser de enfoque automático con",
-      "price": "US$799.99",
-      "link": "https://www.amazon.com/-/es/reemplazo-reparaci%C3%B3n-tel%C3%A9fonos-celulares-autom%C3%A1tico/dp/B0FG2SH8LP/ref=sr_1_69?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-69",
-      "source": "amazon"
-    },
-    {
-      "title": "Gabb Teléfono 4: El primer teléfono perfecto para niños: aplicaciones seguras, sin redes sociales/navegador de Internet, seguimiento GPS, controles parentales, conversación y texto, tarifa de",
-      "price": "US$149.99",
-      "link": "https://www.amazon.com/-/es/Gabb-Tel%C3%A9fono-aplicaciones-seguimiento-conversaci%C3%B3n/dp/B0D8683JFV/ref=sr_1_70?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-70",
-      "source": "amazon"
-    },
-    {
-      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Negro",
-      "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/GS7-32-GB-Tel%C3%A9fono-contrato-empaquetado-Wireless/dp/B01CJ3SCN2/ref=sr_1_71?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-71",
-      "source": "amazon"
-    },
-    {
-      "title": "OtterBox React - Funda para iPhone 14 Pro MAX (negro/transparente)",
-      "price": "US$30.94",
-      "link": "https://www.amazon.com/-/es/OtterBox-React-Funda-iPhone-transparente/dp/B0BF5QRW6T/ref=sr_1_72?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-72",
-      "source": "amazon"
-    },
-    {
-      "title": "Mag-Safe - Enfriador de teléfono para juegos, ventilador de refrigeración de iPhone celular para clima cálido, enfriador móvil RGB portátil para funda celular, ventilador para teléfono, iPad, mantener",
+      "title": "Xiaomi Redmi Buds 6 Auriculares inalámbricos activos (versión global), auriculares intraurales Bluetooth 5.4, batería de larga duración de 30 horas, cancelación de ruido para llamadas, 5 modos de",
       "price": "US$25.99",
-      "link": "https://www.amazon.com/-/es/CX15/dp/B0FF4GQ77S/ref=sr_1_73?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-73",
+      "link": "https://www.amazon.com/-/es/Auriculares-inal%C3%A1mbricos-auriculares-intraurales-cancelaci%C3%B3n/dp/B0D6YMGXBF/ref=sr_1_11?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-11",
       "source": "amazon"
     },
     {
-      "title": "AUROX Magsafe - Soporte magnético para anillo magnético ajustable para iPhone 16 Pro Max/iPhone 15/iPhone 14/14 Pro Max/14/13/13 Pro/13 Pro Max/12/12 Pro/12 Pro Max (azul claro)",
-      "price": "US$14.99",
-      "link": "https://www.amazon.com/-/es/AUROX-Magsafe-Soporte-magn%C3%A9tico-ajustable/dp/B0B24SJT91/ref=sr_1_74?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-74",
+      "title": "Xiaomi Altavoz Bluetooth portátil (30W), sonido, estéreo inalámbrico verdadero, Bluetooth 5.4, IP70 impermeable, reproducción de larga duración, rojo",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3NDYwMDE0NDk3ODYwODA0OjE3NTI3Njg5MjI6c3BfbXRmOjMwMDMyMjM5ODEzNTIwMjo6MDo6&url=%2FBluetooth-inal%25C3%25A1mbrico-verdadero-impermeable-reproducci%25C3%25B3n%2Fdp%2FB0D9ZHZDV3%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768922%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
       "source": "amazon"
     },
     {
-      "title": "Reemplazo de cámara frontal OEM, cámara frontal GVKVGIH de 7 MP compatible con iPhone 7 de 4.7 pulgadas con sensor de proximidad de detección facial (iPhone 7)",
-      "price": "US$9.99",
-      "link": "https://www.amazon.com/-/es/Reemplazo-compatible-pulgadas-proximidad-detecci%C3%B3n/dp/B0CGZD9YXF/ref=sr_1_75?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-75",
+      "title": "Xiaomi TV Box S (2ª generación) 4K Ultra HD Reproductor multimedia, Google TV Box con 2 GB de RAM 8 GB ROM, WiFi dual 2.4G/5G, Bluetooth 5.2 y Dolby Audio y DTS-HD, Dolby Vision, HDR10+",
+      "price": "US$69.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-TV-Box-generaci%C3%B3n-Reproductor/dp/B0BZC43HX8/ref=sr_1_13?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-13",
       "source": "amazon"
     },
     {
-      "title": "SHANSHUI Cartera para teléfono adhesiva, paquete de 2 tarjetas de crédito para la parte posterior del teléfono, compatible con iPhone, la mayoría de los teléfonos inteligentes, color blanco y morado",
-      "price": "US$8.99",
-      "link": "https://www.amazon.com/-/es/SHANSHUI-posterior-compatible-tel%C3%A9fonos-inteligentes/dp/B0F9Y6F5RG/ref=sr_1_76?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-76",
+      "title": "Xiaomi Mi barra de luz para monitor de computadora, fácil instalación, iluminación adicional de computadora sin ocupar espacio de escritorio, con control remoto inalámbrico que ajusta las luces",
+      "price": "US$64.99",
+      "link": "https://www.amazon.com/-/es/computadora-instalaci%C3%B3n-iluminaci%C3%B3n-escritorio-inal%C3%A1mbrico/dp/B08W2C5W59/ref=sr_1_14?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-14",
       "source": "amazon"
     },
     {
-      "title": "Funda para iPhone 12 resistente a las caídas del teléfono móvil con el titular de la tarjeta TPU transparente",
-      "price": "US$8.74",
-      "link": "https://www.amazon.com/-/es/resistente-tel%C3%A9fono-titular-tarjeta-transparente/dp/B0CQK8JJRW/ref=sr_1_77?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-77",
+      "title": "Xiaomi Smart Band 9 versión global (2024) Pantalla Amoled de 1.62 pulgadas | Batería de 233 mAh | Hasta 21 días de duración de la batería | Más de 150 modos de entrenamiento | BT 5.4 | Resistente al",
+      "price": "US$48.98",
+      "link": "https://www.amazon.com/-/es/Pantalla-pulgadas-duraci%C3%B3n-entrenamiento-Resistente/dp/B0D98FDQ6B/ref=sr_1_15?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-15",
       "source": "amazon"
     },
     {
-      "title": "Motorola Moto G6, teléfono desbloqueado de fábrica, - pantalla de 5.7 pulgadas.",
+      "title": "Xiaomi Redmi Watch 5 Lite Global 1.96\" Amoled Hasta 18 días Batería GNSS Dual Mic 150+ modos de entrenamiento 5ATM Resistencia al agua Sensor de frecuencia cardíaca (negro)",
+      "price": "US$45.66",
+      "link": "https://www.amazon.com/-/es/Redmi-Watch-Lite-entrenamiento-Resistencia/dp/B0DG5Z75F8/ref=sr_1_16?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-16",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3NDYwMDE0NDk3ODYwODA0OjE3NTI3Njg5MjI6c3BfbXRmOjMwMDMyMjMyNjUyNzcwMjo6MDo6&url=%2Fport%25C3%25A1til-Bluetooth-impermeable-din%25C3%25A1mico-reproducci%25C3%25B3n%2Fdp%2FB0D5LS1CMV%2Fref%3Dsr_1_17_sspa%3Fdib%3DeyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768922%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 6 Pro, audio real, audio de alta resolución con controladores duales coaxiales, LDAC, cancelación activa de ruido de hasta 55 dB, compatible con iPhone Android y dispositivo",
+      "price": "US$76.90",
+      "link": "https://www.amazon.com/-/es/resoluci%C3%B3n-controladores-cancelaci%C3%B3n-compatible-dispositivo/dp/B0DPXSS7KX/ref=sr_1_18?dib=eyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok&dib_tag=se&keywords=xiaomi&qid=1752768922&sr=8-18",
+      "source": "amazon"
+    },
+    {
+      "title": "70mai Cámara de tablero A810 4K frontal y trasera, cámara de tablero doble para automóviles con visión nocturna Starvis 2 HDR, soporte 4G LTE, ADAS, GPS y WiFi integrados, modo de estacionamiento 24/7",
+      "price": "US$139.99",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JGeC9XCHYgpUGgM7XSOBrmcAAAGYGStE6QEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDIgICDOGrev/clv1_CEuOPUxokZA0iHrVaLsJminxTHFQVoM8nYUb-R3W2P5H139K9TL5FP018nHz9hvWjq0yzpNb3XTPsunPwWYceXo_E3iaN8byOEU0b2hjV1eAQKlhjyAOLZEdHEep2oamXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTOYfWiXkhLNCd7m6b_pSZUgD1ig-I6A-jeRfQn-GrCG4sw-3tNHSf3SubXZN8msUfda1rlMBQc7o784wfVsPpln11Z5KUuB8SGczM4iQUrkaR9Nk2OBln8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwPfPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxjndUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Xjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmbAyxixaoy_LHI2Evc7DAhp38kcBpVmqRAn0_nRZjRvcmgk485468ExGWMyXiCjlkobr27sYNQA9CoZjH1F-cwLodF9FGKfTmQgwu3sN97g7Kf5fXw2BAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0CZeMeZXz926QrElchTfuFSlqr4qV8Su9uvIr3VsuKQrlOC4DjI5U8PxSvOkl6uhR7XuNAFjO4Ntz_LG8Qme9pBOvuL_tCI0z1CPH0OFgvmtyr7jhhpKkEIeHtDeBbUyVahkzGEbNCe25-Mkd3pwza8AqFOBL-aVIXU30qtSAp-Is4VRjB_QHhzSLPpwRD5BkYXAiWA57d49hEQVIhk0pCu0z9coldNI9-BkXhYzaFCjwpQaRPnXYaSPhbmbp9aIdpXT1y_erjxTWs1Jp-lbKKQo97ZfT3VwL97fs0PAzVSD6apN1D7Dtk7umloJ_qIlrb3mOAHSvHdx2s1L8lXkGUWRmAVXOXPXUDFGLYh6b_HlaKT7CO82ljU7LoqsB1Kfc0yMXueNmPX-HCLbAgTlGLnKde2x8BsgPRO8DyS55BJFHvoN1M0Sn-R-0-4vBIgBYH8XJ4-keToSmXNYox7bMFKhWNy-sJBr4an4zS2l2y2EPTCWsJvROHg1ecdqiWe9tUyNqknIh-M7ljC0MQrXXcZ6YHp9NcE_UBIY5hrAtR5mZohvEeUNGKFpOftMUWvJ6hgNBvPVE-VJx7EZzwkbNPnTLyWujWaHE9u9YIq2ffKpmJIajV5_oMcCecqMTXaMx2hzQMsGnzUmJW_ox3qJgPRV2_n12iEc_Jq85kW1N040X4shE7OPUWTMFBe-r0rtcyDh07WfyJMIsVjM6_Of4Q4XwTYtc_NKROaMUGgKag3nsy199XJ6qKxZ6ZPFtQLn9t-T-fzN3np_Ln3YNr9KRoQZghJxP_j-KMt76Lp9l7n6de3bU_jFA2biCR9hUNCd6GleC3PBlPymqIdUiyPmx1ulIkxYCrhc3c0Gppbp8QACKmfGf04itW9W3EH_9q0juC9g9Zqc6bCiwpsiFOeh8wSDBXA1Cd4sgqCiKlVMjjB4F2ju8_Z99E2a6R4nHvHGsEnuag51zqDhrBEEclrWINFwlwYRMj7-EzScvCYJwTpvpeXOcuU4YUyws4ILfyPqeF5jjIbWdJELpYI-fT2AUTqM4qrjq1tXsmTfcB9OidUpQZOlO-IOZyW43Y2WKyK-PIOsdiOKydyrtGO1ApXQjzPT_mAtTVjwsEVXo3-sL9gq1o5b0gy1KTjAoYn5gShThBtr7LqYkEEHZKKzbuDdKTGc0zml4gg0p5c2S2ptZJGcpFGy8CIqBuPLyhtMcRWW1pzw3udzeQvn-QW3SRjlr2a7I2j06sxIYb_Ha11dZAnGacAlZJXKlMOE6Y90GU_FImJ9GtDaF17T8P1PmTVTH7mKG8mR5m9nNnRPL8TkgFZPtKTOdZrSDrLMo0fvqVtmnqPXiIsxh4kOH42aCCeGSi32DWOHUrXqvtd_Ti-LYV9UZkPApWzL9vZxYY3QB8eD3qywLL60hh-XF1a96Wf/https://www.amazon.com/dp/B0C9TBZF8X?pd_rd_i=B0C9TBZF8X&pf_rd_p=35e6d4d3-057a-48a3-8acb-93514f30ad57&pf_rd_r=ZEZC1E3VN4BECW6PTWJH&pd_rd_wg=SqZrf&pd_rd_w=znxoo&pd_rd_r=d9a9ad50-39d5-4b5d-b995-749298a26b20",
+      "source": "amazon"
+    },
+    {
+      "title": "Funway Design - Paquete de 5 bolsas de vacío reutilizables con cremallera para Dreame L10s Ultra / L20 Ultra / X20 Pro Plus / S10 Pro / Xiaomi Robot Vacuum X10+ / X10 / Omni, 3L de gran capacidad",
+      "price": "US$24.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3NDYwMDE0NDk3ODYwODA0OjE3NTI3Njg5MjI6c3BfYnRmOjMwMDY4OTE2OTQyNTYwMjo6MDo6&url=%2FFunway-Design-reutilizables-cremallera-capacidad%2Fdp%2FB0CP5455LZ%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.tMrrmzVv4jg88kV1dE9uRehCiVvLF4Oh2ijKuXRCgG-X-aPfi99QhUPq5AA3Xjuu9lqHNPTvS5L8uhvuYsGTEJPxYTEciXE1ecR6C4-HhAJ8-8AYDu1_jkhzbOINGK2jwadrIJ_zQJIaKNo13f3hwaSpLF8sLxSp2N-rnorME-mMAxyL7ZaXtbhPtDlgE4sawZ1dlKs7RHaZJkHgiyPnMue_3jVjOBXAVxDAPCyplTQ.ltmwYxhZ1Anz5CRAcVSr0q-PcUIrZDmaMB9yi4dJNok%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768922%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Lámpara de escritorio LED con CRI 98, luz de escritorio brillante avanzada para manualidades, oficina en casa y estudio de niños, multiángulo ajustable, espectro completo regulable con control",
+      "price": "US$109.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3MzA2NzAzODgwOTUwMDA4OjE3NTI3Njg5MjM6c3BfYXRmX25leHQ6MzAwMzExOTAzNzc0NjAyOjowOjo&url=%2Fescritorio-brillante-manualidades-multi%25C3%25A1ngulo-ajustable%2Fdp%2FB0D12S45MG%2Fref%3Dsr_1_17_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768923%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "AOSU Cámaras de seguridad inalámbricas para exteriores, kit de 4 cámaras, ultra gran angular de 166°, alimentadas con pilas, sin suscripción, sistema de cámaras de seguridad para el hogar con visión",
+      "price": "US$239.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3MzA2NzAzODgwOTUwMDA4OjE3NTI3Njg5MjM6c3BfYXRmX25leHQ6MzAwNDU4OTc0MDQyMDAyOjowOjo&url=%2Fseguridad-inal%25C3%25A1mbricas-exteriores-alimentadas-suscripci%25C3%25B3n%2Fdp%2FB0D11MCBWJ%2Fref%3Dsr_1_18_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768923%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi MI - Luz nocturna activada por movimiento 2 - Bluetooth, luz amarilla cálida de 2800 K, sin parpadeo visible, sin luz azul dañina, 3 pilas AA duran más de un año",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-MI-nocturna-movimiento-Bluetooth/dp/B09PRCM1QC/ref=sr_1_19?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-19",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Destornillador inalámbrico Mi de 3.6 V, batería recargable de 2000 mAh. Cuerpo patentado de una sola pieza con puerto de carga USB-C. Destornillador portátil inalámbrico de alto par de 5 Nm con",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/Destornillador-inal%C3%A1mbrico-recargable-patentado-port%C3%A1til/dp/B07XZNJDGG/ref=sr_1_20?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-20",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 versión global (2024) Pantalla Amoled de 1.62 pulgadas | Batería de 233 mAh | Hasta 21 días de duración de la batería | Más de 150 modos de entrenamiento | BT 5.4 | Resistente al",
+      "price": "US$49.90",
+      "link": "https://www.amazon.com/-/es/Pantalla-pulgadas-duraci%C3%B3n-entrenamiento-Resistente/dp/B0D98DMX2H/ref=sr_1_21?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-21",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 6 Play",
+      "price": "US$18.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Redmi-Buds-6-Play/dp/B0DB52X2ZW/ref=sr_1_22?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-22",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi 5 Active Smart Watch, reloj de contador de pasos para mujeres y hombres con pantalla LCD grande de 2 pulgadas, 140 modos deportivos, resistente al agua 5 ATM (activo-negro medianoche)",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Active-deportivos-resistente-activo-negro-medianoche/dp/B0F2SW7RSS/ref=sr_1_23?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-23",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Purificadores de aire para el dormitorio del hogar, filtro HEPA H13, ultra silencioso, control inteligente, sensor de calidad del aire, limpiador de habitaciones pequeñas y grandes para",
+      "price": "US$99.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Purificadores-dormitorio-inteligente-habitaciones/dp/B0B58YSWWW/ref=sr_1_24?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-24",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Pro Smartband Versión Global 1.74\" Oxígeno en sangre Monitoreo de la salud GPS Monitoreo de la salud Fitness Tracker 150+ Modo Deportivo - Negro obsidiana",
+      "price": "US$76.00",
+      "link": "https://www.amazon.com/-/es/Smartband-Versi%C3%B3n-Ox%C3%ADgeno-Monitoreo-Deportivo/dp/B0DK71CTCK/ref=sr_1_25?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-25",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Compresor de aire eléctrico portátil, inflador de neumáticos de 150 PSI para automóvil, scooter, neumáticos de bicicleta y pelotas - Inalámbrico con detección de presión digital",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/Compresor-el%C3%A9ctrico-neum%C3%A1ticos-autom%C3%B3vil-bicicleta/dp/B0D4V6NX3G/ref=sr_1_26?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-26",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz Bluetooth portátil (30W), sonido, estéreo inalámbrico verdadero, Bluetooth 5.4, IP70 impermeable, reproducción de larga duración, rojo",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3MzA2NzAzODgwOTUwMDA4OjE3NTI3Njg5MjM6c3BfbXRmOjMwMDMyMjM5ODEzNTIwMjo6MDo6&url=%2FBluetooth-inal%25C3%25A1mbrico-verdadero-impermeable-reproducci%25C3%25B3n%2Fdp%2FB0D9ZHZDV3%2Fref%3Dsr_1_27_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768923%26sr%3D8-27-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3MzA2NzAzODgwOTUwMDA4OjE3NTI3Njg5MjM6c3BfbXRmOjMwMDMyMjMyNjUyNzcwMjo6MDo6&url=%2Fport%25C3%25A1til-Bluetooth-impermeable-din%25C3%25A1mico-reproducci%25C3%25B3n%2Fdp%2FB0D5LS1CMV%2Fref%3Dsr_1_28_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768923%26sr%3D8-28-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 6 Play | Controlador dinámico de 0.394 in | Reducción de ruido AI | Batería de hasta 36 horas de duración | Bluetooth® 5.4 | Control táctil - Versión global - (blanco)",
+      "price": "US$17.68",
+      "link": "https://www.amazon.com/-/es/Controlador-din%C3%A1mico-Reducci%C3%B3n-duraci%C3%B3n-Bluetooth%C2%AE/dp/B0DBHT1BT9/ref=sr_1_29?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-29",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Active (versión global)",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Active-versi%C3%B3n-global/dp/B0CW3DGP12/ref=sr_1_30?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-30",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Compresor de aire eléctrico portátil Mi 2",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Compresor-aire-el%C3%A9ctrico-port%C3%A1til/dp/B0CBBP8BQX/ref=sr_1_31?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-31",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor de juegos Mini-LED G Pro 27 pulgadas HDR 1000 2K QHD 2560x1440, Fast IPS, 180Hz 1ms, 99% DCI-P3, AMD Freesync, ángulo ajustable, 2 x HDMI 2.0, 2 × DP 1.4, blanco",
+      "price": "US$369.99",
+      "link": "https://www.amazon.com/-/es/Mini-LED-pulgadas-2560x1440-Freesync-ajustable/dp/B0DBYPQY8F/ref=sr_1_32?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-32",
+      "source": "amazon"
+    },
+    {
+      "title": "XIAOMI MIJIA - Máquina para quitar pelusas y pelotillas, máquina de afeitar portátil de tela de carga que se quita para quitar carretes de ropa",
+      "price": "US$19.99",
+      "link": "https://www.amazon.com/-/es/XIAOMI-MIJIA-pelotillas-port%C3%A1til-carretes/dp/B082VD839K/ref=sr_1_33?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-33",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Dispositivo de transmisión Mi TV Stick 4K Ultra HD, Android TV 11 con Google Assistant Control remoto de voz Reproductor multimedia, Chromecast integrado, 2GB 8GB HDR/AV1/2.4G/5G WiFi/BT 5.2,",
+      "price": "US$56.99",
+      "link": "https://www.amazon.com/-/es/Dispositivo-transmisi%C3%B3n-Mi-Stick-Reproductor/dp/B0B6894XGM/ref=sr_1_34?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-34",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 8 (Global Version)",
+      "price": "US$52.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Band-Global-Version/dp/B0CD2MP728/ref=sr_1_35?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-35",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Destornillador eléctrico de precisión, Caja de cambios totalmente metálica, Potente motor magnético, Batería de litio recargable, Puntas de atornillado de acero S2, Carga tipo C, Caja de",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Destornillador-el%C3%A9ctrico-totalmente-recargable-atornillado/dp/B09KY4ZZXP/ref=sr_1_36?dib=eyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA&dib_tag=se&keywords=xiaomi&qid=1752768923&sr=8-36",
+      "source": "amazon"
+    },
+    {
+      "title": "TOZO Auriculares inalámbricos híbridos con cancelación activa de ruido, 6 micrófonos ENC Clear Call, IPX8 impermeable, auriculares intrauditivos Bluetooth 5.3, auriculares estéreo con graves 59 horas",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo3MzA2NzAzODgwOTUwMDA4OjE3NTI3Njg5MjM6c3BfYnRmOjMwMDgyNTMwNTE0NTIwMjo6MDo6&url=%2FAuriculares-inal%25C3%25A1mbricos-cancelaci%25C3%25B3n-impermeable-intrauditivos%2Fdp%2FB0DD41G2NZ%2Fref%3Dsr_1_37_sspa%3Fdib%3DeyJ2IjoiMSJ9.Q91JP2VMuxV9GFTCp7JtjSL7TE37uYLGiXlwjcHCi_Aiv-RMF-rHpvq92Ai1_HRNJBmJvKdnQAg3qJNvEOCrdzL0oYrBOqqQUa3t284MCuEdkV-7kU8HLoLrDVmHcpbB9YaD5hbioOhwfkeCNtxvRP8KQb-S6G9V_Rle0gzjnGBb_7TqLHEk2ef-WQd0b5GvgbeokiSjR3ahzY89a3qCXmQuRI0C_w0h76ylHqDJWyA.Y1FhE-Y_UZAzt50pCQmQRh0i2qc2JXz6Tly6OuRQNhA%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768923%26sr%3D8-37-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "70mai Cámara de tablero A810 4K frontal y trasera, cámara de tablero doble para automóviles con visión nocturna Starvis 2 HDR, soporte 4G LTE, ADAS, GPS y WiFi integrados, modo de estacionamiento 24/7",
+      "price": "US$139.99",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JP0xAUKrBmIAvH9PVzKwiQEAAAGYGStJcQEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICB5uIMv/clv1_CEuOPUxokZA0iHrVHNsA6RvJW19KXZFlus9WxRmQ3MFc8X9J7jL5FP018nHz9hvWjq0yzpNb3XTPsunPwWYceQ5fGguoD9HcIk4mNk8pGmuEBq1elAYOLZEdHEep2oamXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTOYfWiXghLNCd7m6b_pSZUgD1ig-I6A-jeRfQnlHLCN_vc27OowQePqz76FPPudVPpajPBPBiEYkpU4wfVsPpln11Z5KUuB8SGczM4iQUrkaR9Nk2OBln8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Ujy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dnL-yAOyUJPmO1wQVvc8AAVrqc0ZBqxy5xMKz7TRLhV7ZSAk4c5_6JsnJGgnSh6Gzl0bmjH5c9RE9joBxWlo5pQf1NUxFGKLAGQj2qXsMMm_-JriJGhRBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0CZeMeZXz926QrElchTfuFSlqr4qV8Su9uvIr3VsuKQrlOC4DjI5U8PxSvOkl6uhR7XuNAFjO4Ntz_LG8Qme9pBOvuL_tCI0z1CPH0OFgvmtyr7jhhpKkEYeHtDeBbUyVahkzGEbNCe25-Mkd3pwza8AqFOBL-aVIXU30qtSAp-Is4VRjB_QHhzSLPpwRD5BkYXAiWA57d49hEQVIhk0pCu0z9coldNI9-BkXhYzaFCjwpQaRPnXYaSPhbmbp9aIdoeT1y_erjxTWs1Jp-lbKKQo97ZfT3VwL97fs0PAzVSD6apN1D7Dtk7umloJ_qIlrb3mOAHSvHdx2s1L8lXkGUWRmAVXOXPXUDFGLYh6b_HlaKT7CO82ljU7LoqsB1Kfc0yMXueNmPX-HCLbAgTlGLnKde2x8BsgPRO8DyS55BJFHvoN1M0Sn-R-0-4vBIgBYH8XJ4-keToSmXNYox7bMFKhWNy-sJBr4an4zS2l2y2EPTCWsJvROHg1ecdqiWe9tUyNqknIh-M7ljC0MQrXXcZ6YHp9NcE_UBIY5hrAtR5mZohvEeUNGKFpOftMUWvJ6hgNBvPVE-VJx7EZzwkbNPnTLyWujWaHE9u9YIq2ffKpmJIajV5_oMcCecqMTXaMx2hzQMsGnzUmJW_ox3qJgPRV2_n12iEc_Jq85kW1N040X4shE7OPUWTMFBe-r0rtcyDh07WfyJMIsVjM6_Of4Q4XwTYtc_NKROaMUGgKag3nsy199XJ6qKxZ6ZPFtQLn9t-T-fzN3np_Ln3YNr9KRoQZghJxP_j-KMt76Lp9l7n6de3bU_jFA2biCR9hUNCd6GleC3PBlPymqIdUiyPmx1ulIkxYCrhc3c0Gppbp8QACKmfGf04itW9W3EH_9q0juC9g9Zqc6bCiwpsiFOeh8wSDBXA1Cd4sgqMiKlVMjjB4F2ju8_Z99E2a6R4nHvHGsEnuag51zqDhrBEEclrWINFwlwYRMj7-EzScvCYJwTpvpeXOcuU4YUyws4ILfyPqeF5jjIbWdJELpYI-fT2AUTqM4qrjq1tXsmTfcB9OidUpQZOlO-IOZyW43Y2WKyK-PIOsdiOKydyrtGO1ApXQjzPT_mAtTVjwsEVXo3-sL9gq1o5b0gy1KTjAoYn5gShThBtr7LqYkEEHZKKzbuDdKTGc0zml4gg0p5c2S2ptZJGcpFGy8CIqBuPLyhtMcRWW1pzw3udzeQvn-QV3SNjlr2a7I2j06swKYb8GrA-c8E7XqAahIVLJV54KuQ9yW4pA42a4zQBaVw5AcX8PjjXUyPkNWRvH5_j1N3DO-YPgQY9PsuYD8FvWy2WU4IJutkXnGyrTCV3uyk1LXYzWy2YD0XI-iiFy_7HHl9V6S7xCadAbp8LIMbJEswXaYI9Sf_lSgp16KhYkHpIZyTTrGE/https://www.amazon.com/dp/B0C9TBZF8X?pd_rd_i=B0C9TBZF8X&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=EJ2KYJH8S2GRPDFWCY0S&pd_rd_wg=nOzak&pd_rd_w=xuoFZ&pd_rd_r=75f4790d-bb22-4cf2-9459-590cbe109545",
+      "source": "amazon"
+    },
+    {
+      "title": "Lámpara de escritorio LED con CRI 98, luz de escritorio brillante avanzada para manualidades, oficina en casa y estudio de niños, multiángulo ajustable, espectro completo regulable con control",
+      "price": "US$109.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozNTQxMTE4MjYwMzIzMzU1OjE3NTI3Njg5MjU6c3BfYXRmX25leHQ6MzAwMzExOTAzNzc0NjAyOjowOjo&url=%2Fescritorio-brillante-manualidades-multi%25C3%25A1ngulo-ajustable%2Fdp%2FB0D12S45MG%2Fref%3Dsr_1_33_sspa%3Fdib%3DeyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768925%26sr%3D8-33-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "PISEN Cargador USB C de 120 W - Bloque de cargador USB C de 4 puertos GaN de 120 W de carga rápida con cable USB-C a C de 6 pies, cargador de 120 W para MacBook Pro/Air, Pixelbook, iPad, iPhone",
+      "price": "US$37.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozNTQxMTE4MjYwMzIzMzU1OjE3NTI3Njg5MjU6c3BfYXRmX25leHQ6MzAwMjM0MTU5NTAwMTAyOjowOjo&url=%2FPISEN-Cargador-USB-120-Pixelbook%2Fdp%2FB0CYQ411XS%2Fref%3Dsr_1_34_sspa%3Fdib%3DeyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768925%26sr%3D8-34-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi 5 Active Smart Watch, reloj de contador de pasos para mujeres y hombres con pantalla LCD grande de 2 pulgadas, 140 modos deportivos, resistente al agua 5 ATM (activo-negro medianoche)",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Active-deportivos-resistente-activo-negro-medianoche/dp/B0F2SW7RSS/ref=sr_1_35?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-35",
+      "source": "amazon"
+    },
+    {
+      "title": "XIAOMI MIJIA - Máquina para quitar pelusas y pelotillas, máquina de afeitar portátil de tela de carga que se quita para quitar carretes de ropa",
+      "price": "US$19.99",
+      "link": "https://www.amazon.com/-/es/XIAOMI-MIJIA-pelotillas-port%C3%A1til-carretes/dp/B082VD839K/ref=sr_1_36?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-36",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz portátil Bluetooth 5.3 NFC Mini salida omnidireccional de 360 ° 8 h duración de la batería IP67 polvo y resistente al agua Modelo ASM01G",
+      "price": "US$64.65",
+      "link": "https://www.amazon.com/-/es/port%C3%A1til-Bluetooth-Mini-omnidireccional-resistente/dp/B0DBK4RR4C/ref=sr_1_37?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-37",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Barra de luz para monitor de computadora Mi - Control inalámbrico, fácil instalación, iluminación adicional de la computadora sin ocupar espacio de escritorio, no más deslumbramiento",
+      "price": "US$60.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Barra-para-monitor-computadora/dp/B09X13LS7F/ref=sr_1_38?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-38",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 6 Play",
+      "price": "US$18.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Redmi-Buds-6-Play/dp/B0DB52X2ZW/ref=sr_1_39?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-39",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Smart Band 10 (2025) versión global, pantalla AMOLED de 1.72 pulgadas, 21 días de duración de la batería, pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de",
+      "price": "US$73.99",
+      "link": "https://www.amazon.com/-/es/pantalla-pulgadas-rastreador-multideporte-actividad/dp/B0DYF82545/ref=sr_1_40?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-40",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Pro Smartband Versión Global 1.74\" Oxígeno en sangre Monitoreo de la salud GPS Monitoreo de la salud Fitness Tracker 150+ Modo Deportivo - Negro obsidiana",
+      "price": "US$76.00",
+      "link": "https://www.amazon.com/-/es/Smartband-Versi%C3%B3n-Ox%C3%ADgeno-Monitoreo-Deportivo/dp/B0DK71CTCK/ref=sr_1_41?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-41",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Smart Band 10 (2025) - Pantalla AMOLED de 1.72 pulgadas | 21 días de duración de la batería | Pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de frecuencia",
+      "price": "US$73.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Band-10-multideporte/dp/B0FCM67L4X/ref=sr_1_42?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-42",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz Bluetooth portátil (30W), sonido, estéreo inalámbrico verdadero, Bluetooth 5.4, IP69 impermeable, reproducción de larga duración, azul",
+      "price": "US$61.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozNTQxMTE4MjYwMzIzMzU1OjE3NTI3Njg5MjU6c3BfbXRmOjMwMDMyMjM5ODEzNTEwMjo6MDo6&url=%2FBluetooth-inal%25C3%25A1mbrico-verdadero-impermeable-reproducci%25C3%25B3n%2Fdp%2FB0D9ZHKDSJ%2Fref%3Dsr_1_43_sspa%3Fdib%3DeyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768925%26sr%3D8-43-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozNTQxMTE4MjYwMzIzMzU1OjE3NTI3Njg5MjU6c3BfbXRmOjMwMDMyMjMyNjUyNzcwMjo6MDo6&url=%2Fport%25C3%25A1til-Bluetooth-impermeable-din%25C3%25A1mico-reproducci%25C3%25B3n%2Fdp%2FB0D5LS1CMV%2Fref%3Dsr_1_44_sspa%3Fdib%3DeyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768925%26sr%3D8-44-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Smart Band 10 (2025) Ceramic Edition - Pantalla AMOLED de 1.72 pulgadas | 21 días de duración de la batería | Pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de",
+      "price": "US$87.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Band-Ceramic-multideporte/dp/B0F2JHZCQQ/ref=sr_1_45?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-45",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Cámara inteligente C300, claridad 2K, visión de 360°, detección humana AI, gran apertura F1.4 y lente 6P, visión nocturna a color mejorada con poca luz, cifrado completo para protección de",
+      "price": "US$66.07",
+      "link": "https://www.amazon.com/-/es/inteligente-claridad-detecci%C3%B3n-apertura-protecci%C3%B3n/dp/B0B6PG6S81/ref=sr_1_46?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-46",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Juego de brocas magnéticas para destornillador de bolsillo de 24 piezas para reparación de dispositivos electrónicos",
+      "price": "US$29.75",
+      "link": "https://www.amazon.com/-/es/magn%C3%A9ticas-destornillador-reparaci%C3%B3n-dispositivos-electr%C3%B3nicos/dp/B08MV2H7KD/ref=sr_1_47?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-47",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Cámara inteligente C200, visión de 360°, detección humana AI, video claro y nítido, visión nocturna mejorada, cifrado completo para protección de privacidad, control de voz inteligente,",
+      "price": "US$48.25",
+      "link": "https://www.amazon.com/-/es/inteligente-detecci%C3%B3n-nocturna-protecci%C3%B3n-privacidad/dp/B0BL1PYL4Z/ref=sr_1_48?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-48",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Active (versión global)",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Active-versi%C3%B3n-global/dp/B0CW3DGP12/ref=sr_1_49?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-49",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor para juegos 27 pulgadas 165 Hz 1 ms GTG 1920* 1080 Rápido IPS HDR10 FreeSync Calibración profesional Premium 99% sRGB 178° Ajuste de inclinación gran angular TUV Luz azul baja pantalla",
       "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Motorola-Moto-tel%C3%A9fono-desbloqueado-f%C3%A1brica/dp/B07CFMSWXD/ref=sr_1_78?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-78",
+      "link": "https://www.amazon.com/-/es/pulgadas-FreeSync-Calibraci%C3%B3n-profesional-inclinaci%C3%B3n/dp/B0D1W43TTV/ref=sr_1_50?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-50",
       "source": "amazon"
     },
     {
-      "title": "Funda para teléfono con diseño de lunares, diseño retro, estética, clásica, compatible con iPhone 15, color rosa",
-      "price": "US$9.99",
-      "link": "https://www.amazon.com/-/es/tel%C3%A9fono-lunares-est%C3%A9tica-cl%C3%A1sica-compatible/dp/B0F6D7FVB8/ref=sr_1_79?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-79",
-      "source": "amazon"
-    },
-    {
-      "title": "TikTok - Anillo de desplazamiento – Control remoto Bluetooth para clips y melodías TikTok, controlador Bluetooth inalámbrico compatible con iPhone, ideal para iPad, iOS y Android, con disparador de",
-      "price": "US$15.99",
-      "link": "https://www.amazon.com/-/es/TikTok-desplazamiento-controlador-inal%C3%A1mbrico-compatible/dp/B0DRFCSWMB/ref=sr_1_80?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-80",
-      "source": "amazon"
-    },
-    {
-      "title": "Pantalla de monitor inalámbrico para selfie para iPhone, cámara trasera trasera para selfie vlog transmisión en vivo, conexión con control remoto, soporte magnético para iPhone, Samsung Galaxy y más",
-      "price": "US$47.49",
-      "link": "https://www.amazon.com/-/es/Pantalla-inal%C3%A1mbrico-transmisi%C3%B3n-conexi%C3%B3n-magn%C3%A9tico/dp/B0F1L777NW/ref=sr_1_81?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-81",
-      "source": "amazon"
-    },
-    {
-      "title": "Opis PushMeFon Mobile 4G Teléfono: El Pulsador Retro GSM Escritorio Teléfono Celular - Hogar Teléfono Celular Senior para Ancianos Desbloqueado en Estilo Teléfono Vintage - Rojo",
+      "title": "Xiaomi Mi Body Composition Scale 2 Mi Fit App Smart Mi Body Fat Scale",
       "price": "No disponible",
-      "link": "https://www.amazon.com/-/es/Opis-PushMeFon-Mobile-Tel%C3%A9fono-Desbloqueado/dp/B09VHC6YYQ/ref=sr_1_82?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-82",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Body-Composition-Scale-Smart/dp/B07VD9F419/ref=sr_1_51?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-51",
       "source": "amazon"
     },
     {
-      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
-      "price": "US$12.97",
-      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JDXpr4L89Ebg4S-yAfV-0cUAAAGYGNZf_AEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICC65ng_/clv1_CEuOPUxokZA0iHrVfOoo3S3OUihBT5Y1kMgm3226qNll8X9Sw0b2FP018nHz9hvWjq0yzpNb3XTPsunPsmYceW5uMj-eCNirKVwhZmUuanHwLNlGrQYOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCVqBLNCd7m6b_pSZUgD1ig-I6A-jeRfQn9HbS_y_YUpuxqZ-rUqqHeMtW4K_x10dBQBxtukpU4wfVsPpln11Z5KUuB8SGc8ssiQU7maSFdnGCBkn8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Tjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmX-11qmU5fmO2UQFfQ8AAtrz9VXEpVxuwRCxKHRAyxtcng44c5S9JgxCk14XSeFlV4mnW_4YMQH4wMS0X1W7tcIx8IlF0-fSXMj2uz6CsLm-5nMJmomBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKq3P4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBHPeYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSIcJwrKta6rqKy8B5wGQSUv9CoV0FzglRwxF67qcd6x-F23cjWI0jFkgZGNRN4go-0r7Ov5K_jehxddmjSPJBM5J0T70Lk4FANh8NZ-px0nggHcvNvGkcaFc5F9O9N2mWCn6neCUDK7Sd1M7GKrkR7WIrLLyeOfZ4TSuWT6YqiJ8ukHuefX4ImyMl_hlJpnnCV2bb7wKZPrmU22ovgEYYaOAwKAebux5R7alaO3he8hduxMI/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=YYMGWHV1F36QYNK46DV8&pd_rd_wg=kyysj&pd_rd_w=74Lta&pd_rd_r=5f4b869d-7ed7-4b5a-8956-52bc9f94dfa5",
+      "title": "Xiaomi Proyector inteligente L1 con Google TV Mini proyector para el hogar, proyección de techo Full HD 200 lúmenes ISO de hasta 120 pulgadas, corrección trapezoidal automática omnidireccional",
+      "price": "US$219.99",
+      "link": "https://www.amazon.com/-/es/inteligente-proyecci%C3%B3n-correcci%C3%B3n-trapezoidal-omnidireccional/dp/B0DQ8V34GS/ref=sr_1_52?dib=eyJ2IjoiMSJ9.Ruro6vowi1lAxgbvY6GdkdNlz2vU4cbcyuMpgEz4ZTfwCzokSKsFbeZcTKht_TkpOfnJrhvdxDUM4pj6eKZT3LMVUhdcLt2Wbesns0Apqu-VVp18Z7EyYvDHSWHvIx9Pz7afx90uEkZFa4SKnqNGAS2FT8cWYuUODyrNEeeo7QUIFFrG_9huGoDETaiAZFH5ypYQaVT-wXWMOLlrwPO32YVoFzgcTriI-_vqawNFYio.Se96sp-8zeGm4UCZ_HCGuzHO3p67Wr54UkWmN6JAPQQ&dib_tag=se&keywords=xiaomi&qid=1752768925&sr=8-52",
+      "source": "amazon"
+    },
+    {
+      "title": "70mai Cámara de tablero A810 4K frontal y trasera, cámara de tablero doble para automóviles con visión nocturna Starvis 2 HDR, soporte 4G LTE, ADAS, GPS y WiFi integrados, modo de estacionamiento 24/7",
+      "price": "US$139.99",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JP98LvsnfMtCxYjLCqoPq-gAAAGYGStOuwEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDIgICANO4UJ/clv1_CEuOPUxokZA0iHrVHLwy3mfBTCBqCp4btbIc1iWFsvkr4X8b4DL5FP018nHz9hvWjq0yzpNb3XTPsunPyGYceQ44KDzUB8ajAhkpSEBUUHi4E8Nm4xYOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTOYfWiUqBLNCd7m6b_pSZUgD1ig-I6A-jeRfQnlGqz4y8hBodNETYz9uov2B8TtG_4s--dSbhholpU4wfVsPpln11Z5KUuB8SGczM4iQUrkaR9Nk2OBln8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Vjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dnHD1xemQ6HnL3IQWeMBGEJoz9VXBax25wQnw7rRPhYkc0YNu8xC78QnJGghSQ6NkEg1mjbvXs9f4FwC0H1oyNcc6eAjF2K5AHAgxunvCcH97KD-I38MBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKp3L4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCRgsa4xDaSA6FgDLyaVJnQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu-r7RG0FITVJQt05CIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aRHfeYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFhLK7WkkQNJu4-8WSH8Jl25hMF1XXv_DvMhnOx5QL3MWQjZetq3VXc9YBKvthWR_5c9YBJxNeGNNM4go9y6ad8ZKi1ahgc5njQPAvdYF7VqJ0wpZEPEEHe_M5wzAjH5TS8nwCawMmT9DiPWzICyC7P2ExHsH_k5nxDpNtxlEKGuHkJPJObXDsToY_moJtnUy-Xjg0th4VDjAPdhCo_2yOKkHvY_SS2xwjtGP3CdZ2WrrkQfCPYNWJsvLV_8-rFbs6X3yQCHg/https://www.amazon.com/dp/B0C9TBZF8X?pd_rd_i=B0C9TBZF8X&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=MVR8HZCHKJ3P9AP7Y6CY&pd_rd_wg=WdGZY&pd_rd_w=aZAxY&pd_rd_r=87e2445b-86a3-4311-8f52-2b36a0a77fdd",
+      "source": "amazon"
+    },
+    {
+      "title": "Cargador USB C, cargador máximo de 67 W, cargador plegable compacto rápido de 3 puertos para MacBook Pro/Air, Dell XPS, iPad Pro, iPhone 15 Pro Max/14/13, Galaxy S24/S23, Note 20/10+, Steam",
+      "price": "US$22.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4MjgwNTc2NTcwNTM4Nzk5OjE3NTI3Njg5MjY6c3BfYXRmX25leHQ6MzAwNDI4OTAyNjA3OTAyOjowOjo&url=%2FCargador-cargador-plegable-compacto-puertos%2Fdp%2FB0DCJB3W7Q%2Fref%3Dsr_1_49_sspa%3Fdib%3DeyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768926%26sr%3D8-49-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "HT.w Sensor inteligente de temperatura y sensor de humedad, termómetro Bluetooth e higrómetro con monitoreo de aplicaciones, monitor de temperatura y humedad resistente al agua para RV",
+      "price": "US$69.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4MjgwNTc2NTcwNTM4Nzk5OjE3NTI3Njg5MjY6c3BfYXRmX25leHQ6MjAwMDU0OTIzMDQ4NTExOjowOjo&url=%2FSensorPush-HT-w-inteligente-temperatura-aplicaciones%2Fdp%2FB08PKWPKM2%2Fref%3Dsr_1_50_sspa%3Fdib%3DeyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768926%26sr%3D8-50-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi TV Box S 2ª generación - Reproductor multimedia de transmisión 4K Ultra HD, Google TV Box con 2 GB de RAM 8 GB ROM, WiFi dual 2.4G/5G, Bluetooth 5.2 y Dolby Audio y DTS-HD, Dolby Vision, HDR10+",
+      "price": "US$69.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Box-generaci%C3%B3n-Reproductor-transmisi%C3%B3n/dp/B0CHWRX597/ref=sr_1_51?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-51",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Smart Band 10 (2025) Ceramic Edition - Pantalla AMOLED de 1.72 pulgadas | 21 días de duración de la batería | Pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de",
+      "price": "US$87.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Band-Ceramic-multideporte/dp/B0F2JHZCQQ/ref=sr_1_52?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-52",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 6 Play | Controlador dinámico de 0.394 in | Reducción de ruido AI | Batería de hasta 36 horas de duración | Bluetooth® 5.4 | Control táctil - Versión global - (blanco)",
+      "price": "US$17.68",
+      "link": "https://www.amazon.com/-/es/Controlador-din%C3%A1mico-Reducci%C3%B3n-duraci%C3%B3n-Bluetooth%C2%AE/dp/B0DBHT1BT9/ref=sr_1_53?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-53",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Barra de luz para monitor de computadora Mi - Control inalámbrico, fácil instalación, iluminación adicional de la computadora sin ocupar espacio de escritorio, no más deslumbramiento",
+      "price": "US$60.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Barra-para-monitor-computadora/dp/B09X13LS7F/ref=sr_1_54?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-54",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Watch 4 Smartwatch con pantalla AMOLED de 1.97\" con 390 x 450 píxeles y 60Hz, hasta 20 días de duración de la batería, HyperOS, frecuencia cardíaca y mediciones de oxígeno en sangre",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Smartwatch-pantalla-pulgadas-frecuencia-mediciones/dp/B0CQM9TRRS/ref=sr_1_55?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-55",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 5 - Auriculares inalámbricos con cancelación activa de ruido de 46 dB, duración de la batería de 40 horas, Bluetooth 5.3, color negro",
+      "price": "US$41.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Redmi-Buds-Auriculares-inal%C3%A1mbricos/dp/B0CQKD5N9X/ref=sr_1_56?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-56",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/port%C3%A1til-Bluetooth-impermeable-din%C3%A1mico-reproducci%C3%B3n/dp/B0D5LS1CMV/ref=sr_1_57?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-57",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 4 Lite TWS Auriculares inalámbricos, Bluetooth 5.3 de baja latencia con cancelación de ruido de llamada AI, IP54 impermeable, tiempo de reproducción de 20 horas, auriculares ligeros",
+      "price": "US$34.99",
+      "link": "https://www.amazon.com/-/es/Auriculares-inal%C3%A1mbricos-cancelaci%C3%B3n-impermeable-reproducci%C3%B3n/dp/B0BYJL3KJT/ref=sr_1_58?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-58",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Reloj 2 Negro/Smartwatch 1.43'",
+      "price": "US$184.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Reloj-Negro-Smartwatch-1-43/dp/B0CTMXNBLH/ref=sr_1_59?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-59",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Watch 5 Lite Global 1.96\" Amoled Hasta 18 días Batería GNSS Dual Mic 150+ modos de entrenamiento 5ATM Resistencia al agua Sensor de frecuencia cardíaca (Oro claro)",
+      "price": "US$54.99",
+      "link": "https://www.amazon.com/-/es/Bater%C3%ADa-entrenamiento-Resistencia-frecuencia-card%C3%ADaca/dp/B0DFHG6YZ7/ref=sr_1_60?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-60",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Band 8 Pulsera inteligente de 1.62 pulgadas, pantalla AMOLED, frecuencia cardíaca, oxígeno en sangre, Bluetooth, reloj deportivo Fitness Traker (versión global, negro) (M2239B1)",
+      "price": "US$47.28",
+      "link": "https://www.amazon.com/-/es/inteligente-frecuencia-Bluetooth-deportivo-M2239B1/dp/B0C3B42Q29/ref=sr_1_61?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-61",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Active (versión global)",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Active-versi%C3%B3n-global/dp/B0CW3DGP12/ref=sr_1_62?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-62",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Robot Vacuum X20+, auto limpieza automática, auto vaciado, secado al aire, evitación de obstáculos, navegación láser SUD avanzada, almohadillas de fregona de elevación automática, almohadillas",
+      "price": "US$759.99",
+      "link": "https://www.amazon.com/-/es/X20-autom%C3%A1tica-obst%C3%A1culos-navegaci%C3%B3n-almohadillas/dp/B0CTCXKL52/ref=sr_1_63?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-63",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Ventilador de pie inteligente 30663 Mi 2",
+      "price": "US$159.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Ventilador-pie-inteligente-30663/dp/B08Z849N5J/ref=sr_1_64?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-64",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor para juegos 27 pulgadas 165 Hz 1 ms GTG 1920* 1080 Rápido IPS HDR10 FreeSync Calibración profesional Premium 99% sRGB 178° Ajuste de inclinación gran angular TUV Luz azul baja pantalla",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/pulgadas-FreeSync-Calibraci%C3%B3n-profesional-inclinaci%C3%B3n/dp/B0D1W43TTV/ref=sr_1_65?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-65",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor A24i de 24 pulgadas, alta frecuencia de actualización de 100 Hz, pantalla dura IPS, cuerpo ultra delgado de 0.295 in, resolución FHD de 1080p, calibración de color de fábrica ∆Е<2 para",
+      "price": "US$94.99",
+      "link": "https://www.amazon.com/-/es/pulgadas-frecuencia-actualizaci%C3%B3n-resoluci%C3%B3n-calibraci%C3%B3n/dp/B0D1W426NX/ref=sr_1_66?dib=eyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg&dib_tag=se&keywords=xiaomi&qid=1752768926&sr=8-66",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz Bluetooth portátil (30W), sonido, estéreo inalámbrico verdadero, Bluetooth 5.4, IP70 impermeable, reproducción de larga duración, rojo",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4MjgwNTc2NTcwNTM4Nzk5OjE3NTI3Njg5MjY6c3BfYnRmOjMwMDMyMjM5ODEzNTIwMjo6MDo6&url=%2FBluetooth-inal%25C3%25A1mbrico-verdadero-impermeable-reproducci%25C3%25B3n%2Fdp%2FB0D9ZHZDV3%2Fref%3Dsr_1_67_sspa%3Fdib%3DeyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768926%26sr%3D8-67-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4MjgwNTc2NTcwNTM4Nzk5OjE3NTI3Njg5MjY6c3BfYnRmOjMwMDMyMjMyNjUyNzcwMjo6MDo6&url=%2Fport%25C3%25A1til-Bluetooth-impermeable-din%25C3%25A1mico-reproducci%25C3%25B3n%2Fdp%2FB0D5LS1CMV%2Fref%3Dsr_1_68_sspa%3Fdib%3DeyJ2IjoiMSJ9.aSccbGgnXvxmE9bbyEEq2t7pe5sFiwabDHhqFLJylXTV-87TTaIWXqY_-f_g9Ym2sUCztcXOI-YXb-Sm2mDFE60IaQ46dVQBsgRO-zbi-fALNxvyRZ3nvzsjY8gelBDuSJ_UdUD9B2vkIa3IVz3hxo1MO2H7Gk84J0stEOz-XpGbgWosq5iBr30lzIaTf2qDayB0RDbB8kon5qHYGyI1xCKbkh7C4cuQJi6bcOoKjL0.q4md9XSGekmcIjZxJfXYYNOFNgg_csRNKl8aw8hsdmg%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768926%26sr%3D8-68-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Turtlebox Original Gen 3: Altavoz Bluetooth portátil para exteriores – Ultra-ruidoso (120 dB), resistente al agua (IP67), resistente, resistente a los impactos, batería de 3 días | Modo fiesta",
+      "price": "US$450.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4ODc5NzQ3ODMzMjg3OTE1OjE3NTI3Njg5Mjg6c3BfYXRmX25leHQ6MzAwNzE5NzkyNzYwNTAyOjowOjo&url=%2FTurtlebox-Original-Gen-exteriores-Ultra-ruidoso%2Fdp%2FB0F22GJPKW%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768928%26sr%3D8-65-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "$29/mes. Plan telefónico prepago Ultra Mobile con llamadas ilimitadas, texto y 12 GB de 5G • Datos 4G LTE durante 1 mes (kit de tarjeta SIM 3 en 1)",
+      "price": "US$28.88",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4ODc5NzQ3ODMzMjg3OTE1OjE3NTI3Njg5Mjg6c3BfYXRmX25leHQ6MjAwMDU0MjkwNjI0MzIxOjowOjo&url=%2Ftelef%25C3%25B3nico-prepago-llamadas-ilimitadas-durante%2Fdp%2FB015TNSTUU%2Fref%3Dsr_1_66_sspa%3Fdib%3DeyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768928%26sr%3D8-66-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi Smart Band 10 (2025) Ceramic Edition - Pantalla AMOLED de 1.72 pulgadas | 21 días de duración de la batería | Pantalla táctil, rastreador multideporte, rastreador de actividad, monitor de",
+      "price": "US$87.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Smart-Band-Ceramic-multideporte/dp/B0F2JHZCQQ/ref=sr_1_67?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-67",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 4 Lite TWS Auriculares inalámbricos, Bluetooth 5.3 de baja latencia con cancelación de ruido de llamada AI, IP54 impermeable, tiempo de reproducción de 20 horas, auriculares ligeros",
+      "price": "US$34.99",
+      "link": "https://www.amazon.com/-/es/Auriculares-inal%C3%A1mbricos-cancelaci%C3%B3n-impermeable-reproducci%C3%B3n/dp/B0BYJL3KJT/ref=sr_1_68?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-68",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz portátil Bluetooth 5.3 NFC Mini salida omnidireccional de 360 ° 8 h duración de la batería IP67 polvo y resistente al agua Modelo ASM01G",
+      "price": "US$64.65",
+      "link": "https://www.amazon.com/-/es/port%C3%A1til-Bluetooth-Mini-omnidireccional-resistente/dp/B0DBK4RR4C/ref=sr_1_69?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-69",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor curvo para juegos de 34 pulgadas, 180Hz, alta frecuencia de reshed, 1 ms, calibración profesional rápida FreeSync Premium 95% DCI-P3 100% sRGB* Monitor de pantalla de computadora de",
+      "price": "US$289.99",
+      "link": "https://www.amazon.com/-/es/pulgadas-frecuencia-calibraci%C3%B3n-profesional-computadora/dp/B0D1W39XH6/ref=sr_1_70?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-70",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Trípode Mi Selfie Stick Gris",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Tr%C3%ADpode-Selfie-Stick-Gris/dp/B07DFBRTPV/ref=sr_1_71?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-71",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Monitor A24i de 24 pulgadas, alta frecuencia de actualización de 100 Hz, pantalla dura IPS, cuerpo ultra delgado de 0.295 in, resolución FHD de 1080p, calibración de color de fábrica ∆Е<2 para",
+      "price": "US$94.99",
+      "link": "https://www.amazon.com/-/es/pulgadas-frecuencia-actualizaci%C3%B3n-resoluci%C3%B3n-calibraci%C3%B3n/dp/B0D1W426NX/ref=sr_1_72?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-72",
+      "source": "amazon"
+    },
+    {
+      "title": "Redmi Buds 6 Lite - Auriculares intrauditivos, cancelación dinámica de ruido activa de 40 dB, hasta 37 horas de duración de la batería, membrana de titanio con 4 ajustes de sonido, cancelación de",
+      "price": "US$27.75",
+      "link": "https://www.amazon.com/-/es/Redmi-Buds-Lite-Auriculares-intrauditivos/dp/B0D9YZQVQT/ref=sr_1_73?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-73",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Robot aspirador y trapeador X20 Max, secado automático, lavado de trapeador automático, succión de 8000 Pa, vaciado automático, luz estructurada y evitar obstáculos láser de bordes, limpieza de",
+      "price": "US$999.99",
+      "link": "https://www.amazon.com/-/es/aspirador-trapeador-autom%C3%A1tico-estructurada-obst%C3%A1culos/dp/B0DK6QML1L/ref=sr_1_74?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-74",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Altavoz Bluetooth portátil (30W), sonido, estéreo inalámbrico verdadero, Bluetooth 5.4, IP70 impermeable, reproducción de larga duración, rojo",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4ODc5NzQ3ODMzMjg3OTE1OjE3NTI3Njg5Mjg6c3BfbXRmOjMwMDMyMjM5ODEzNTIwMjo6MDo6&url=%2FBluetooth-inal%25C3%25A1mbrico-verdadero-impermeable-reproducci%25C3%25B3n%2Fdp%2FB0D9ZHZDV3%2Fref%3Dsr_1_75_sspa%3Fdib%3DeyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768928%26sr%3D8-75-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Paquete de sonido Mi Altavoz portátil Bluetooth 5.4, IP67 impermeable al aire libre Bluetooth altavoz con sonido dinámico, soporta conexión TWS, 10 horas de tiempo de reproducción, negro",
+      "price": "US$26.34",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4ODc5NzQ3ODMzMjg3OTE1OjE3NTI3Njg5Mjg6c3BfbXRmOjMwMDMyMjMyNjUyNzcwMjo6MDo6&url=%2Fport%25C3%25A1til-Bluetooth-impermeable-din%25C3%25A1mico-reproducci%25C3%25B3n%2Fdp%2FB0D5LS1CMV%2Fref%3Dsr_1_76_sspa%3Fdib%3DeyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768928%26sr%3D8-76-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Redmi Buds 4 Pro Auriculares inalámbricos, audio de alta resolución, altavoz de doble controlador, sonido inmersivo, hasta 43dB ANC, conectividad de dispositivo dual, batería de 36 horas de",
+      "price": "US$49.50",
+      "link": "https://www.amazon.com/-/es/Redmi-Buds-Pro-inal%C3%A1mbricos-conectividad/dp/B0B8ZMQQVY/ref=sr_1_77?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-77",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Mi TV Stick Streaming Stick 4K 2022 Último | Dispositivo de transmisión 4K/HDR Android 11 con control remoto de voz Google Assistant, Chromecast integrado, compatible con 2GB 8GB AV1/2.4G/5G",
+      "price": "US$55.99",
+      "link": "https://www.amazon.com/-/es/Streaming-Dispositivo-transmisi%C3%B3n-Chromecast-compatible/dp/B09Q947VKN/ref=sr_1_78?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-78",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Ventilador de pie inteligente 30663 Mi 2",
+      "price": "US$159.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-Ventilador-pie-inteligente-30663/dp/B08Z849N5J/ref=sr_1_79?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-79",
+      "source": "amazon"
+    },
+    {
+      "title": "TP-Link Tapo 2K Pan/Tilt Cámara de seguridad para monitor de bebé, cámara para mascotas con detección de movimiento y seguimiento, audio de 2 vías, visión nocturna, almacenamiento en la nube y tarjeta",
+      "price": "US$19.98",
+      "link": "https://www.amazon.com/-/es/seguridad-detecci%C3%B3n-movimiento-seguimiento-almacenamiento/dp/B09Y8TLP25/ref=sr_1_80?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-80",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi OpenWear - Auriculares estéreo LHDC de alta resolución, controlador dinámico de 0.669 x 0.472 in, duración de la batería de hasta 38.5 horas, micrófono dual con reducción de ruido AI (gris",
+      "price": "US$119.99",
+      "link": "https://www.amazon.com/-/es/Xiaomi-OpenWear-Auriculares-resoluci%C3%B3n-controlador/dp/B0D6YDXZCP/ref=sr_1_81?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-81",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Robot Vacuum X20+, auto limpieza automática, auto vaciado, secado al aire, evitación de obstáculos, navegación láser SUD avanzada, almohadillas de fregona de elevación automática, almohadillas",
+      "price": "US$759.99",
+      "link": "https://www.amazon.com/-/es/X20-autom%C3%A1tica-obst%C3%A1culos-navegaci%C3%B3n-almohadillas/dp/B0CTCXKL52/ref=sr_1_82?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-82",
+      "source": "amazon"
+    },
+    {
+      "title": "Xiaomi Smart Band 9 Pro Smartband Versión Global 1.74 \"Pantalla de oxígeno en sangre GPS Monitoreo de la salud Fitness Tracker 150+ Modo Deportivo - Moonlight Silver",
+      "price": "US$86.30",
+      "link": "https://www.amazon.com/-/es/Smartband-Versi%C3%B3n-Pantalla-Monitoreo-Deportivo/dp/B0DK6YL89L/ref=sr_1_83?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-83",
+      "source": "amazon"
+    },
+    {
+      "title": "Protector de pantalla para Xiaomi Pad 7, dureza 9H, arañazos, vidrio templado, compatible con fundas, antihuellas, arañazos, (2 unidades)",
+      "price": "US$7.99",
+      "link": "https://www.amazon.com/-/es/Protector-Xiaomi-Pad-compatible-antihuellas/dp/B0DMVSWDNR/ref=sr_1_84?dib=eyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds&dib_tag=se&keywords=xiaomi&qid=1752768928&sr=8-84",
+      "source": "amazon"
+    },
+    {
+      "title": "TOZO Auriculares inalámbricos híbridos con cancelación activa de ruido, 6 micrófonos ENC Clear Call, IPX8 impermeable, auriculares intrauditivos Bluetooth 5.3, auriculares estéreo con graves 59 horas",
+      "price": "US$29.99",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo4ODc5NzQ3ODMzMjg3OTE1OjE3NTI3Njg5Mjg6c3BfYnRmOjMwMDgyNTMwNTE0NTIwMjo6MDo6&url=%2FAuriculares-inal%25C3%25A1mbricos-cancelaci%25C3%25B3n-impermeable-intrauditivos%2Fdp%2FB0DD41G2NZ%2Fref%3Dsr_1_85_sspa%3Fdib%3DeyJ2IjoiMSJ9.3DI3uSh3N7T-ufEobjYKZorqrDBbZSXOHa-hpyyNWFlg4fXMMy-cJbrkj21_AfpCM0DgajorRFbSkTEkNuVPP1pMOVXkZ9fIpfez_nrrrI0kQs5vhND2XpzA2jah66E4viimy5EJQkVLVkQPZN4MRUrT7jiuogBf5aqZ7bJMQ4sJsXAezKXnckXiNFv2aiYV--1MK1txljdPj4YRpjgBpokQp6Js-dICJY1rS2e8X6A.dnCxxoBsK3jFeXLhUyK_zy_SvVwSCIVAm8S2uf4Q_ds%26dib_tag%3Dse%26keywords%3Dxiaomi%26qid%3D1752768928%26sr%3D8-85-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "40W Retractable Wall Charger with Type-C Cable, 4 Port GaN IV USB C Charger Block, PD 20W Fast Foldable Charging Station for iPhone 16 15 Pro/ProMax/Plus, iPad Pro, Galaxy,Pixel",
+      "price": "US$26.99",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JOR8UM5EpYSug5A66jFRBIsAAAGYGStaGwEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDEgICDvU5ib/clv1_CEuOPUxokZA0iHrVB8c9-jDTe3R7ceQZt7sd7Bm02s50139wzzL5FP018nHz9hvWjq0yzpNb3XTPsunPw2YceRVDJxiDFfH3E2JTSkJdUUKEIqtRvCAOLZEdHEep3IamXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTOYfWiVuBLNCd7m6b_pSZUgD1ig-I6A-jeRfQnnJYr_-sMA5twyXdbjhan0B6GOGM5KjN5MYwcqo784wfVsPpln11Z5KUuB8SGc8ssif2DkaiFjnWOBrH8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Tjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmXA4gSkQ62oOGUcEuM8BENo4eRGEa9m4BAk_bXTEDglcWgO5M1C44knNHcyXSeezV4mnSzsXsAH9xQe1Gpo9cocx8l7AEybAGQz0bf4J8rh7Lf9NXw2BAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0CZeMeZXz926QrElchTfuFSlqr4qV8Su9uvIr3VsuKQrlOC4DjI5U8PxSvOkl6uhR7XuNAFjO4Ntz_LG8Qme9pBOvuL_tCI0z1CPH0OFgvmtyr7jhxpKEEEeHtDeBbUyVahkzGEbNCe25-Mkd3pwza8SqFgOriZapnb3kq1DQlDG9QQbQl-exJ3VLH54xXwYyE-EQmY9LVW-hETVJBl066EkTxcqh1NHdOFh1Jqx4l4lzhoe2yiXduWKDvKdoFZIfhaTl6BYIHlMisNEIe8Vpjdn-bIfSfun9RfR-YhEA5QG7OiDlSjNr1Qv1MZW6-Mv-33mMwxUMjJuCsNGdFOql9bYFsIBcvJK0TPHqYLrbzIlYitxCP75EmrtIsAoE5ZQdUsMnueMHbXymmjRQAFl23_FO-3w9lvgItO8AWWwpBhezDRAnUmcX60_liWr0wYIInjc-oci-WZRnv3cvt8b6QTr2Mq-oR01LiF3DqDknufGLHXWvBgaMTkmNoAjDiXzNk8HfIgfAih0Ejpj_I1ZgIJ-ZLV890C_GFbYfFzMNpsnoowlnWcJ1eNuNqyC3-gQ-ZdIzTxC0GDWBvCXjgyb9PrTr-WgBGQClR-5KgYzN3K83dLUzFk_oM2T-QRfynNHCP-wQUgGH_H45S7xRHuKwXOR37N5TuXRe42xccS_-M3wTUSmneXKmuAbmh78qIEwe6ZvlXSXiIQWdJibJ3NRu4aFz_Wocn7dmSQMTaSNp0djp-ly9KQxqK1co5eNM4ym9doTPfdNH627ITPctL0E3MpdR9gzLr2-JEj_5j98mOd8YSdNkjpEg-2kRpXv15UeNeheXLHAFOT07kyZ1ednXhylZxVfzbbLGM3DIpUu8YQe-mnL-YgsI61RHdynJ-Kn6Lkl9NUaZ2ykwlRmEuaubgoKCrTzyVvmwbDibtrKAKw4EaejtuCzbsqb5p6-3jwIPMyvNItlACTsLROdM1CS69d3HUqNpj7-HGCXd6EMDrpos6RObTd5uMUgscyIPiivtsmshMHW_95DJYWotrgCCDqKoqoiqlvKveAY-1UQCZT3ExOkM7VB4e35VolYvOnzfVWnfbyLCdbj9Gl-hFKQTOoC8SPrS5g-fsAap3uqII-gXQ-CDN07JLZXqoF2AS_FT5vkMfYFEFjOOSE2aenXvimI0zv3JNSYgcx-2-as5JGjH6JQ8eemn8ohLKvL7VsVJDOMZzF_JTt7v3WyVIY-vnb8ZGhybQyPZz-BK9tJN1wVPxAiJlRIUAMaOlGknwtCYia428LdR57DM-9MW2JEmOkd3AwBYjjxM-dKqpN1w5NXbaKK-tKWy3PeLFxp7cVnAafbBQ5mjhuHnorZRagEjjMymixC5e1Dl9NUSS8dO57Tps2ALPCBpzzHOSfThx6Lzqtx5eIfAqdjtqQFMdq5oI/https://www.amazon.com/dp/B0FBWG8XJG?pd_rd_i=B0FBWG8XJG&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=R0FDKGKRP938C7PP7X23&pd_rd_wg=rORvp&pd_rd_w=I0Bhh&pd_rd_r=91911507-4e5c-4e3d-8ea9-b57d250e2a1f",
       "source": "amazon"
     }
   ],
@@ -611,7 +689,11 @@
         "vestido",
         "vestidos"
       ]
+    },
+    {
+      "id": "ed4e",
+      "term": "xiaomi",
+      "date": "2025-07-17T16:15:29.280Z"
     }
-
   ]
 }
