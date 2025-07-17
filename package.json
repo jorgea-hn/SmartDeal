@@ -8,10 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "engines": {
-    "node": "20.x"
+    "preview": "vite preview",
+    "JSON": "npx json-server public/db.json"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
