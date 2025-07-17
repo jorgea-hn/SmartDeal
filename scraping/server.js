@@ -5,7 +5,8 @@ import bodyParser from 'body-parser'; // Middleware para leer cuerpos de peticio
 import fs from 'fs'; // Módulo para manipular el sistema de archivos
 import path from 'path'; // Módulo para manejar rutas
 import axios from 'axios'; // Cliente HTTP para hacer peticiones
-import { scrap as createScraper } from './src/scripts/methodsGet.js'; // Función de scraping
+import { scrap as createScraper } from './src_scraping/scripts_scraping/methodsGet.js'; // Función de scraping
+
 
 const app = express();
 app.use(cors()); // Habilita CORS
