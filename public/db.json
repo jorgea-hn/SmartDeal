@@ -1,4 +1,5 @@
 {
+
   "users": [
     {
       "id": "1",
@@ -26,6 +27,591 @@
       "name": "juan",
       "email": "juan@example.com",
       "password": "987654321"
+    }],
+  "products": [
+    {
+      "title": "Apple iPhone 12 Pro Max (256GB, azul pacífico) [bloqueado] + suscripción a empresa de telefonía",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/pac%C3%ADfico-bloqueado-suscripci%C3%B3n-empresa-telefon%C3%ADa/dp/B08L5PHJ2Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-1",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 14 Plus, 128 GB, rojo (producto), desbloqueado (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-producto-desbloqueado-renovado/dp/B0BN938QQQ/ref=sr_1_2?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-2",
+      "source": "amazon"
+    },
+    {
+      "title": "NEEWER LA007 - Abrazadera de filtro de teléfono de 2.638 in compatible con iPhone 16 15 Pro Max Plus 16e 14 13 mini 12, soporte de clip de filtro roscado ajustable con almohadillas de goma",
+      "price": "US$15.49",
+      "link": "https://www.amazon.com/-/es/NEEWER-LA007-Abrazadera-compatible-almohadillas/dp/B0F4WKWBSD/ref=sr_1_3?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-3",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 14, 256GB, Starlight para Cricket Wireless (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/iPhone-Starlight-Cricket-Wireless-renovado/dp/B0DK9CR5YH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-4",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 15, 256 GB, azul - Verizon (reacondicionado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-256-azul-reacondicionado/dp/B0CMPJYDJC/ref=sr_1_5?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-5",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 12, 128GB, negro - Boost Mobile (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-128GB-negro/dp/B0DLDG368C/ref=sr_1_6?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-6",
+      "source": "amazon"
+    },
+    {
+      "title": "Funda para iPhone 16E, con cubierta para lente de cámara, protector de pantalla HD, doble capa de grado militar a prueba de caídas, soporte de anillo magnético con función atril para Apple iPhone 16E",
+      "price": "US$12.99",
+      "link": "https://www.amazon.com/-/es/cubierta-protector-pantalla-militar-magn%C3%A9tico/dp/B0DNZF4SMK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-7",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 14 Pro, 128 GB, morado profundo, para GSM (reacondicionado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-morado-profundo-reacondicionado/dp/B0BN8YS4FX/ref=sr_1_8?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-8",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 12, 256GB, negro - Boost Mobile (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-256GB-negro/dp/B0DLDNBKRP/ref=sr_1_9?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-9",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone SE de 3ª generación, 64 GB, medianoche - Boost Mobile (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-SE-generaci%C3%B3n-medianoche/dp/B0DN8LBDL7/ref=sr_1_10?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-10",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone XR - Parent",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-XR-Parent/dp/B07H9PSM5F/ref=sr_1_11?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-11",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 12 Mini (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-12-Mini-renovado/dp/B08PNKLKXG/ref=sr_1_12?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-12",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple - iPhone 11, versión de EE.UU., 64GB, púrpura - Verizon (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-versi%C3%B3n-p%C3%BArpura-Verizon-renovado/dp/B084GX5GR9/ref=sr_1_13?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-13",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 15 Pro Max, 1 TB, titanio natural - AT&T (Renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-Pro-titanio-natural/dp/B0CMZ93529/ref=sr_1_14?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-14",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 15 Pro, versión estadounidense, 256 GB, titanio blanco para Cricket Wireless (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Wireless-renovado/dp/B0DWHFZ53R/ref=sr_1_15?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-15",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung Teléfono celular Galaxy S24 Ultra, teléfono inteligente AI de 256 GB, Android desbloqueado, 200 MP, cámaras zoom 100x, procesador rápido, batería de larga duración, pantalla de borde a borde,",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Tel%C3%A9fono-tel%C3%A9fono-inteligente-desbloqueado-procesador/dp/B0CMDL3H3P/ref=sr_1_16?dib=eyJ2IjoiMSJ9.gzeJ8D3eDQ6RU5-lbdbB2q75luJ8o2RfnNWg8T6Ryav84SDYee6F7D_BML8FIGA126k3AB2CNavYRoY5ZI1wrnRU7NSgEjOn19mIvMvX1Qn3PKy35ZMyadlqeObnKtHfaA3jc_7uWKKZU9RS5MbO1QtFWVQC_2uifTzA-9les2UVZnzSQ_3U0QUJ7FrIjva3US3YizagLIsMi7oRpuUyoW2tSyCtQgRuTMDlbCI9PeU.Wh_hNIcZDt_lGNnvCTzkdi4WCTVJpTf0XmoO1P5iQJA&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-16",
+      "source": "amazon"
+    },
+    {
+      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
+      "price": "US$45.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyNjUwMzIzNTY5NjEzODcyOjE3NTI3NjMzNTY6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_17_sspa%3Fdib%3DeyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763355%26sr%3D8-17-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
+      "price": "US$269.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyNjUwMzIzNTY5NjEzODcyOjE3NTI3NjMzNTY6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_18_sspa%3Fdib%3DeyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763355%26sr%3D8-18-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "OnePlus Nord N30 5G | Teléfono inteligente Android dual SIM desbloqueado | Pantalla LCD de 6.7 pulgadas | 8+128 GB | Batería de 5000 mAh | Carga rápida de 50 W | Cámara de 108MP | Gris cromático",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Tel%C3%A9fono-inteligente-desbloqueado-Pantalla-crom%C3%A1tico/dp/B0C22BRGLG/ref=sr_1_19?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-19",
+      "source": "amazon"
+    },
+    {
+      "title": "Tracfone Apple iPhone SE 5G (3ª generación), 64GB, negro - Smartphone prepago (bloqueado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Tracfone-Apple-iPhone-generaci%C3%B3n-negro/dp/B09VY7RXJ9/ref=sr_1_20?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-20",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung Galaxy S20 FE 5G, 128GB, Cloud Navy - Unlocked (Renewed)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Samsung-Galaxy-128GB-Cloud-Navy/dp/B08L34JQ9C/ref=sr_1_21?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-21",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola razr | 2023 | Desbloqueado | Hecho para US 8/128 | Cámara de 32MP | Lila de verano, 2.911 x 6.725 x 0.289 in",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-C%C3%A1mara-verano/dp/B0CGWF3F64/ref=sr_1_22?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-22",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola Moto G Stylus 5G | 2023 | Desbloqueado | Hecho para US 6/256GB | Cámara 50 MP| Negro cósmico, 162.83 x 73.77 x 9.29",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Stylus-Desbloqueado-C%C3%A1mara-c%C3%B3smico/dp/B0C2S6TKTL/ref=sr_1_23?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-23",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung Galaxy S5, Blanco",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/SM-G900A-Samsung-Galaxy-S5-Blanco/dp/B00IZ1XJ3Q/ref=sr_1_24?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-24",
+      "source": "amazon"
+    },
+    {
+      "title": "OnePlus Abierto, 16 GB de RAM+512 GB, Dual-SIM, Emerald Dusk, teléfono inteligente Android desbloqueado de fábrica de EE. UU., Batería de 4805 mAh, Carga rápida de 67 W, Cámara Hasselblad, Pantalla de",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Dual-SIM-tel%C3%A9fono-inteligente-desbloqueado-Hasselblad/dp/B0CHN8FNW3/ref=sr_1_25?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-25",
+      "source": "amazon"
+    },
+    {
+      "title": "Ultra 5G V5.7 iOS 18.X.X Apple iPhone Desbloqueo X XS XS MAX 11 12 13 14 15 16 Plus Pro Max AT&T T-Mobile Sprint Naranja Vodafone y más RSIM GEVEY",
+      "price": "US$18.49",
+      "link": "https://www.amazon.com/-/es/V5-7-Desbloqueo-T-Mobile-Naranja-Vodafone/dp/B0DTTVPJWV/ref=sr_1_26?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-26",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 14, 128GB, Azul - Desbloqueado (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-128GB-Azul-Desbloqueado/dp/B0BYLN65JD/ref=sr_1_27?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-27",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 13 Mini, 128 GB, blanco estrella - Desbloqueado (reacondicionado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-Mini-blanco-estrella/dp/B09LKW2R37/ref=sr_1_28?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-28",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone XS Max - Teléfono inteligente de 256GB, gris espacial, desbloqueado (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-Max-inteligente-desbloqueado/dp/B07KFNRQ5S/ref=sr_1_29?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-29",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 15, 512GB, Azul - T-Mobile (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-15-512GB-Azul/dp/B0CRJ1XW99/ref=sr_1_30?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-30",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 13 Pro, 128 GB, verde alpino - desbloqueado (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-13-Pro-alpino/dp/B0B5FLX9WS/ref=sr_1_31?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-31",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 16 Pro, versión estadounidense, 128 GB, titanio blanco para Tracfone (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Tracfone-renovado/dp/B0DNXFYF7J/ref=sr_1_32?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-32",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Negro",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/GS7-32-GB-Tel%C3%A9fono-contrato-empaquetado-Wireless/dp/B01CJ3SCN2/ref=sr_1_33?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-33",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Dorado",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Samsung-GS7-Tel%C3%A9fono-sin-contrato/dp/B01CJ3SCJ6/ref=sr_1_34?dib=eyJ2IjoiMSJ9.6ujcApBU19JF1WrHPqw2Dr7AkjSFXz8qDpl7yROogVNcREx1_id-W_sEVvp-dA_-XlFxNkO1bN1SlNI5rrGn7qov-8I-uH2Jv4nSU0EOMc3bJgJjO7G962CVe7wADEJsJm01WcBrOumAgK9XYfDWMg9THPqkgQNZHBBqlBw6B1XwCcR7V_LMng4iMMMlARnIkzqWl7WrScSpFg02BpvR31yARrvUcospQzfYjwBFFfw.IQitwtprvysSGKa6uWVH5qG23KYN4pQ95LSRo3fcLcI&dib_tag=se&keywords=iphone&qid=1752763355&sr=8-34",
+      "source": "amazon"
+    },
+    {
+      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
+      "price": "US$45.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo0MDAzNzY1MzU1MDQ1MjEwOjE3NTI3NjMzNTc6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_33_sspa%3Fdib%3DeyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763356%26sr%3D8-33-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
+      "price": "US$269.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTo0MDAzNzY1MzU1MDQ1MjEwOjE3NTI3NjMzNTc6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_34_sspa%3Fdib%3DeyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763356%26sr%3D8-34-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 16 Pro, versión estadounidense, 128 GB, titanio blanco para Tracfone (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/versi%C3%B3n-estadounidense-titanio-Tracfone-renovado/dp/B0DNXFYF7J/ref=sr_1_35?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-35",
+      "source": "amazon"
+    },
+    {
+      "title": "Apple iPhone 15, 512GB, Azul - T-Mobile (renovado Premium)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Apple-iPhone-15-512GB-Azul/dp/B0CRJ1XW99/ref=sr_1_36?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-36",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla de monitor para selfie de Vlog para teléfono, monitor de cámara trasera compatible con iPhone y teléfono Android, conexión inalámbrica de montaje magnético, cámara trasera del teléfono para",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Pantalla-tel%C3%A9fono-compatible-inal%C3%A1mbrica-magn%C3%A9tico/dp/B0FC2KS5XF/ref=sr_1_37?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-37",
+      "source": "amazon"
+    },
+    {
+      "title": "Vlog - Monitor de selfie para iPhone, Vlogmate Mini cámara trasera para selfie, con soporte magnético de enfoque de audio, conexión inalámbrica/por cable, para TikTok, compatible con iPhone y",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/YXFEIR-Vlog-magn%C3%A9tico-inal%C3%A1mbrica-compatible/dp/B0F9YKF783/ref=sr_1_38?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-38",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola razr+ | 2023 | Desbloqueado | Hecho para US 8/256 | 32 MPCamera | Negro, 2.911 x 6.726 x 0.275 in",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-MPCamera-Negro/dp/B0C2XF43BD/ref=sr_1_39?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-39",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola Moto G 5G | 2023 | Desbloqueado | Hecho para US 4/128GB | Cámara 48 MP| Azul tinta, 163.94 x 74.98 x 8.39",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Desbloqueado-Hecho-C%C3%A1mara-163-94/dp/B0C2SWQBMB/ref=sr_1_40?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-40",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla de monitor para selfie con audio, enfoque, soporte magnético, monitor de cámara trasera para selfie vlog, transmisión en vivo, TikTok, YouTudbe, compatible con iPhone/Android (negro)",
+      "price": "US$64.99",
+      "link": "https://www.amazon.com/-/es/Pantalla-magn%C3%A9tico-transmisi%C3%B3n-YouTudbe-compatible/dp/B0F8BX22PY/ref=sr_1_41?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-41",
+      "source": "amazon"
+    },
+    {
+      "title": "Vlog - Pantalla de monitor para selfie para iPhone y Android, pantalla de monitor de selfie de Desiontal Phone Vlog con rotación de pantalla y modo de pantalla ancha, con cámara trasera del teléfono",
+      "price": "US$31.49",
+      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-pantalla-Desiontal-rotaci%C3%B3n/dp/B0F9TQV2KV/ref=sr_1_42?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-42",
+      "source": "amazon"
+    },
+    {
+      "title": "Teclado para iPhone 16 Pro - Funda con teclado para una experiencia de escritura premium - Escribir más rápido y preciso, carga como de costumbre - Onyx",
+      "price": "US$139.00",
+      "link": "https://www.amazon.com/-/es/Clicks-Teclado-para-iPhone-Pro/dp/B0DMZWM2SV/ref=sr_1_43?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-43",
+      "source": "amazon"
+    },
+    {
+      "title": "K&F Concept Clip de teléfono de 2.638 in",
+      "price": "US$9.99",
+      "link": "https://www.amazon.com/-/es/Concept-Clip-tel%C3%A9fono-2-638/dp/B0DSBW82D8/ref=sr_1_44?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-44",
+      "source": "amazon"
+    },
+    {
+      "title": "Teléfono para niños, controles parentales, tablero en vivo con transparencia de texto e imagen, seguimiento GPS, filtrado de contenido. Más de 10,000 aplicaciones, sin contrato, teléfono",
+      "price": "US$71.95",
+      "link": "https://www.amazon.com/-/es/parentales-transparencia-seguimiento-contenido-aplicaciones/dp/B0DD1K6287/ref=sr_1_45?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-45",
+      "source": "amazon"
+    },
+    {
+      "title": "Filtro CPL de 2.047 in para teléfono, compatible con iPhone 15, 14, 13, 12, 11, Motorola, Google Pixel y otros teléfonos inteligentes",
+      "price": "US$15.98",
+      "link": "https://www.amazon.com/-/es/tel%C3%A9fono-compatible-Motorola-tel%C3%A9fonos-inteligentes/dp/B0DZNJX9B7/ref=sr_1_46?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-46",
+      "source": "amazon"
+    },
+    {
+      "title": "Vlog - Pantalla para monitor selfie para iPhone y Android, espejo de teléfono inalámbrico con baja latencia, control remoto Bluetooth y grabación de cámara trasera (blanco)",
+      "price": "US$49.99",
+      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-inal%C3%A1mbrico-Bluetooth-grabaci%C3%B3n/dp/B0FBM78HJL/ref=sr_1_47?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-47",
+      "source": "amazon"
+    },
+    {
+      "title": "T-Mobile Revvl 6 Pro 5G | 6 GB / 128 GB | para T-Mobile | Gris (renovado)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/T-Mobile-Revvl-para-Gris-renovado/dp/B0C17TWKYB/ref=sr_1_48?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-48",
+      "source": "amazon"
+    },
+    {
+      "title": "Mag.Ring para MagSafe Sticker, paquete de 2, imanes de teléfono para la parte posterior del teléfono, imán magnético para funda de teléfono, kit de convertidor de iPhone, Android, Kindle",
+      "price": "US$15.99",
+      "link": "https://www.amazon.com/-/es/SleekStrip-Mag-Ring-posterior-magn%C3%A9tico-convertidor/dp/B0F5WKVYQB/ref=sr_1_49?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-49",
+      "source": "amazon"
+    },
+    {
+      "title": "Caja de bloqueo de teléfono con temporizador para iPhone y Android, temporizador de autocontrol para ayudar a los niños y estudiantes a concentrarse, translúcido",
+      "price": "US$24.99",
+      "link": "https://www.amazon.com/-/es/temporizador-autocontrol-estudiantes-concentrarse-transl%C3%BAcido/dp/B0C2P9HSWX/ref=sr_1_50?dib=eyJ2IjoiMSJ9.UFDDAmasskUZl7t9yksxiDlTpg7pAd_bWdCVhgnQbLRUh3RqiRK-PtP9Jz4w6UhHM6NPWK5LMkyJJPE6DGQ4EelAQ6b12XG4qb0ktfQKloYgfc9Ipfnlo0bek9qCVP51npQZPFpJaGMbHyvFvSPNSrnxj85aJMrMpfmIH0Y831ZtZzTUlcRTj3Q2-m6-9YROEzUu_l5-xbhNRB-g2iOqO7H69isijnFNvslMpzs-PUE.bWs8dNUQDaSrLc4WEWoF8RKvQCf2cjo7yIhvTgq_jb4&dib_tag=se&keywords=iphone&qid=1752763356&sr=8-50",
+      "source": "amazon"
+    },
+    {
+      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
+      "price": "US$12.97",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JE3hmfCZoIcf16o7TDU8BLsAAAGYGNZYKwEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICBDdAmq/clv1_CEuOPUxokZA0iHrVZuoC8XLyRX97QvwFrZUb0Bq26M5o138A00b2FP018nHz9hvWjq0yzpNb3XTPsunPyWYceXRuGBPBNM_8E1FLVlhzV36HIJlRoCAOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCUghLNCd7m6b_pSZUgD1ig-I6A-jeRfQn_N7SD-PEY3-tXQdbVvMboBcasUflKiNx6Bgdro784wfVsPpln11Z5KUuB8SGc8ssib2jmah9vnmORoH8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Vjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmb-x1qmfYC-LGI9TPRkHAtr9tZHEYJhuQQk_f3FLh4nZlYC4s1v2cQxCnd6XTCGikg1rDP4XtQA4FwG1n1GzJQdx8l8F0ycEHMZ0bT6CfTj-KfpOGs2BAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKqzr4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBLleYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSHMJP0vNzE1XXv_DvMinpj79fwMWQwbajxjlWc9ZuSMROlrRVH64PUgoDBNJR_Q8n0KeG7ZClyuNmIoWkR-o-Yp10W9RNgJZdN1cQf-AunHIiHtac9HUCNwE5EtL_NiWQDX7zO3M2R93slP3xF5hb0VUZDbyFK-RKEQrqWKItndkQql2rVj0HuxgDY08taxt-S3w6jkn7dbu2-SEcsmfVXZZLTXRIRfqG7rP93_VZf65aWZMdfZ42nQ/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=1PC0M6465ZKPBTM69XZE&pd_rd_wg=jrnvz&pd_rd_w=50SAI&pd_rd_r=56ebae58-c715-4174-be83-b92281bb69ec",
+      "source": "amazon"
+    },
+    {
+      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
+      "price": "US$45.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyMzc5OTIzMjk0OTc2NzQ3OjE3NTI3NjMzNTg6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_49_sspa%3Fdib%3DeyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763357%26sr%3D8-49-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
+      "price": "US$269.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MToyMzc5OTIzMjk0OTc2NzQ3OjE3NTI3NjMzNTg6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_50_sspa%3Fdib%3DeyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763357%26sr%3D8-50-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Teclado para iPhone 16 Pro - Funda con teclado para una experiencia de escritura premium - Escribir más rápido y preciso, carga como de costumbre - Onyx",
+      "price": "US$139.00",
+      "link": "https://www.amazon.com/-/es/Clicks-Teclado-para-iPhone-Pro/dp/B0DMZWM2SV/ref=sr_1_51?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-51",
+      "source": "amazon"
+    },
+    {
+      "title": "DOB SECHS Soporte de labios de silicona para teléfono celular, lápiz labial, esmalte de labios, soporte trasero para teléfonos iPhone y Android, blanco, cerezas",
+      "price": "US$7.03",
+      "link": "https://www.amazon.com/-/es/Soporte-silicona-tel%C3%A9fono-celular-tel%C3%A9fonos/dp/B0DTCSD6KB/ref=sr_1_52?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-52",
+      "source": "amazon"
+    },
+    {
+      "title": "Gabb Teléfono 4: El primer teléfono perfecto para niños: aplicaciones seguras, sin redes sociales/navegador de Internet, seguimiento GPS, controles parentales, conversación y texto, tarifa de",
+      "price": "US$149.99",
+      "link": "https://www.amazon.com/-/es/Gabb-Tel%C3%A9fono-aplicaciones-seguimiento-conversaci%C3%B3n/dp/B0D8683JFV/ref=sr_1_53?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-53",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung Galaxy Z Flip 3 Flip3 5G - Teléfono celular Android totalmente desbloqueado versión de EE. UU., modo flexible, cámara intuitiva compacta - (renovada (256 GB, crema)",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Samsung-Galaxy-Flip-Flip3-desbloqueado/dp/B09TPXXPH9/ref=sr_1_54?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-54",
+      "source": "amazon"
+    },
+    {
+      "title": "Vlog - Pantalla de monitor para selfie para iPhone y Android, pantalla de monitor de selfie de Desiontal Phone Vlog con rotación de pantalla y modo de pantalla ancha, con cámara trasera del teléfono",
+      "price": "US$31.49",
+      "link": "https://www.amazon.com/-/es/Vlog-Pantalla-pantalla-Desiontal-rotaci%C3%B3n/dp/B0F9TQV2KV/ref=sr_1_55?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-55",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola Moto G6, teléfono desbloqueado de fábrica, - pantalla de 5.7 pulgadas.",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Moto-tel%C3%A9fono-desbloqueado-f%C3%A1brica/dp/B07CFMSWXD/ref=sr_1_56?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-56",
+      "source": "amazon"
+    },
+    {
+      "title": "Máquina láser V5 para iPhone serie 8-16 reemplazo de vidrio trasero, reparación de teléfonos celulares láser de forma segura, máquina de grabado separador láser de enfoque automático con",
+      "price": "US$799.99",
+      "link": "https://www.amazon.com/-/es/reemplazo-reparaci%C3%B3n-tel%C3%A9fonos-celulares-autom%C3%A1tico/dp/B0FG2SH8LP/ref=sr_1_57?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-57",
+      "source": "amazon"
+    },
+    {
+      "title": "SP CONNECT Moto Bundle compatible con iPhone 13 Pro",
+      "price": "US$88.96",
+      "link": "https://www.amazon.com/-/es/CONNECT-Moto-Bundle-compatible-iPhone/dp/B099KMXGGM/ref=sr_1_58?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-58",
+      "source": "amazon"
+    },
+    {
+      "title": "Mag.Ring para MagSafe Sticker, paquete de 2, imanes de teléfono para la parte posterior del teléfono, imán magnético para funda de teléfono, kit de convertidor de iPhone, Android, Kindle",
+      "price": "US$15.99",
+      "link": "https://www.amazon.com/-/es/SleekStrip-Mag-Ring-posterior-magn%C3%A9tico-convertidor/dp/B0F5WKVYQB/ref=sr_1_59?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-59",
+      "source": "amazon"
+    },
+    {
+      "title": "LG G6 - 32 GB - Desbloqueado (AT&T/T-Mobile/Verizon) - Negro - Exclusivo Prime",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/LG-G6-Desbloqueado-T-Mobile-Exclusivo/dp/B07D2JL7TS/ref=sr_1_60?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-60",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla magnética para monitor selfie para iPhone 15/16 Pro, pantalla IPS de 4 pulgadas, vista previa de la cámara trasera para vlogs y TikTok Live, grabación 4K 60Hz, carga PD de 60 W",
+      "price": "US$69.99",
+      "link": "https://www.amazon.com/-/es/Akkyajaure-Pantalla-magn%C3%A9tica-pantalla-grabaci%C3%B3n/dp/B0F66KTC69/ref=sr_1_61?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-61",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla de monitor selfie de vlog con cable, mini monitor USB-C para iPhone15/16 cámara trasera con magnético para Vlog Live Stream TikTok",
+      "price": "US$59.99",
+      "link": "https://www.amazon.com/-/es/Gewokliy-Pantalla-monitor-iPhone15-magn%C3%A9tico/dp/B0F63F1JGM/ref=sr_1_62?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-62",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla de monitor para selfie de Vlog para teléfono, soporte magnético de grabación inalámbrica de 1080P, cámara trasera para TikTok, selfie Vlog, transmisión en vivo, compatible con iPhone",
+      "price": "US$42.99",
+      "link": "https://www.amazon.com/-/es/magn%C3%A9tico-grabaci%C3%B3n-inal%C3%A1mbrica-transmisi%C3%B3n-compatible/dp/B0F29KFCF4/ref=sr_1_63?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-63",
+      "source": "amazon"
+    },
+    {
+      "title": "iRecovery Stick compatible con Apple iPhone Data Recovery",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Consumer-Software-iRecovery-compatible-Recovery/dp/B0163LALYE/ref=sr_1_64?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-64",
+      "source": "amazon"
+    },
+    {
+      "title": "Opis PushMeFon Mobile 4G Teléfono: El Pulsador Retro GSM Escritorio Teléfono Celular - Hogar Teléfono Celular Senior para Ancianos Desbloqueado en Estilo Teléfono Vintage - Rojo",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Opis-PushMeFon-Mobile-Tel%C3%A9fono-Desbloqueado/dp/B09VHC6YYQ/ref=sr_1_65?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-65",
+      "source": "amazon"
+    },
+    {
+      "title": "K&F Concept Clip de teléfono de 2.638 in",
+      "price": "US$9.99",
+      "link": "https://www.amazon.com/-/es/Concept-Clip-tel%C3%A9fono-2-638/dp/B0DSBW82D8/ref=sr_1_66?dib=eyJ2IjoiMSJ9._vG1bqkBuDXzYNg6lKJar7EzIWwSAYO6oGuhb6Y2WAYplrduv_pK_OB4_hDpCLlQ3mx_mXbWdCT7_plcI_nXEgq7EcHpiQBJP5Fz-cbuepIkH-vcFkPAskC0c_N8vHlSTnUiA3icJfy_5gNcBWHr5cCVRawDYZ2TF8id9ia9_vXaQZrHkFe0mlO2VgtwUslq6RddIDyEis8CAlMLLUEAenObCkid5R8zztO8sH45LRk._0Qt8vaTho6kKme_dG-yCQxRpp6I9nQaa9x_yEA8noc&dib_tag=se&keywords=iphone&qid=1752763357&sr=8-66",
+      "source": "amazon"
+    },
+    {
+      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
+      "price": "US$12.97",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JEs450eRJ9_obe0Verp8LFUAAAGYGNZb8gEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDEgICAAbMdx/clv1_CEuOPUxokZA0iHrVYfUvxRiNbXYgF7op6605qyGM6PhL8X9Iy0b2FP018nHz9hvWjq0yzpNb3XTPsunPyWYceXNxNSerS-f1SAQNeh5LdQW8GplngwYOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCVuBLNCd7m6b_pSZUgD1ig-I6A-jeRfQn8Q5K6zfc5pdtXEcP8qJuBKKCWNuNx6_x6BR8NkpU4wfVsPpln11Z5KUuB8SGc8ssib2jmah9vnmORoH8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Sjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dnHQ0xWmfZ-qO2IQEfdkGAV8z-daBcpu4hBCxKfSEDAmc1YBu9p_44szJHAiSniOhEo1hjL5Y9RJ9yoRy31V4pQfodU_AHWXSWce3uz4b9397JnuI2omBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKqzv4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBLfeYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSHMJP0vNzE1XXv_DvMinpj79fwMWQwbajxjlWc9ZuSMROlrRVH64PUgoDBNJR_Q8n1aGG7pShyuNmIoWkR-o-Yp10W9RNgJZdN1cQf-AunHIiHtac9HUCNwE5EtL_NiWQDX7zO3M2R93slP3xF5hb0VUZDbyFK-RKEQrqWKItndkQql2rVj0HuxgDY08taxt-S3w6jkn7dbu2-SEcsmfVXZZLTXRIRfqGV3VS4wNk2TZ-bDSvw1PHSA/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=QK8AK0Q6GVQM9XW1JW3D&pd_rd_wg=jMyK8&pd_rd_w=3kPJe&pd_rd_r=917b00d5-f0a8-4f8b-8d88-f2a919b52a8e",
+      "source": "amazon"
+    },
+    {
+      "title": "- Mint Mobile - Plan de telefonía con llamadas, SMS y datos ilimitados durante 3 meses (Tarjeta SIM 3 en 1)",
+      "price": "US$45.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozOTIxMDQ3Nzk5MzAzMzU3OjE3NTI3NjMzNTk6c3BfYXRmX25leHQ6MjAwMDM5NzM0MzU0NDIxOjowOjo&url=%2FMint-Mobile-telefon%25C3%25ADa-llamadas-ilimitados%2Fdp%2FB08FXRTYPH%2Fref%3Dsr_1_65_sspa%3Fdib%3DeyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763358%26sr%3D8-65-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Hohem iSteady M7 - Estabilizador de cardán para smartphone, luz magnética de llenado de rastreador de inteligencia artificial, control remoto de pantalla táctil desmontable, barra de extensión",
+      "price": "US$269.00",
+      "link": "https://www.amazon.com/-/es/sspa/click?ie=UTF8&spc=MTozOTIxMDQ3Nzk5MzAzMzU3OjE3NTI3NjMzNTk6c3BfYXRmX25leHQ6MzAwNTg5MTc5MDQyOTAyOjowOjo&url=%2FHohem-iSteady-Estabilizador-inteligencia-desmontable%2Fdp%2FB0DLWLSK9T%2Fref%3Dsr_1_66_sspa%3Fdib%3DeyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q%26dib_tag%3Dse%26keywords%3Diphone%26qid%3D1752763358%26sr%3D8-66-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGZfbmV4dA%26psc%3D1",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Dorado",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Samsung-GS7-Tel%C3%A9fono-sin-contrato/dp/B01CJ3SCJ6/ref=sr_1_67?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-67",
+      "source": "amazon"
+    },
+    {
+      "title": "DOB SECHS Soporte de labios de silicona para teléfono celular, lápiz labial, esmalte de labios, soporte trasero para teléfonos iPhone y Android, blanco, cerezas",
+      "price": "US$7.03",
+      "link": "https://www.amazon.com/-/es/Soporte-silicona-tel%C3%A9fono-celular-tel%C3%A9fonos/dp/B0DTCSD6KB/ref=sr_1_68?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-68",
+      "source": "amazon"
+    },
+    {
+      "title": "Máquina láser V5 para iPhone serie 8-16 reemplazo de vidrio trasero, reparación de teléfonos celulares láser de forma segura, máquina de grabado separador láser de enfoque automático con",
+      "price": "US$799.99",
+      "link": "https://www.amazon.com/-/es/reemplazo-reparaci%C3%B3n-tel%C3%A9fonos-celulares-autom%C3%A1tico/dp/B0FG2SH8LP/ref=sr_1_69?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-69",
+      "source": "amazon"
+    },
+    {
+      "title": "Gabb Teléfono 4: El primer teléfono perfecto para niños: aplicaciones seguras, sin redes sociales/navegador de Internet, seguimiento GPS, controles parentales, conversación y texto, tarifa de",
+      "price": "US$149.99",
+      "link": "https://www.amazon.com/-/es/Gabb-Tel%C3%A9fono-aplicaciones-seguimiento-conversaci%C3%B3n/dp/B0D8683JFV/ref=sr_1_70?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-70",
+      "source": "amazon"
+    },
+    {
+      "title": "Samsung GS7 32 GB Teléfono sin contrato – empaquetado al por menor, Verizon Wireless, Negro",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/GS7-32-GB-Tel%C3%A9fono-contrato-empaquetado-Wireless/dp/B01CJ3SCN2/ref=sr_1_71?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-71",
+      "source": "amazon"
+    },
+    {
+      "title": "OtterBox React - Funda para iPhone 14 Pro MAX (negro/transparente)",
+      "price": "US$30.94",
+      "link": "https://www.amazon.com/-/es/OtterBox-React-Funda-iPhone-transparente/dp/B0BF5QRW6T/ref=sr_1_72?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-72",
+      "source": "amazon"
+    },
+    {
+      "title": "Mag-Safe - Enfriador de teléfono para juegos, ventilador de refrigeración de iPhone celular para clima cálido, enfriador móvil RGB portátil para funda celular, ventilador para teléfono, iPad, mantener",
+      "price": "US$25.99",
+      "link": "https://www.amazon.com/-/es/CX15/dp/B0FF4GQ77S/ref=sr_1_73?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-73",
+      "source": "amazon"
+    },
+    {
+      "title": "AUROX Magsafe - Soporte magnético para anillo magnético ajustable para iPhone 16 Pro Max/iPhone 15/iPhone 14/14 Pro Max/14/13/13 Pro/13 Pro Max/12/12 Pro/12 Pro Max (azul claro)",
+      "price": "US$14.99",
+      "link": "https://www.amazon.com/-/es/AUROX-Magsafe-Soporte-magn%C3%A9tico-ajustable/dp/B0B24SJT91/ref=sr_1_74?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-74",
+      "source": "amazon"
+    },
+    {
+      "title": "Reemplazo de cámara frontal OEM, cámara frontal GVKVGIH de 7 MP compatible con iPhone 7 de 4.7 pulgadas con sensor de proximidad de detección facial (iPhone 7)",
+      "price": "US$9.99",
+      "link": "https://www.amazon.com/-/es/Reemplazo-compatible-pulgadas-proximidad-detecci%C3%B3n/dp/B0CGZD9YXF/ref=sr_1_75?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-75",
+      "source": "amazon"
+    },
+    {
+      "title": "SHANSHUI Cartera para teléfono adhesiva, paquete de 2 tarjetas de crédito para la parte posterior del teléfono, compatible con iPhone, la mayoría de los teléfonos inteligentes, color blanco y morado",
+      "price": "US$8.99",
+      "link": "https://www.amazon.com/-/es/SHANSHUI-posterior-compatible-tel%C3%A9fonos-inteligentes/dp/B0F9Y6F5RG/ref=sr_1_76?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-76",
+      "source": "amazon"
+    },
+    {
+      "title": "Funda para iPhone 12 resistente a las caídas del teléfono móvil con el titular de la tarjeta TPU transparente",
+      "price": "US$8.74",
+      "link": "https://www.amazon.com/-/es/resistente-tel%C3%A9fono-titular-tarjeta-transparente/dp/B0CQK8JJRW/ref=sr_1_77?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-77",
+      "source": "amazon"
+    },
+    {
+      "title": "Motorola Moto G6, teléfono desbloqueado de fábrica, - pantalla de 5.7 pulgadas.",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Motorola-Moto-tel%C3%A9fono-desbloqueado-f%C3%A1brica/dp/B07CFMSWXD/ref=sr_1_78?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-78",
+      "source": "amazon"
+    },
+    {
+      "title": "Funda para teléfono con diseño de lunares, diseño retro, estética, clásica, compatible con iPhone 15, color rosa",
+      "price": "US$9.99",
+      "link": "https://www.amazon.com/-/es/tel%C3%A9fono-lunares-est%C3%A9tica-cl%C3%A1sica-compatible/dp/B0F6D7FVB8/ref=sr_1_79?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-79",
+      "source": "amazon"
+    },
+    {
+      "title": "TikTok - Anillo de desplazamiento – Control remoto Bluetooth para clips y melodías TikTok, controlador Bluetooth inalámbrico compatible con iPhone, ideal para iPad, iOS y Android, con disparador de",
+      "price": "US$15.99",
+      "link": "https://www.amazon.com/-/es/TikTok-desplazamiento-controlador-inal%C3%A1mbrico-compatible/dp/B0DRFCSWMB/ref=sr_1_80?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-80",
+      "source": "amazon"
+    },
+    {
+      "title": "Pantalla de monitor inalámbrico para selfie para iPhone, cámara trasera trasera para selfie vlog transmisión en vivo, conexión con control remoto, soporte magnético para iPhone, Samsung Galaxy y más",
+      "price": "US$47.49",
+      "link": "https://www.amazon.com/-/es/Pantalla-inal%C3%A1mbrico-transmisi%C3%B3n-conexi%C3%B3n-magn%C3%A9tico/dp/B0F1L777NW/ref=sr_1_81?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-81",
+      "source": "amazon"
+    },
+    {
+      "title": "Opis PushMeFon Mobile 4G Teléfono: El Pulsador Retro GSM Escritorio Teléfono Celular - Hogar Teléfono Celular Senior para Ancianos Desbloqueado en Estilo Teléfono Vintage - Rojo",
+      "price": "No disponible",
+      "link": "https://www.amazon.com/-/es/Opis-PushMeFon-Mobile-Tel%C3%A9fono-Desbloqueado/dp/B09VHC6YYQ/ref=sr_1_82?dib=eyJ2IjoiMSJ9.U22khhSbi7q7hTEWpR8mTgwdMmGu-E7B03zUybtc1tk2sZz9d8CcfJ5o2o_pbvVF0E431AzIzzfYw8bn0izRao_Lf2r8YiG1measZYw9bPC-ZCqAOofwysnYOjEYg35iW2bl3Qdapl67QZd7l2GPmE89nkhxQygWwcJh8NWVgyysyck4ib-yjlccM9JHKMohk2e9SPw6xIozeEVO-uEpeJE06I1W8mCFbGmBqZbbTIM.fZKZ3VDjLVatGyyAa_CECkUlsaygBTmrsigj8OKP11Q&dib_tag=se&keywords=iphone&qid=1752763358&sr=8-82",
+      "source": "amazon"
+    },
+    {
+      "title": "DeBin Funda para iPhone 16 Pro 16e 15 15Pro 14 13 12 11 Xs 10 X XR - Soporte para cinturón de teléfono celular para hombres, bolsa de transporte integrada para tarjetas de identificación, (se adapta a",
+      "price": "US$12.97",
+      "link": "https://www.amazon.comhttps://aax-us-iad.amazon.com/x/c/JDXpr4L89Ebg4S-yAfV-0cUAAAGYGNZf_AEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICC65ng_/clv1_CEuOPUxokZA0iHrVfOoo3S3OUihBT5Y1kMgm3226qNll8X9Sw0b2FP018nHz9hvWjq0yzpNb3XTPsunPsmYceW5uMj-eCNirKVwhZmUuanHwLNlGrQYOLZEdHEeppYemXJOUalC7tdMeWEwmgVz7bV1AckwCRMN0CRVmUax7QwuP3u3MgFIzS1q5d5TuNOspGHpbasDVlJ1bT2hxC9tUMuUFm8yvmtV0DgjzOKVy-i0Vs7d2vLK7GWsuqRqJ-0hcN3jpMffPnUdL6EdDGsZ8NTGmWyCVqBLNCd7m6b_pSZUgD1ig-I6A-jeRfQn9HbS_y_YUpuxqZ-rUqqHeMtW4K_x10dBQBxtukpU4wfVsPpln11Z5KUuB8SGc8ssiQU7maSFdnGCBkn8ppSr1AoykS24BZM7zucVmVbcmG3VHnlJ_MfhRt19KAG1Hvpd3Q2koAbqwOvPKm_u0cBUSbzW9h64seRWsqluyb3Ntfr0lnYSUFltD_aimrxnddUtzPorrnvZ40wtDKa0unBuDhQ2HzTTvcRl2QnddGximBg3wEK3_Lx68CwRd3khEWEv4Sj_iavomu_54Tjy4jKdeicYpBDSaDgNozSlg2fwasLeDvB86l6-_4pY7dmX-11qmU5fmO2UQFfQ8AAtrz9VXEpVxuwRCxKHRAyxtcng44c5S9JgxCk14XSeFlV4mnW_4YMQH4wMS0X1W7tcIx8IlF0-fSXMj2uz6CsLm-5nMJmomBAD3rg_yTIxg3jVp7sUbZebOsohNRwPjjlDD3Dj4AXXHMiM9mgf6U1Vonf5Ma8pQYAqY_FQxM-tOuhtjtp6VS0SDfseZTCxHywHvvvFSUP9nl5Kdi14gz8umG-K2g9_7iEmR3X3ByXUu-Dbkkl60lSf7gqAGj-x8kTzxIdALe9omEPuZjZGw-ClVFyQ3FCPKq3P4oi51PFIfOXlYeE7v2UKhkzS6d-vvxNCSrMq_xyaSAaFOBPWaVIXQyU2yVR5Aa9oFfBJ5QEtdS4r97FPnK1UDBgu2rrdW1FMTRJhm0oCIlj5OmA5ZCuqZmGwj0qRC6HhqfWPgcqv0aBHPeYtfJtFaZ12earvLPig6TIO6V8fdnNHGeTvun7ttfs0lAwtAOamSDGmiIORDunxoFq-MuO71sOEmWvLntCg7IMUWm2ogOFgaBcvIKUTeKLk9tYf-lbeu2Sel5l3XspMu0glPUdUsHiO3LVj55GG_bDYClwfjDO-mtJpi5J9O8TyKx65jFGHCME8ySX6e6FqGnhkLIIH4coALkNyNaGT_F_NxUrUt9GIG4pFejYWn9SS2l3mEObf5dM5JQ8To2uYLj2ahqps4HYRufx6Y3Ef4ocN1Z3MF5quyveIYoWFbd-9KP9Z9htsYqEOTOguRt_e1F3azeolGLhzueU3wdgLFZAIybKWlb6e7mxmgbExt95ZVn83_mH5INlJy064AHMwtPh7BNDicyHYsBHzEobiisyjFGgfOXlPi1zS9c-o2xccSz_AF92kRlUHdKHuxO3t72Ksyu_GcvCXSQiISVdtkM6_gRYUeGzzJg-b0HHiBC0ejc6g4kp6mzt2awKGPY4lkM44zgNdrRJ3vN3m35J7cTfPwBm0QZh1Ow-bh47s67rburGLs7YafUG3sPxrwgh9t5ltsaLqheQjhA1Pp_b8afCSOphJqz6YfHzXbSUk7MoVPtukAc--nL-YgsYnWTVwp0cyZptnkrP1bKp-mvUZmh1ORlJURPgLv2y1-tXacnoF0IQPB7ACdtNP999EudaRl_2TGMPMhh7UXzzuXgepaDqoxWIcaxnMuPs3HmG3ISMWcPwPQqrWRE6ibzbougN0IU6SZvtsmngEDXc57Lb0MoNbgAETLVIyriqluTpGgYOhybxJPvRxIl8rVBIeJololYrGK98sUsvbxaidi6JOj_iBKQiPPLsO6k3Rgw81ZbuedrYIUkSo_HjQ0x5fFXJ0V4SWhKSJFh8TcWkkQNJu4-8WSIcJwrKta6rqKy8B5wGQSUv9CoV0FzglRwxF67qcd6x-F23cjWI0jFkgZGNRN4go-0r7Ov5K_jehxddmjSPJBM5J0T70Lk4FANh8NZ-px0nggHcvNvGkcaFc5F9O9N2mWCn6neCUDK7Sd1M7GKrkR7WIrLLyeOfZ4TSuWT6YqiJ8ukHuefX4ImyMl_hlJpnnCV2bb7wKZPrmU22ovgEYYaOAwKAebux5R7alaO3he8hduxMI/https://www.amazon.com/dp/B0C4C2NYJ6?pd_rd_i=B0C4C2NYJ6&pf_rd_p=c439af50-35be-418c-b317-114e571d2623&pf_rd_r=YYMGWHV1F36QYNK46DV8&pd_rd_wg=kyysj&pd_rd_w=74Lta&pd_rd_r=5f4b869d-7ed7-4b5a-8956-52bc9f94dfa5",
+      "source": "amazon"
     }
+  ],
+  "browsingHistory": [
+    {
+      "id": "9088",
+      "term": "iphone 16",
+      "date": "2025-07-17T06:47:36.390Z",
+      "filter": [
+        "14",
+        "12",
+        "WAVEBLOCK",
+        "Samsung",
+        "Galaxy",
+        "Casely",
+        "TOCOL",
+        "MOGO",
+        "Funda",
+        "forro",
+        "Panzer",
+        "Android",
+        "13",
+        "BlackBerry",
+        "15"
+      ]
+    },
+    {
+      "id": "0880",
+      "term": "camisa azul",
+      "date": "2025-07-17T07:38:29.086Z",
+      "filter": [
+        "polo",
+        "camiseta",
+        "blusas",
+        "blusa",
+        "vestido",
+        "vestidos"
+      ]
+    },
+
   ]
 }

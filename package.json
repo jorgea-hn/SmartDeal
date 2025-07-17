@@ -14,8 +14,16 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.11",
     "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
     "cheerio": "^1.1.0",
+
     "json-server": "^1.0.0-beta.3",
+
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",

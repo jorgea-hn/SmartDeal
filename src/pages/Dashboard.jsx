@@ -1,35 +1,124 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
+
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuItems,
+} from "@headlessui/react";
+import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import axios from "axios";
+import { useEffect, useState } from "react";
+
+// Objeto de ejemplo para representar al usuario logueado
 const user = {
-  name: 'Tom Cook',
-  email: 'tom@example.com',
+  name: "Tom Cook",
+  email: "tom@example.com",
   imageUrl:
-    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-}
-const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
-  { name: 'Reports', href: '#', current: false },
-]
+    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+};
+const navigation = [];
+// Opciones de navegación del usuario
 const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', href: '#' },
-]
+  { name: "Your Profile", href: "#" },
+  { name: "Settings", href: "#" },
+  { name: "Sign out", href: "/" },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Dashboard() {
+  // Estado para almacenar los productos que llegan desde scraping
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredAmazon, setFilteredAmazon] = useState([]);
+  const [excludedWords, setExcludedWords] = useState([]);
+    // Estado que captura la palabra que se escribe para excluirla como filtro
+  const [filterInput, setFilterInput] = useState("");
+
+  /*   const [filteredML, setFilteredML] = useState([]); */
+
+  useEffect(() => {
+    // Función asíncrona que se encarga de obtener los productos desde el backend
+    async function fetchProducts() {
+      try {
+        const res = await axios.get("http://localhost:3000/products"); 
+        setProducts(res.data);
+        // Filtra solo los productos provenientes de Amazon y los guarda por separado
+        setFilteredAmazon(res.data.filter((p) => p.source === "amazon"));
+        /* setFilteredML(res.data.filter(p => p.source === 'mercado-libre')); */
+
+        setLoading(false);
+      } catch (err) {
+        console.error("Error fetching products:", err);
+        setLoading(false);
+      }
+    }
+
+    fetchProducts();
+  }, []);
+  /* const amazonProducts = products.filter((p) => p.source === 'amazon') */
+ // Esta constante filtra los productos que vienen de Mercado Libre directamente del estado general de productos
+  const mercadoLibreProducts = products.filter(
+    (p) => p.source === "mercado-libre"
+  );
+
+  // Función que se ejecuta cuando se envía el formulario de búsqueda
+  const handleSearch = async (e) => {
+    e.preventDefault();
+    const term = searchTerm.trim().toLowerCase();
+    if (!term) return;
+
+    setLoading(true);
+
+    try {
+      // Hacer scraping en backend 
+      await axios.post("http://localhost:3001/scrape", { query: term });
+
+      //  Recargar productos del backend local (json-server)
+      const res = await axios.get("http://localhost:3000/products");
+      setProducts(res.data);
+
+      //  Filtrar los nuevos productos de Amazon
+      const amazon = res.data.filter((p) => p.source === "amazon");
+      setFilteredAmazon(
+        amazon.filter((p) => p.title.toLowerCase().includes(term))
+      );
+    } catch (err) {
+      console.error("Error durante scraping o carga:", err);
+      alert("Error al buscar productos");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  /*   setFilteredML(
+    mercadoLibreProducts.filter((p) =>
+      (p.title || p.name || '').toLowerCase().includes(term)
+    )
+  );
+}; */
+
+// Filtra los productos de Amazon para excluir 
+const amazonFiltrados = filteredAmazon.filter(product => {
+  const titulo = product.title.toLowerCase();
+  return !excludedWords.some(palabra => titulo.includes(palabra));
+});
+
+
   return (
     <>
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-gray-800">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+          <div className=" max-w-8xl px-4 pr-[50px]">
+
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <div className="shrink-0">
@@ -40,21 +129,9 @@ export default function Dashboard() {
                   />
                 </div>
                 <div className="hidden md:block">
-                  <div className="ml-10 flex items-baseline space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        aria-current={item.current ? 'page' : undefined}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium',
-                        )}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
+
+                  <div className=""></div>
+
                 </div>
               </div>
               <div className="hidden md:block">
@@ -74,7 +151,13 @@ export default function Dashboard() {
                       <MenuButton className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-hidden focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
-                        <img alt="" src={user.imageUrl} className="size-8 rounded-full" />
+
+                        <img
+                          alt=""
+                          src={user.imageUrl}
+                          className="size-8 rounded-full"
+                        />
+
                       </MenuButton>
                     </div>
                     <MenuItems
@@ -100,8 +183,16 @@ export default function Dashboard() {
                 <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
-                  <Bars3Icon aria-hidden="true" className="block size-6 group-data-open:hidden" />
-                  <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
+
+                  <Bars3Icon
+                    aria-hidden="true"
+                    className="block size-6 group-data-open:hidden"
+                  />
+                  <XMarkIcon
+                    aria-hidden="true"
+                    className="hidden size-6 group-data-open:block"
+                  />
+
                 </DisclosureButton>
               </div>
             </div>
@@ -114,10 +205,14 @@ export default function Dashboard() {
                   key={item.name}
                   as="a"
                   href={item.href}
-                  aria-current={item.current ? 'page' : undefined}
+
+                  aria-current={item.current ? "page" : undefined}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium',
+                    item.current
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block rounded-md px-3 py-2 text-base font-medium"
+
                   )}
                 >
                   {item.name}
@@ -127,11 +222,21 @@ export default function Dashboard() {
             <div className="border-t border-gray-700 pt-4 pb-3">
               <div className="flex items-center px-5">
                 <div className="shrink-0">
-                  <img alt="" src={user.imageUrl} className="size-10 rounded-full" />
+
+                  <img
+                    alt=""
+                    src={user.imageUrl}
+                    className="size-10 rounded-full"
+                  />
                 </div>
                 <div className="ml-3">
-                  <div className="text-base/5 font-medium text-white">{user.name}</div>
-                  <div className="text-sm font-medium text-gray-400">{user.email}</div>
+                  <div className="text-base/5 font-medium text-white">
+                    {user.name}
+                  </div>
+                  <div className="text-sm font-medium text-gray-400">
+                    {user.email}
+                  </div>
+
                 </div>
                 <button
                   type="button"
@@ -160,13 +265,198 @@ export default function Dashboard() {
 
         <header className="bg-white shadow-sm">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900">
+              Productos
+            </h1>
           </div>
         </header>
         <main>
-          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{/* Your content */}</div>
+          <div className="flex px-8 py-6">
+            {/* Barra lateral de filtros */}
+            <div className="h-180 bg-sky-900 w-60 mr-6 rounded-xl p-4 text-white space-y-6 overflow-y-auto">
+            <h1 className="text-xl font-semibold mb-2">Filtros</h1>
+
+            <div>
+              <label className="block mb-1">Palabras a excluir:</label>
+              <input
+                type="text"
+                className="w-full p-1 text-black rounded mb-2"
+                value={filterInput}
+                onChange={(e) => setFilterInput(e.target.value)} // Actualiza el estado al escribir
+                placeholder="Ej: funda, usado"
+              />
+              <button
+                onClick={() => {
+                   // Divide el texto por comas, limpia espacios y convierte a minúsculas
+                  const nuevasPalabras = filterInput
+                    .split(",")
+                    .map(w => w.trim().toLowerCase())
+                    .filter(w => w !== "");
+
+                     // Actualiza el estado de palabras excluidas evitando duplicados (Set)
+                  setExcludedWords(prev => [...new Set([...prev, ...nuevasPalabras])]);
+                  setFilterInput("");
+                }}
+                className="bg-sky-500 px-2 py-1 rounded text-white w-full"
+              >
+                Aplicar filtro
+              </button>
+            </div>
+
+            {/* Palabras excluidas visuales */}
+            {excludedWords.length > 0 && (
+            <div className="mt-2">
+              <div className="flex flex-wrap gap-2">
+                {excludedWords.map((word, index) => (
+                  <span
+                    key={index}
+                    className="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full flex items-center"
+                  >
+                    {word}
+                     {/* Botón para quitar una palabra específica del filtro */}
+                    <button
+                      onClick={() =>
+                        setExcludedWords((prev) => prev.filter((_, i) => i !== index))
+                      }
+                      className="ml-1 text-red-500 hover:text-red-700"
+                      title={`Quitar filtro: ${word}`}
+                    >
+                      ✕
+                    </button>
+                  </span>
+                ))}
+              </div>
+
+              {/* Botón para limpiar todos los filtros */}
+              <button
+                onClick={() => setExcludedWords([])}
+                className="mt-3 px-3 py-1 bg-red-600 text-white rounded text-sm"
+              >
+                Limpiar todos los filtros
+              </button>
+            </div>
+          )}
+          </div>
+
+
+            {/* Contenido de productos */}
+            <div className="flex flex-col w-full">
+              <form onSubmit={handleSearch} className="mx-200px">
+                <label
+                  htmlFor="default-search"
+                  className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                >
+                  Search
+                </label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                    <svg
+                      className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                      aria-hidden="true"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    type="search"
+                    id="default-search"
+                    className="block w-full p-4 ps-10 text-sm border border-gray-300 rounded-lg"
+                    placeholder="Buscar productos..."
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                  <button
+                    type="submit"
+                    className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2"
+                  >
+                    Buscar
+                  </button>
+                </div>
+              </form>
+
+              {/* Empresas */}
+              <div className="grid grid-cols-2 gap-6 text-center mb-4">
+                <h2 className="text-2xl font-bold text-gray-800">Amazon</h2>
+                <h2 className="text-2xl font-bold text-gray-800">
+                  Mercado Libre
+                </h2>
+              </div>
+
+              <div className="h-[580px] overflow-y-auto p-4 rounded-xl bg-neutral-200">
+                <div className="grid grid-cols-2 gap-6">
+                  {/* Amazon */}
+                  <div className="space-y-4">
+                    {loading ? (
+                      <p className="text-center">Cargando productos...</p>
+                    ) : filteredAmazon.length > 0 ? (
+                      amazonFiltrados.map((product, index) => (
+                        <div
+                          key={index}
+                          className="bg-white shadow rounded-xl p-4 text-center"
+                        >
+                          <p className="text-gray-700 font-medium">
+                            {product.title}
+                          </p>
+                          <p className="text-green-600 font-semibold">
+                            {product.price}
+                          </p>
+                          <a
+                            href={product.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 hover:underline break-all"
+                          >
+                            Ver en Amazon
+                          </a>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-center text-gray-500">
+                        Sin productos de Amazon
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Mercado Libre */}
+                  <div className="space-y-4">
+                    {loading ? (
+                      <p className="text-center">Cargando productos...</p>
+                    ) : mercadoLibreProducts.length > 0 ? (
+                      mercadoLibreProducts.map((product, index) => (
+                        <div
+                          key={index}
+                          className="bg-white shadow rounded-xl p-4 text-center"
+                        >
+                          <p className="text-gray-700 font-medium">
+                            {product.name}
+                          </p>
+                          <p className="text-green-600 font-semibold">
+                            {product.price}
+                          </p>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-center text-gray-500">
+                        Sin productos de Mercado Libre
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
       </div>
     </>
-  )
+  );
+
 }
