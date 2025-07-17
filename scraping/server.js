@@ -1,3 +1,40 @@
+// === ENDPOINT PARA PRODUCTOS (simulación tipo json-server) ===
+app.get('/products', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.json([]);
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  res.json(db.products || []);
+});
+// === ENDPOINTS PARA USUARIOS (simulación tipo json-server) ===
+// Obtener todos los usuarios
+app.get('/users', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.json([]);
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  let users = db.users || [];
+  // Permitir filtrar por name o email (como json-server)
+  const { name, email } = req.query;
+  if (name) users = users.filter(u => u.name === name);
+  if (email) users = users.filter(u => u.email === email);
+  res.json(users);
+});
+
+// Registrar un nuevo usuario
+app.post('/users', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.status(500).json({ error: 'DB not found' });
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  const newUser = req.body;
+  // Generar id simple si no viene
+  if (!newUser.id) newUser.id = Date.now().toString(16);
+  db.users = db.users || [];
+  db.users.push(newUser);
+  fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
+  res.status(201).json(newUser);
+});
 // Importación de módulos necesarios
 
 import express from 'express';
