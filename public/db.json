@@ -1,35 +1,18 @@
 {
   "users": [
-    {
-      "id": "e7bc",
-      "nombre": "wal",
-      "email": "wal@gmail.com",
-      "clave": "123456789"
+   {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Administrador",
+      "role": "admin"
     },
     {
-      "id": "f87d",
-      "nombre": "4561465145",
-      "email": "dszdsadas@example.com",
-      "clave": "123456"
-    },
-    {
-      "id": "8e11",
-      "nombre": "sdasaS",
-      "email": "jorge@example.com",
-      "clave": "123456"
-    },
-    {
-      "id": "e9d0",
-      "nombre": "dsadsa",
-      "email": "jorge@example.com",
-      "clave": "123456"
-    },
-    {
-      "id": "6715",
-      "nombre": "wall",
-      "email": "wall@gmail.com",
-      "clave": "123456789"
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "Usuario",
+      "role": "user"
     }
-   
   ]
 }
