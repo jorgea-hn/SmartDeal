@@ -34,7 +34,9 @@ export default function Home() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+
             <Link to={"/login"} className="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></Link>
+
           </div>
         </nav>
 
