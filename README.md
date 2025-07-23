@@ -20,19 +20,45 @@ SmartDeal es una plataforma web que permite comparar productos de Amazon y Merca
 ## Estructura del proyecto
 
 ```
-SmartDeal/
-├── scraping/           # Backend Express + Scraping
-│   └── server.js
-├── src/               # Frontend React
-│   ├── components/
-│   ├── pages/
-│   └── ...
-├── public/
-│   └── db.json        # Mock DB
-├── dist/              # Build frontend (auto-generado)
+📁 SmartDeal
+│
+├── 📁 public
+│   └── db.json
+│
+├── 📁 scraping
+│   ├── server.js
+│   └── 📁 src_scraping
+│       └── 📁 scripts_scraping
+│           ├── methodsApi.js
+│           └── methodsGet.js
+│
+├── 📁 src
+│   ├── 📁 components
+│   │   ├── Footer.jsx
+│   │   ├── Form.jsx
+│   │   ├── Header.jsx
+│   │   └── ProtectedRoute.jsx
+│   │
+│   ├── 📁 pages
+│   │   ├── Adminviews.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── ErrorPage.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Products.jsx
+│   │   └── Register.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
-├── vite.config.js
-└── README.md
+├── package-lock.json
+├── README.md
+└── vite.config.js
 ```
 
 ## Instalación y desarrollo local
