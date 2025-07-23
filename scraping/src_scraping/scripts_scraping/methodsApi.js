@@ -1,4 +1,3 @@
-
 /**
  * Este módulo permite hacer scraping de productos desde Mercado Libre Colombia.
  * Utiliza axios para las peticiones HTTP y cheerio para analizar el HTML.
@@ -44,11 +43,12 @@ export const scrap = (searchTerm) => {
           const currency = $(el).find('.andes-money-amount__currency-symbol').first().text().trim();
           const integer = $(el).find('.andes-money-amount__fraction').first().text().trim();
           const fraction = $(el).find('span.a-price-fraction').first().text().trim();
-          const price = currency && integer ? `${currency}${integer}${fraction || '00'
+          const price = currency && integer ? `COP${currency}${integer}${fraction || '.00'
             }` : 'No disponible';
+          const link = $(el).find('a').attr('href')?.trim() || ''
           const isExcluded = excludedWords.some(word => title.toLowerCase().includes(word.toLowerCase()));
           if (title && !isExcluded) {
-            products.push({ title, price });
+            products.push({ title, price, link});
           }
         });
 
@@ -61,3 +61,7 @@ export const scrap = (searchTerm) => {
     }
   };
 };
+
+
+
+

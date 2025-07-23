@@ -40,12 +40,20 @@ export default function Dashboard() {
   const [excludedWords, setExcludedWords] = useState([]);
     // Estado que captura la palabra que se escribe para excluirla como filtro
   const [filterInput, setFilterInput] = useState("");
-  
+
+  const handleSignOut = () => {
+    localStorage.removeItem("currentUser");
+    localStorage.removeItem("authData");
+    localStorage.removeItem("searchTerm");
+
+    window.location.href = "/login"
+  };
+
   useEffect(() => {
     // Función asíncrona que se encarga de obtener los productos desde el backend
     async function fetchProducts() {
       try {
-        const res = await axios.get("http://localhost:3000/products"); 
+        const res = await axios.get("http://localhost:3000/products");
         setProducts(res.data);
         // Filtra solo los productos provenientes de Amazon y los guarda por separado
         setFilteredAmazon(res.data.filter((p) => p.source === "amazon"));
@@ -59,6 +67,8 @@ export default function Dashboard() {
 
     fetchProducts();
   }, []);
+
+
 
    // Filtra los productos de Amazon para excluir palabras
   const amazonFiltrados = filteredAmazon.filter(product => {
@@ -95,7 +105,7 @@ export default function Dashboard() {
     setFilteredAmazon(
       amazon.filter((p) => (p.title || "").toLowerCase().includes(term))
     );
-    
+
   } catch (err) {
     console.error("Error durante scraping o carga:", err);
     alert("Error al buscar productos");
@@ -161,13 +171,23 @@ export default function Dashboard() {
                     >
                       {userNavigation.map((item) => (
                         <MenuItem key={item.name}>
+                        {item.name === "Sign out" ? (
+                          <button
+                            onClick={handleSignOut}
+                            className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          >
+                            {item.name}
+                          </button>
+                        ) : (
                           <a
                             href={item.href}
-                            className="block px-4 py-2 text-sm text-gray-700 data-focus:bg-gray-100 data-focus:outline-hidden"
+                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
                             {item.name}
                           </a>
-                        </MenuItem>
+                        )}
+                      </MenuItem>
+
                       ))}
                     </MenuItems>
                   </Menu>
@@ -243,17 +263,28 @@ export default function Dashboard() {
                 </button>
               </div>
               <div className="mt-3 space-y-1 px-2">
-                {userNavigation.map((item) => (
-                  <DisclosureButton
-                    key={item.name}
-                    as="a"
-                    href={item.href}
-                    className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
-                  >
-                    {item.name}
-                  </DisclosureButton>
-                ))}
+                {userNavigation.map((item) =>
+                  item.name === "Sign out" ? (
+                    <button
+                      key={item.name}
+                      onClick={handleSignOut}
+                      className="block w-full text-left rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                    >
+                      {item.name}
+                    </button>
+                  ) : (
+                    <DisclosureButton
+                      key={item.name}
+                      as="a"
+                      href={item.href}
+                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                    >
+                      {item.name}
+                    </DisclosureButton>
+                  )
+                )}
               </div>
+
             </div>
           </DisclosurePanel>
         </Disclosure>
@@ -312,7 +343,7 @@ export default function Dashboard() {
                      {/* Botón para quitar una palabra específica del filtro */}
                     <button
                       onClick={() =>
-                        setExcludedWords((prev) => prev.filter((_, i) => i !== index)) // elimina un elemento del arreglo excludedWords según su posición 
+                        setExcludedWords((prev) => prev.filter((_, i) => i !== index)) // elimina un elemento del arreglo excludedWords según su posición
                       }
                       className="ml-1 text-red-500 hover:text-red-700"
                       title={`Quitar filtro: ${word}`}
