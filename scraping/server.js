@@ -152,6 +152,7 @@ app.patch('/browsingHistory/filter', async (req, res) => {
     console.error('Error updating filter:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
+});
 
 // ENDPOINTS PARA FILTROS Y HISTORIAL DE USUARIO
 // Obtener filtros de usuario
@@ -218,4 +219,4 @@ app.listen(PORT, () => {
   console.log(`✅ Backend corriendo en http://localhost:${PORT}`);
 });
 
-})
+
