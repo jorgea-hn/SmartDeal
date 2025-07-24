@@ -106,7 +106,7 @@ SmartDeal es una plataforma web que permite comparar productos de Amazon y Merca
 - David
 - Jorge
 - Walter
-- Marx
+- Marx Leal
 
 ---
 
