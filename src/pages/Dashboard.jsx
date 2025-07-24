@@ -1,4 +1,3 @@
-
 import {
   Disclosure,
   DisclosureButton,
@@ -12,13 +11,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-// Objeto de ejemplo para representar al usuario logueado
-const user = {
-  name: "Tom Cook",
-  email: "tom@example.com",
-  imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-};
+// El usuario se obtiene de localStorage
 const navigation = [];
 // Opciones de navegación del usuario
 const userNavigation = [
@@ -38,16 +31,55 @@ export default function Dashboard() {
   const [searchTerm, setSearchTerm] = useState(() => localStorage.getItem("searchTerm") || "");
   const [filteredAmazon, setFilteredAmazon] = useState([]);
   const [excludedWords, setExcludedWords] = useState([]);
-    // Estado que captura la palabra que se escribe para excluirla como filtro
+  const [userId, setUserId] = useState(null);
+  const [userName, setUserName] = useState("");
+  const [searchHistory, setSearchHistory] = useState([]);
+  // Estado que captura la palabra que se escribe para excluirla como filtro
   const [filterInput, setFilterInput] = useState("");
 
   const handleSignOut = () => {
     localStorage.removeItem("currentUser");
     localStorage.removeItem("authData");
     localStorage.removeItem("searchTerm");
-
-    window.location.href = "/login"
+    window.location.href = "/login";
   };
+
+  useEffect(() => {
+    // Obtener usuario actual
+    const userData = JSON.parse(localStorage.getItem("currentUser"));
+    if (userData && userData.id) setUserId(userData.id);
+    if (userData && userData.name) setUserName(userData.name);
+    // Obtener búsqueda y filtros guardados
+    async function fetchUserData() {
+      try {
+        const [filtersRes, searchRes] = await Promise.all([
+          axios.get(`http://localhost:3000/userFilters/${userData?.id || "1"}`),
+          axios.get(`http://localhost:3000/userSearchHistory/${userData?.id || "1"}`)
+        ]);
+        setExcludedWords(Array.isArray(filtersRes.data) ? filtersRes.data : []);
+        setSearchHistory(Array.isArray(searchRes.data) ? searchRes.data : []);
+        if (searchRes.data && searchRes.data.length > 0) {
+          const last = searchRes.data[searchRes.data.length - 1];
+          if (typeof last === 'string') setSearchTerm(last);
+          else if (last && last.term) {
+            setSearchTerm(last.term);
+            if (Array.isArray(last.filters)) setExcludedWords(last.filters);
+          }
+        }
+      } catch (err) {
+        setExcludedWords([]);
+        setSearchHistory([]);
+      }
+    }
+    fetchUserData();
+  }, []);
+
+  // Guardar filtros cada vez que cambian
+  useEffect(() => {
+    if (userId) {
+      axios.post(`http://localhost:3000/userFilters/${userId}`, { filters: excludedWords }).catch(() => {});
+    }
+  }, [excludedWords, userId]);
 
   useEffect(() => {
     // Función asíncrona que se encarga de obtener los productos desde el backend
@@ -57,27 +89,23 @@ export default function Dashboard() {
         setProducts(res.data);
         // Filtra solo los productos provenientes de Amazon y los guarda por separado
         setFilteredAmazon(res.data.filter((p) => p.source === "amazon"));
-
         setLoading(false);
       } catch (err) {
         console.error("Error fetching products:", err);
         setLoading(false);
       }
     }
-
     fetchProducts();
   }, []);
 
-
-
-   // Filtra los productos de Amazon para excluir palabras
+  // Filtra los productos de Amazon para excluir palabras
   const amazonFiltrados = filteredAmazon.filter(product => {
     const titulo = (product.title || "").toLowerCase();
     return !excludedWords.some(palabra => titulo.includes(palabra));
   });
 
   // Filtra los productos de Mercado Libre y aplica palabras excluidas
-    const mercadoLibreProducts = products
+  const mercadoLibreProducts = products
     .filter((p) => p.source === "mercadolibre")
     .filter(product => {
       const nombre = (product.name || product.title || '').toLowerCase();
@@ -86,212 +114,84 @@ export default function Dashboard() {
 
   // Función que se ejecuta cuando se envía el formulario de búsqueda
   const handleSearch = async (e) => {
-  e.preventDefault();
-  const term = searchTerm.trim().toLowerCase();
-  if (!term) return;
-
-  setLoading(true);
-
-  try {
-    // Scraping de Amazon y Mercado Libre en una sola petición
-    await axios.post("http://localhost:3001/scrape", { query: term, source: ["amazon", "mercadolibre"] });
-
-    // Recargar productos del backend local
-    const res = await axios.get("http://localhost:3000/products");
-    setProducts(res.data);
-
-    // Filtrar los nuevos productos de Amazon
-    const amazon = res.data.filter((p) => p.source === "amazon");
-    setFilteredAmazon(
-      amazon.filter((p) => (p.title || "").toLowerCase().includes(term))
-    );
-
-  } catch (err) {
-    console.error("Error durante scraping o carga:", err);
-    alert("Error al buscar productos");
-  } finally {
+    e.preventDefault();
+        const term = searchTerm.trim().toLowerCase();
+        if (!term) return;
+        setLoading(true);
+        try {
+          // Scraping de Amazon y Mercado Libre en una sola petición
+          await axios.post("http://localhost:3001/scrape", { query: term, source: ["amazon", "mercadolibre"] });
+          // Recargar productos del backend local
+          const res = await axios.get("http://localhost:3000/products");
+          setProducts(res.data);
+          // Filtrar los nuevos productos de Amazon
+          const amazon = res.data.filter((p) => p.source === "amazon");
+          setFilteredAmazon(
+            amazon.filter((p) => (p.title || "").toLowerCase().includes(term))
+          );
+          // Guardar historial con filtros
+          if (userId) {
+            await axios.post(`http://localhost:3000/userSearchHistory/${userId}`, { term, date: new Date().toISOString(), filters: excludedWords });
+          }
+          // Buscar si el usuario ya tiene filtros guardados para este término
+          if (userId) {
+            const searchRes = await axios.get(`http://localhost:3000/userSearchHistory/${userId}`);
+            if (Array.isArray(searchRes.data)) {
+              const prev = searchRes.data.find(s => s.term === term);
+              if (prev && Array.isArray(prev.filters)) {
+                setExcludedWords(prev.filters);
+              }
+            }
+          }
+    } catch (err) {
+      // Error
+    }
     setLoading(false);
-  }
-};
+  };
 
+  // Estados para productos comparados
+  const [comparadosAmazon, setComparadosAmazon] = useState([]);
+  const [comparadosML, setComparadosML] = useState([]);
+
+  // Efecto para actualizar productos comparados al cambiar los productos
+  useEffect(() => {
+    const nuevosComparadosAmazon = filteredAmazon.filter(product => {
+      const titulo = (product.title || "").toLowerCase();
+      return excludedWords.every(palabra => !titulo.includes(palabra));
+    });
+    setComparadosAmazon(nuevosComparadosAmazon);
+
+    const nuevosComparadosML = mercadoLibreProducts.filter(product => {
+      const nombre = (product.name || product.title || '').toLowerCase();
+      return excludedWords.every(palabra => !nombre.includes(palabra));
+    });
+    setComparadosML(nuevosComparadosML);
+  }, [filteredAmazon, mercadoLibreProducts, excludedWords]);
 
   return (
-
     <>
       {/* barra de navegación */}
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-gray-800">
-
-          <div className=" max-w-8xl px-4 pr-[50px]">
-
+        <Disclosure as="nav" className="bg-blue-700 shadow">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
-              <div className="flex items-center">
-                <div className="shrink-0">
-                  <img
-                    alt="Your Company"
-                    src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                    className="size-8"
-                  />
-                </div>
-                <div className="hidden md:block">
-
-                  <div className=""></div>
-
-                </div>
+              <div className="flex items-center gap-4">
+                <span className="text-white text-2xl font-bold tracking-tight">SmartDeal</span>
               </div>
-              <div className="hidden md:block">
-                <div className="ml-4 flex items-center md:ml-6">
-                  <button
-                    type="button"
-                    className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
-                  >
-                    <span className="absolute -inset-1.5" />
-                    <span className="sr-only">View notifications</span>
-                    <BellIcon aria-hidden="true" className="size-6" />
-                  </button>
-
-                  {/* Menú desplegable */}
-                  <Menu as="div" className="relative ml-3">
-                    <div>
-                      <MenuButton className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-hidden focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800">
-                        <span className="absolute -inset-1.5" />
-                        <span className="sr-only">Open user menu</span>
-
-                        <img
-                          alt=""
-                          src={user.imageUrl}
-                          className="size-8 rounded-full"
-                        />
-
-                      </MenuButton>
-                    </div>
-                    <MenuItems
-                      transition
-                      className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
-                    >
-                      {userNavigation.map((item) => (
-                        <MenuItem key={item.name}>
-                        {item.name === "Sign out" ? (
-                          <button
-                            onClick={handleSignOut}
-                            className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            {item.name}
-                          </button>
-                        ) : (
-                          <a
-                            href={item.href}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            {item.name}
-                          </a>
-                        )}
-                      </MenuItem>
-
-                      ))}
-                    </MenuItems>
-                  </Menu>
-                </div>
-              </div>
-              <div className="-mr-2 flex md:hidden">
-                {/* Botón de menú móvil */}
-                <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
-                  <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span>
-
-                  <Bars3Icon
-                    aria-hidden="true"
-                    className="block size-6 group-data-open:hidden"
-                  />
-                  <XMarkIcon
-                    aria-hidden="true"
-                    className="hidden size-6 group-data-open:block"
-                  />
-
-                </DisclosureButton>
+              <div className="flex items-center gap-4">
+                <span className="text-white font-semibold text-lg">{userName}</span>
+                <button
+                  onClick={handleSignOut}
+                  className="ml-4 px-4 py-2 bg-white text-blue-700 font-bold rounded shadow hover:bg-blue-100 transition"
+                >
+                  Cerrar sesión
+                </button>
               </div>
             </div>
           </div>
-
-          <DisclosurePanel className="md:hidden">
-            <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
-              {navigation.map((item) => (
-                <DisclosureButton
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-
-                  aria-current={item.current ? "page" : undefined}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
-
-                  )}
-                >
-                  {item.name}
-                </DisclosureButton>
-              ))}
-            </div>
-            <div className="border-t border-gray-700 pt-4 pb-3">
-              <div className="flex items-center px-5">
-                <div className="shrink-0">
-
-                  <img
-                    alt=""
-                    src={user.imageUrl}
-                    className="size-10 rounded-full"
-                  />
-                </div>
-                <div className="ml-3">
-                  <div className="text-base/5 font-medium text-white">
-                    {user.name}
-                  </div>
-                  <div className="text-sm font-medium text-gray-400">
-                    {user.email}
-                  </div>
-
-                </div>
-                <button
-                  type="button"
-                  className="relative ml-auto shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden"
-                >
-                  <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon aria-hidden="true" className="size-6" />
-                </button>
-              </div>
-              <div className="mt-3 space-y-1 px-2">
-                {userNavigation.map((item) =>
-                  item.name === "Sign out" ? (
-                    <button
-                      key={item.name}
-                      onClick={handleSignOut}
-                      className="block w-full text-left rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
-                    >
-                      {item.name}
-                    </button>
-                  ) : (
-                    <DisclosureButton
-                      key={item.name}
-                      as="a"
-                      href={item.href}
-                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
-                    >
-                      {item.name}
-                    </DisclosureButton>
-                  )
-                )}
-              </div>
-
-            </div>
-          </DisclosurePanel>
         </Disclosure>
-
         <header className="bg-white shadow-sm">
           <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-
             <h1 className="text-3xl font-bold tracking-tight text-gray-900">
               Productos
             </h1>
@@ -300,72 +200,67 @@ export default function Dashboard() {
         <main>
           <div className="flex flex-col lg:flex-row px-2 sm:px-4 lg:px-8 py-4 sm:py-6 gap-4">
             {/* Barra lateral de filtros */}
-            <div className="bg-sky-900 w-full lg:w-60 rounded-xl p-4 text-white space-y-6 overflow-y-auto mb-4 lg:mb-0">
-            <h1 className="text-xl font-semibold mb-2">Filtros</h1>
-
-            <div>
-              <label className="block mb-1">Palabras a excluir:</label>
-              <input
-                type="text"
-                className="w-full p-1 text-black rounded mb-2"
-                value={filterInput}
-                onChange={(e) => setFilterInput(e.target.value)} // Actualiza el estado al escribir
-                placeholder="Ej: funda, usado"
-              />
-              <button
-                onClick={() => {
-                   // Divide el texto por comas, limpia espacios y convierte a minúsculas
-                  const nuevasPalabras = filterInput
-                    .split(",")
-                    .map(w => w.trim().toLowerCase())
-                    .filter(w => w !== "");
-
-                     // Actualiza el estado de palabras excluidas evitando duplicados (Set)
-                  setExcludedWords(prev => [...new Set([...prev, ...nuevasPalabras])]);
-                  setFilterInput("");
-                }}
-                className="bg-sky-500 px-2 py-1 rounded text-white w-full"
-              >
-                Aplicar filtro
-              </button>
-            </div>
-
-            {/* Palabras excluidas visuales */}
-            {excludedWords.length > 0 && (
-            <div className="mt-2">
-              <div className="flex flex-wrap gap-2">
-                {excludedWords.map((word, index) => (
-                  <span
-                    key={index}
-                    className="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full flex items-center"
-                  >
-                    {word}
-                     {/* Botón para quitar una palabra específica del filtro */}
-                    <button
-                      onClick={() =>
-                        setExcludedWords((prev) => prev.filter((_, i) => i !== index)) // elimina un elemento del arreglo excludedWords según su posición
-                      }
-                      className="ml-1 text-red-500 hover:text-red-700"
-                      title={`Quitar filtro: ${word}`}
-                    >
-                      ✕
-                    </button>
-                  </span>
-                ))}
+            <div className="bg-gradient-to-b from-sky-900 via-blue-900 to-indigo-900 w-full lg:w-60 rounded-xl p-4 text-white space-y-6 overflow-y-auto mb-4 lg:mb-0 shadow-lg">
+              <h1 className="text-xl font-semibold mb-2">Filtros</h1>
+              <div>
+                <label className="block mb-1 text-blue-200 font-medium">Palabras a excluir:</label>
+                <input
+                  type="text"
+                  className="w-full p-2 text-gray-900 bg-white rounded mb-2 border border-blue-300 focus:ring-2 focus:ring-blue-500 focus:outline-none placeholder:text-gray-400"
+                  value={filterInput}
+                  onChange={(e) => setFilterInput(e.target.value)}
+                  placeholder="Ej: funda, usado"
+                />
+                <button
+                  onClick={async () => {
+                    const nuevasPalabras = filterInput
+                      .split(",")
+                      .map(w => w.trim().toLowerCase())
+                      .filter(w => w !== "");
+                    const nuevas = [...new Set([...excludedWords, ...nuevasPalabras])];
+                    setExcludedWords(nuevas);
+                    setFilterInput("");
+                    // Guardar los filtros actualizados para el usuario y término actual
+                    if (userId && searchTerm.trim()) {
+                      await axios.post(`http://localhost:3000/userSearchHistory/${userId}`, { term: searchTerm.trim().toLowerCase(), date: new Date().toISOString(), filters: nuevas });
+                    }
+                  }}
+                  className="bg-gradient-to-r from-blue-500 to-indigo-600 px-2 py-2 rounded text-white w-full font-semibold shadow hover:from-blue-600 hover:to-indigo-700 transition"
+                >
+                  Aplicar filtro
+                </button>
               </div>
-
-              {/* Botón para limpiar todos los filtros */}
-              <button
-                onClick={() => setExcludedWords([])}
-                className="mt-3 px-3 py-1 bg-red-600 text-white rounded text-sm"
-              >
-                Limpiar todos los filtros
-              </button>
+              {/* Palabras excluidas visuales */}
+              {excludedWords.length > 0 && (
+                <div className="mt-2">
+                  <div className="flex flex-wrap gap-2">
+                    {excludedWords.map((word, index) => (
+                      <span
+                        key={index}
+                        className="bg-red-200 text-red-900 text-xs font-semibold px-3 py-1 rounded-full flex items-center shadow"
+                      >
+                        {word}
+                        <button
+                          onClick={() =>
+                            setExcludedWords((prev) => prev.filter((_, i) => i !== index))
+                          }
+                          className="ml-2 text-red-600 hover:text-red-800 font-bold"
+                          title={`Quitar filtro: ${word}`}
+                        >
+                          ✕
+                        </button>
+                      </span>
+                    ))}
+                  </div>
+                  <button
+                    onClick={() => setExcludedWords([])}
+                    className="mt-3 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded text-sm font-semibold shadow"
+                  >
+                    Limpiar todos los filtros
+                  </button>
+                </div>
+              )}
             </div>
-          )}
-          </div>
-
-
             {/* Contenido de productos */}
             <div className="flex flex-col w-full">
               <form onSubmit={handleSearch} className="mb-4">
@@ -399,8 +294,9 @@ export default function Dashboard() {
                     placeholder="Buscar productos..."
                     value={searchTerm}
                     onChange={(e) => {
-                    setSearchTerm(e.target.value);
-                    localStorage.setItem("searchTerm", e.target.value);}}
+                      setSearchTerm(e.target.value);
+                      localStorage.setItem("searchTerm", e.target.value);
+                    }}
                   />
                   <button
                     type="submit"
@@ -410,7 +306,6 @@ export default function Dashboard() {
                   </button>
                 </div>
               </form>
-
               {/* Empresas */}
               <div className="grid grid-cols-2 gap-6 text-center mb-4">
                 <h2 className="text-2xl font-bold text-gray-800">Amazon</h2>
@@ -418,74 +313,100 @@ export default function Dashboard() {
                   Mercado Libre
                 </h2>
               </div>
-
               <div className="h-[400px] sm:h-[580px] overflow-y-auto p-2 sm:p-4 rounded-xl bg-neutral-200">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {/* Amazon */}
                   <div className="space-y-4">
                     {loading ? (
                       <p className="text-center">Cargando productos...</p>
-                    ) : filteredAmazon.length > 0 ? (
-                      amazonFiltrados.map((product, index) => (
-                        <div
-                          key={index}
-                          className="bg-white shadow rounded-xl p-4 text-center"
-                        >
-                          <p className="text-gray-700 font-medium">
-                            {product.title}
-                          </p>
-                          <p className="text-green-600 font-semibold">
-                            {product.price}
-                          </p>
-                          <a
-                            href={product.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline break-all"
+                    ) : comparadosAmazon.length > 0 ? (
+                      comparadosAmazon.map((product, index) => {
+                        const mlMatch = comparadosML.find(ml => {
+                          const mlTitle = (ml.title || ml.name || "").toLowerCase();
+                          const prodTitle = (product.title || product.name || "").toLowerCase();
+                          return mlTitle.includes(prodTitle.slice(0, 10));
+                        });
+                        let isCheapest = false;
+                        if (mlMatch && mlMatch.priceCop && product.priceCop) {
+                          isCheapest = product.priceCop < mlMatch.priceCop;
+                        }
+                        return (
+                          <div
+                            key={index}
+                            className={`relative bg-white shadow-lg rounded-xl p-4 text-left border-2 ${isCheapest ? 'border-green-500 bg-green-50' : 'border-gray-200'} transition-all flex flex-col gap-2`}
                           >
-                            Ver en Amazon
-                          </a>
-                        </div>
-                      ))
-                    ) : (
-                      <p className="text-center text-gray-500">
-                        Sin productos de Amazon
-                      </p>
-                    )}
-                  </div>
-
-                  {/* Mercado Libre */}
-                  <div className="space-y-4">
-                    {loading ? (
-                      <p className="text-center">Cargando productos...</p>
-                    ) : mercadoLibreProducts.length > 0 ? (
-                      mercadoLibreProducts.map((product, index) => (
-                        <div
-                          key={index}
-                          className="bg-white shadow rounded-xl p-4 text-center"
-                        >
-                          <p className="text-gray-700 font-medium">
-                            {product.name || product.title}
-                          </p>
-                          <p className="text-green-600 font-semibold">
-                            {product.price}
-                          </p>
-                          {product.link && (
+                            {isCheapest && (
+                              <span className="absolute top-2 right-2 bg-green-500 text-white px-2 py-0.5 rounded-full text-xs font-semibold shadow">Más barato</span>
+                            )}
+                            <div className="flex items-center gap-2 mb-2">
+                              <svg className="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 7v4a1 1 0 001 1h3v6a1 1 0 001 1h8a1 1 0 001-1v-6h3a1 1 0 001-1V7a1 1 0 00-1-1H4a1 1 0 00-1 1z" /></svg>
+                              <span className="font-semibold text-lg text-gray-800 truncate">{product.title}</span>
+                            </div>
+                            <div className="flex items-center justify-between">
+                              <span className="text-green-600 font-bold text-xl">{product.price}</span>
+                              <span className="text-xs text-gray-400">{product.priceCop ? product.priceCop.toLocaleString('es-CO', { style: 'currency', currency: 'COP' }) : 'N/A'}</span>
+                            </div>
                             <a
                               href={product.link}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-blue-600 hover:underline break-all"
+                              className="mt-2 inline-block text-blue-600 hover:underline text-sm font-medium"
                             >
-                              Ver en Mercado Libre
+                              Ver en Amazon
                             </a>
-                          )}
-                        </div>
-                      ))
+                          </div>
+                        );
+                      })
                     ) : (
-                      <p className="text-center text-gray-500">
-                        Sin productos de Mercado Libre
-                      </p>
+                      <p className="text-center text-gray-500">Sin productos de Amazon</p>
+                    )}
+                  </div>
+                  {/* Mercado Libre */}
+                  <div className="space-y-4">
+                    {loading ? (
+                      <p className="text-center">Cargando productos...</p>
+                    ) : comparadosML.length > 0 ? (
+                      comparadosML.map((product, index) => {
+                        const amazonMatch = comparadosAmazon.find(amz => {
+                          const amzTitle = (amz.title || amz.name || "").toLowerCase();
+                          const prodTitle = (product.title || product.name || "").toLowerCase();
+                          return amzTitle.includes(prodTitle.slice(0, 10));
+                        });
+                        let isCheapest = false;
+                        if (amazonMatch && amazonMatch.priceCop && product.priceCop) {
+                          isCheapest = product.priceCop < amazonMatch.priceCop;
+                        }
+                        return (
+                          <div
+                            key={index}
+                            className={`relative bg-white shadow-lg rounded-xl p-4 text-left border-2 ${isCheapest ? 'border-green-500 bg-green-50' : 'border-gray-200'} transition-all flex flex-col gap-2`}
+                          >
+                            {isCheapest && (
+                              <span className="absolute top-2 right-2 bg-green-500 text-white px-2 py-0.5 rounded-full text-xs font-semibold shadow">Más barato</span>
+                            )}
+                            <div className="flex items-center gap-2 mb-2">
+                              <svg className="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M8 12h8M12 8v8" /></svg>
+                              <span className="font-semibold text-lg text-gray-800 truncate">{product.name || product.title}</span>
+                            </div>
+                            <div className="flex items-center justify-between">
+                              <span className="text-green-600 font-bold text-xl">{product.price}</span>
+                              <span className="text-xs text-gray-400">{product.priceCop ? product.priceCop.toLocaleString('es-CO', { style: 'currency', currency: 'COP' }) : 'N/A'}</span>
+                            </div>
+                            {product.link && (
+                              <a
+                                href={product.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-2 inline-block text-blue-600 hover:underline text-sm font-medium"
+                              >
+                                Ver en Mercado Libre
+                              </a>
+                            )}
+                          </div>
+                        );
+                      })
+                    ) : (
+                      <p className="text-center text-gray-500">Sin productos de Mercado Libre</p>
                     )}
                   </div>
                 </div>
@@ -496,5 +417,4 @@ export default function Dashboard() {
       </div>
     </>
   );
-
 }

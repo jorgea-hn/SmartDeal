@@ -152,6 +152,55 @@ app.patch('/browsingHistory/filter', async (req, res) => {
     console.error('Error updating filter:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
+
+// ENDPOINTS PARA FILTROS Y HISTORIAL DE USUARIO
+// Obtener filtros de usuario
+app.get('/userFilters/:userId', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.json([]);
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  const userId = req.params.userId;
+  res.json(db.userFilters?.[userId] || []);
+});
+
+// Guardar filtros de usuario
+app.post('/userFilters/:userId', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.status(500).json({ error: 'DB not found' });
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  const userId = req.params.userId;
+  const filters = req.body.filters;
+  db.userFilters = db.userFilters || {};
+  db.userFilters[userId] = filters;
+  fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
+  res.json({ success: true });
+});
+
+// Obtener historial de búsquedas de usuario
+app.get('/userSearchHistory/:userId', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.json([]);
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  const userId = req.params.userId;
+  res.json(db.userSearchHistory?.[userId] || []);
+});
+
+// Guardar historial de búsquedas de usuario
+app.post('/userSearchHistory/:userId', (req, res) => {
+  const dbPath = path.resolve('public/db.json');
+  if (!fs.existsSync(dbPath)) return res.status(500).json({ error: 'DB not found' });
+  const rawData = fs.readFileSync(dbPath);
+  const db = JSON.parse(rawData);
+  const userId = req.params.userId;
+  const entry = req.body; // { term, date, filter }
+  db.userSearchHistory = db.userSearchHistory || {};
+  db.userSearchHistory[userId] = db.userSearchHistory[userId] || [];
+  db.userSearchHistory[userId].push(entry);
+  fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
+  res.json({ success: true });
 });
 
 // === SERVIR FRONTEND (VITE DIST) ===
@@ -169,4 +218,4 @@ app.listen(PORT, () => {
   console.log(`✅ Backend corriendo en http://localhost:${PORT}`);
 });
 
-
+})
