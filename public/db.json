@@ -2,19 +2,19 @@
   "users": [
     {
       "id": "dd6d",
-      "name": "Isai David Ariza Cantillo",
+      "name": "Isai ",
       "documentType": "CC",
-      "identification": "1001943973",
-      "hotmail": "isaidavidarizacantillo12345678@hotmail.com",
+      "identification": "56645454545",
+      "hotmail": "isai@hotmail.com",
       "password": "1234567",
       "role": "admin"
     },
     {
       "id": "3300",
-      "name": "Laudith Enith Cantillo Brochero",
+      "name": "Laudith ",
       "documentType": "CC",
-      "identification": "22482835",
-      "hotmail": "laudith1572@hotmail.com",
+      "identification": "4564634634",
+      "hotmail": "laudith@hotmail.com",
       "password": "123",
       "role": "customer"
     },
@@ -22,8 +22,8 @@
       "id": "e25c",
       "name": "Isai David",
       "documentType": "CC",
-      "identification": "1001943973",
-      "hotmail": "isaistudio1.1@gmail.com",
+      "identification": "54456",
+      "hotmail": "isai@gmail.com",
       "password": "Isai2845.",
       "role": "customer"
     }
