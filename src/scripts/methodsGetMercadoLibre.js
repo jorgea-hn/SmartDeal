@@ -61,7 +61,3 @@ export const scrap = (searchTerm) => {
     }
   };
 };
-
-
-
-

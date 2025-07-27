@@ -1,0 +1,95 @@
+/* Estilos base para botones */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 0.5rem;
+}
+
+.btn.primary {
+  background-color: #7313fb; /* azul */
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #413bb9;
+}
+#btn-secon{
+  background-color: #7313fb;
+  color: #fdfdfd;
+}
+.btn.secondary {
+  background-color: #fdfdfd; /* gris claro */
+  color: #1f2937; /* gris oscuro */
+}
+
+.btn.secondary:hover {
+  background-color: #f9fcfc;
+}
+
+/* Login form layout */
+.login-form {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form input {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.login-form button {
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.login-form p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-form a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}

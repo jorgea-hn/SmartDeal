@@ -1,0 +1,220 @@
+/* --- RESET DE ESTILOS --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+/* --- NAVEGACIÓN SUPERIOR --- */
+#ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+/* --- ESTRUCTURA PRINCIPAL --- */
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#section-main {
+  display: flex;
+  width: 98%;
+  height: calc(100vh - 20px);
+  margin: 10px auto;
+}
+
+.container {
+  width: 78%;
+  padding-right: 4%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 18%;
+  margin-top: 10px;
+}
+
+/* --- BÚSQUEDA Y FILTRO --- */
+#mainSearch,
+#miniSearch {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#mainSearch {
+  height: 40px;
+}
+
+#miniSearch {
+  height: 40px;
+}
+
+/* --- BOTONES --- */
+#searchBtn,
+#filterBtn {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#searchBtn:hover,
+#filterBtn:hover {
+  background-color: #45a049;
+}
+
+#searchBtn:disabled {
+  background-color: #ccc;
+}
+
+/* --- CONTENEDOR DE COLUMNAS (Amazon y Mercado Libre) --- */
+#columnsContainer {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Columnas individuales */
+#amazonColumn, #mercadoColumn {
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+#amazonColumn h2,
+#mercadoColumn h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #222;
+}
+
+/* Productos en columnas */
+.productsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* --- TARJETAS DE PRODUCTO --- */
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-card a {
+  font-size: 14px;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.product-card a:hover {
+  text-decoration: underline;
+}
+
+/* --- FILTROS --- */
+#filtersList {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-tag {
+  background: #eee;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.filter-tag:hover {
+  background: #ddd;
+}
+
+/* --- ALERTAS --- */
+.alert {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* --- RESPONSIVO --- */
+@media (max-width: 768px) {
+  #section-main {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #columnsContainer {
+    flex-direction: column;
+  }
+
+  #amazonColumn, #mercadoColumn {
+    width: 100%;
+  }
+}
+
